@@ -11,6 +11,9 @@
     top: 0;
     z-index: 999;
 }
+.hero-section-content{
+    margin: 250px 0 100px;
+}
 .header-section .header-hero-section {
     margin-top: 32px;
 }
@@ -31,7 +34,7 @@
     background: linear-gradient(to right,#179C6D 50%,#19355F 100%);
 }
 .header-section img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
 }
 .header-section img,
@@ -91,21 +94,84 @@
     flex-grow: 1;
     align-items: center;
 }
-.header-section.header-section--secondary{
+.hero--section{
     background-image: linear-gradient(90deg, #179c6dbf 0%, #19355f 100%) , url('../img/footer-top.jpg') !important;
     background-size: 100% !important;
     background-position: center;
     background-color: #022091;
-    height: 100% !important;
+    padding: 0 80px;
 }
-.header-section.header-section--secondary .header-hero-section .hero-section-content{
-    height: 500px;
+.hero--section h1{
+    font-size: 72px !important;
 }
-.header-section.header-section--secondary .header-hero-section .hero-section-content h1{
-    font-size: 72px;
+.hero--section .hero-section-text{
+    font-size: 17px !important;
 }
-.header-section.header-section--secondary .header-hero-section  .hero-section-text{
-    font-size: 17px;
+.widget-outer{
+    position: relative;
+    background: #179C6D;
+    border-radius: 10px;
+    padding: 30px;
+}
+.widget-outer .content-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.77px;
+    text-align: center;    
+}
+.widget-outer .widget-count{
+    position: absolute;
+    left: 42%;
+    top: -30px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #179C6D;
+    font-size: 26px;
+    font-weight: 700;
+}
+.price-up{
+    color: #19355F !important;
+}
+.badge-buy{
+    background-color: #19355F;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.badge-sell{
+    background-color: #C90E0E;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+.trending--products--section{
+    padding: 120px 0;
+}
+.trending--products .trending-header {
+    font-size: 16px;
+    font-weight: 600;
+}
+.trending--products .trending-title {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 600;
+}
+.trending--products--section .card{    
+    border: 0;
+    box-shadow: 0px 22px 92px 0px #B2B2B21A;    
+}
+.trending-header-img{
+    background: #009c6f;
+    border-radius: 50%;
+    padding: 15px;
+    width: 70px;
+    height: 70px;
 }
 @media (min-width: 1400px){
     .main-outer-wrapper .header-section{
