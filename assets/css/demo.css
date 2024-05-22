@@ -82,7 +82,6 @@
     background-size: 100% !important;
     background-position: center;
     background-color: #022091;
-    padding: 0 80px;
 }
 .hero--section h1{
     font-size: 72px !important;
@@ -120,18 +119,19 @@
 }
 .price-up{
     color: #19355F !important;
+    font-size: 24px;
 }
 .badge-buy{
     background-color: #19355F;
     color: #fff;
-    padding: 2px 5px;
-    border-radius: 50%;
+    padding: 5px 10px;
+    border-radius: 35px;
 }
 .badge-sell{
     background-color: #C90E0E;
     color: #fff;
-    padding: 2px 5px;
-    border-radius: 50%;
+    padding: 5px 10px;
+    border-radius: 35px;
 }
 .trending--products--section{
     padding: 120px 0;
@@ -203,7 +203,7 @@
 .about-our-facilities-section .facilities-section .facility-info{
     border: 1px solid #FFFFFF;
     border-radius: 10px;
-    min-height: 290px;
+    height: 100%;
 }
 .about-our-facilities-section .facilities-section .facility-info h4 {
     font-size: 22px;
@@ -219,10 +219,10 @@
     color: #E7E7E7;
 }
 .partnership-info-section .partnership-info-content .partnership-content{
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 48px;
-    color: #333333;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 48px !important;
+    color: #333333 !important;
 }
 .partnership-info-content .partnership-image{
     margin-right: 50px;
@@ -238,6 +238,12 @@
     z-index: -1;
     border-radius: 15px;
 }
+.partnership-content .partnership-content-heading{
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 48px !important;    
+    color: #333333 !important;
+}
 .partner-info-content h5{
     font-size: 20px;
     font-weight: 500;
@@ -249,14 +255,17 @@
     font-weight: 400;
     line-height: 24px;    
     color: #666666;
+    margin: 10px 0;
 }
-@media (min-width: 1400px){
-    .main-outer-wrapper .header-section{
-        padding: 0 80px;
+@media (min-width: 1300px){
+    .main-outer-wrapper .header-section, .hero--section{
+        padding: 0 30px;
     }
 }
-@media (min-width: 1400px){
-
+@media (min-width: 1450px){
+    .main-outer-wrapper .header-section, .hero--section{
+        padding: 0 80px;
+    }
 }
 @media (max-width: 1399px){
     .header-section .navbar{
@@ -265,10 +274,32 @@
     .main-outer-wrapper .header-section{
         padding: 0 15px;
     }
+    .navbar .right-area .single-item:first-child{
+        display: none;
+    }
 }
 @media (max-width: 1199px){
     .header-section .navbar{
         max-width: 1170px;
+    }
+    .trading-potential-section .swiper-button-next, .trading-potential-section .swiper-button-prev {
+        position: absolute;
+        top: 65%;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: -10px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        right: -10px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: none !important;
+    }
+}
+@media screen and (min-width : 1200px) {    
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
     }
 }
 @media (min-width: 992px){
@@ -278,10 +309,6 @@
     .p-lg-5 {
         padding: 1.25rem !important;
     }
-    .navbar-expand-lg .navbar-collapse {
-        display: flex !important;
-        flex-basis: auto;
-    }
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
     }
@@ -289,6 +316,15 @@
 @media (max-width: 991px){
     .header-section .navbar{
         max-width: 962px;
+    }
+    .about-heading-content{
+        width: 100% !important;
+    }
+    .hero-section-content {
+        margin: 180px 0 80px;
+    }
+    .hero--section h1{
+        font-size: 50px !important;
     }
 }
 @media (min-width: 768px){
@@ -298,9 +334,17 @@
     .header-section .navbar{
         max-width: 738px;
     }
+    .partnership-info-content{
+        margin-bottom: 30px;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        left: 5px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        right: 5px;
+    }
 }
 @media (min-width: 576px){
-    
 }
 @media (max-width: 575px){
     .header-section .navbar{
