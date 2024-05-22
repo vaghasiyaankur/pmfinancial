@@ -2369,6 +2369,10 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 .header-section.header-section--secondary.header-fixed {
   top: 0;
   background-color: #12365d;
+  box-shadow: 0 0 10px #0b4485;
+}
+.header-section.header-section--secondary.header-fixed .navbar{
+  background: transparent;
 }
 .footer:before {
   content: "";

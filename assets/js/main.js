@@ -2,13 +2,20 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     $(function ($) {
-
+        // Sticky Header
+        var fixed_top = $(".header-section");
+        if ($(window).scrollTop() > 50) {
+            fixed_top.addClass("animated fadeInDown header-fixed");
+        }
+        else {
+            fixed_top.removeClass("animated fadeInDown header-fixed");
+        }
        // pre_loader
-       $(".preloader").delay(300).animate({
-        "opacity": "0"
-    }, 500, function () {
-        $(".preloader").css("display", "none");
-    });
+        $(".preloader").delay(300).animate({
+            "opacity": "0"
+        }, 500, function () {
+            $(".preloader").css("display", "none");
+        });
 
         // Click to Scroll Top
         var ScrollTop = $(".scrollToTop");
@@ -18,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 600);
             return false;
         });
+        
 
         // window on scroll function
         $(window).on("scroll", function () {
@@ -232,42 +240,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Current Year
         $(".currentYear").text(new Date().getFullYear());
-
-        // Mouse Follower
-        const follower = document.querySelector(".mouse-follower .cursor-outline");
-        const dot = document.querySelector(".mouse-follower .cursor-dot");
-        window.addEventListener("mousemove", (e) => {
-            follower.animate(
-                [
-                    {
-                        opacity: 1,
-                        left: `${e.clientX}px`,
-                        top: `${e.clientY}px`,
-                        easing: "ease-in-out"
-                    }
-                ],
-                {
-                    duration: 3000,
-                    fill: "forwards"
-                }
-            );
-            dot.animate(
-                [
-                    {
-                        opacity: 1,
-                        left: `${e.clientX}px`,
-                        top: `${e.clientY}px`,
-                        easing: "ease-in-out"
-                    }
-                ],
-                {
-                    duration: 1500,
-                    fill: "forwards"
-                }
-            );
-        });
-
-
 
         // Custom Tabs
         $(".tablinks .nav-links").each(function () {

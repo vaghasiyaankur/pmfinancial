@@ -56,23 +56,6 @@
 .flex-nowrap {
     flex-wrap: nowrap !important;
 }
-.cmn-btn {
-    background-color: rgb(var(--p1));
-    color: rgb(var(--nb4));
-    font-weight: 500;
-    border-radius: 12px;
-    transition: var(--transition);
-    text-transform: capitalize;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    z-index: 1;
-    display: inline-flex;
-    white-space: nowrap;
-}
-.cmn-btn i {
-    transition: all .35s ease-in-out;
-}
 .fs-six-up {
     font-size: 18px;
 }
@@ -172,6 +155,100 @@
     padding: 15px;
     width: 70px;
     height: 70px;
+}
+.trading-potential-section .swiper-button-next, .trading-potential-section .swiper-button-prev{
+    position: inherit;
+}
+.trading-potential-section .swiper-button-prev:after, .trading-potential-section .swiper-button-next:after{
+    content : '';
+}
+.download-app-section{
+    background-image: url('../img/network-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.download-app-section .download-app-info {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.download-app-section .download-app-info span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #19355F;
+}
+.download-app-section .download-application {
+    border : 1px solid #19355F;
+    border-radius: 10px;
+}
+.download-app-section .download-application .download-info{
+    color: #19355F;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+}
+.download-app-section .download-application .application-name{
+    color: #19355F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-our-facilities-section{
+    background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
+}
+.about-our-facilities-section .facilities-section .facility-info{
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    min-height: 290px;
+}
+.about-our-facilities-section .facilities-section .facility-info h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27.83px;
+    text-align: center;
+}
+.about-our-facilities-section .facilities-section .facility-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #E7E7E7;
+}
+.partnership-info-section .partnership-info-content .partnership-content{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #333333;
+}
+.partnership-info-content .partnership-image{
+    margin-right: 50px;
+}
+.partnership-info-content .partnership-image::before{
+    position: absolute;
+    content: '';
+    border: 2px dashed #179C6D;
+    width: 100%;
+    height: 100%;
+    top: -20px;
+    right: -20px;
+    z-index: -1;
+    border-radius: 15px;
+}
+.partner-info-content h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;    
+    color: #333333;
+}
+.partner-info-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+    color: #666666;
 }
 @media (min-width: 1400px){
     .main-outer-wrapper .header-section{
