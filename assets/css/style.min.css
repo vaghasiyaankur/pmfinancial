@@ -3705,3 +3705,95 @@ box-shadow: 0px 17px 85px 0px #0000001C;
         gap: 10px;
     }
 }
+/* Contact CSS */
+.contact-section{
+  background-image: url("/assets/img/contact-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 218px 0;
+}
+.contact-section h2{
+  font-size: 44px;
+  line-height: 55px;
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF;
+}
+.detail-section h3{
+  color: #333333;
+}
+.detail-section p{
+  color: #666666;
+}
+.detail-box{
+  box-shadow: 0px 1px 4.17px 0px #B2B2B209,0px 2.75px 11.52px 0px #B2B2B20D,0px 6.63px 27.74px 0px #B2B2B211,0px 22px 92px 0px #B2B2B21A;
+  border-radius: 10px;
+}
+.detail-box a{
+  background-color: rgb(23 156 109 / 10%);
+  color: #333;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+.detail-box a:hover{
+  background: linear-gradient(86.3deg, #083626 18.32%, #179C6D 106.49%);
+  color: #FFFFFF;
+  transition: all;
+}
+.detail-box a:hover svg{
+  color: #FFFFFF;
+}
+.detail-box a svg{
+  color: #179C6D;
+}
+.inquiry-section label{
+  font-size: 17px;
+  font-weight: 500;
+  color: #333333;
+}
+.inquiry-section input, .inquiry-section textarea, .inquiry-section select{
+  background: transparent;
+  border: 1px solid rgb(185 185 185 / 60%);
+  padding: 12px 16px;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+}
+.inquiry-section .radio-btn input{
+  accent-color: #179C6D;
+}
+.inquiry-section input:focus, .inquiry-section textarea:focus{
+  outline: transparent;
+}
+.inquiry-section .radio-btn{
+  display: flex ;
+}
+.inquiry-section .radio-btn input{
+  margin: 0;
+  width: 18px;
+  height: 18px;
+}
+.mt5-section p, .mt5-section ul li{
+  color: #333333;
+}
+.mt5-section ul li{
+  list-style: disc !important;
+  margin: 8px 0;
+}
+@media only screen and (max-width: 768px) {
+  .contact-section h2{
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .inquiry-section img{
+    display: none;
+  }
+}
+/* Contact CSS */
