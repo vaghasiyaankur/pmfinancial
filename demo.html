@@ -35,11 +35,9 @@
     <header class="header-section a2-bg-0 header-section--secondary header-menu w-100 d-center">
         <div class="outer-container d-center w-100">
             <nav class="navbar a2-lg-bg py-0 navbar-expand-lg w-100 justify-content-between ">
-                <div class="d-flex align-items-center gap-1 gap-lg-2 gap-xxl-3">
-                    <div class="d-flex align-items-center w-10">
-                        <button class="navbar-toggler ms-4" type="button" data-bs-toggle="collapse"
-                            aria-label="Navbar Toggler" data-bs-target="#navbar-content" aria-expanded="true"
-                            id="nav-icon3">
+                <div class="d-flex align-items-center w-100 justify-content-between gap-1 gap-lg-2 gap-xxl-3">
+                    <div class="d-flex justify-content-between align-items-center w-10">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                             <span></span><span></span><span></span><span></span>
                         </button>
                         <a href="index.html" class="navbar-brand m-0 p-0 d-flex align-items-center gap-5 gap-xl-5 me-2">
@@ -183,7 +181,7 @@
                     </div>
                 </div>
                 <div class="row hero-section-content-widgets widgets-row w-100 mt-5">
-                    <div class="col-md-6 col-xl-3 mt-15">
+                    <div class="col-md-6 col-lg-3 mt-15">
                         <div class="widget-outer">
                             <div class="widget-count">5</div>
                             <div class="card-body sub-card">
@@ -228,7 +226,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 mt-15">
+                    <div class="col-md-6 col-lg-3 mt-15">
                         <div class="widget-outer">
                             <div class="widget-count">0</div>
                             <div class="card-body sub-card">
@@ -273,7 +271,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 mt-15">
+                    <div class="col-md-6 col-lg-3 mt-15">
                         <div class="widget-outer">
                             <div class="widget-count">0</div>
                             <div class="card-body sub-card">
@@ -318,7 +316,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 mt-15">
+                    <div class="col-md-6 col-lg-3 mt-15">
                         <div class="widget-outer">
                             <div class="widget-count">10</div>
                             <div class="card-body sub-card">
@@ -928,6 +926,64 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav gap-1 gap-lg-2 gap-xxl-2  align-self-center">
+                <li class="dropdown">
+                    <button type="button" aria-label="Navbar Dropdown Button" data-bs-toggle="dropdown" class="dropdown-toggle active">Quick Start</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="index.html">Open Live Account</a></li>
+                        <li><a class="dropdown-item" href="index-2.html">Open Demo Account</a></li>
+                        <li><a class="dropdown-item" href="index-2.html">Deposites & Withdrawls</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button type="button" aria-label="Navbar Dropdown Button" data-bs-toggle="dropdown"class="dropdown-toggle">Products</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="market.html">Forex</a></li>
+                        <li><a class="dropdown-item" href="market-details.html">Precious metals</a></li>
+                        <li><a class="dropdown-item" href="market-details.html">Energies</a></li>
+                        <li><a class="dropdown-item" href="market-details.html">Indices</a></li>
+                        <li><a class="dropdown-item" href="market-details.html">Shares</a></li>
+                        <li><a class="dropdown-item" href="market-details.html">Commodities</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button type="button" aria-label="Navbar Dropdown Button" data-bs-toggle="dropdown" class="dropdown-toggle">Plateform</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="about.html">MT5 Desktop</a></li>
+                        <li><a class="dropdown-item" href="team.html">MT5 Mobile</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button type="button" aria-label="Navbar Dropdown Button" data-bs-toggle="dropdown" class="dropdown-toggle">Partnership</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="about.html">Introducing Broker</a></li>
+                        <li><a class="dropdown-item" href="team.html">Affiliate Partner</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button type="button" aria-label="Navbar Dropdown Button" data-bs-toggle="dropdown" class="dropdown-toggle">Promotion</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="about.html">Refer a Friend</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button type="button" aria-label="Navbar Dropdown Button" data-bs-toggle="dropdown" class="dropdown-toggle">About</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="legal-docs.html">About Us</a></li>
+                        <li><a class="dropdown-item" href="customers.html">Contact Us</a></li>
+                        <li><a class="dropdown-item" href="roadmap.html">Welcome Bonus</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
