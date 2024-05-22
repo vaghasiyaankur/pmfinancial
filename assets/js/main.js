@@ -112,7 +112,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Navbar Custom Menu Button 
         $('.navbar-toggler').on('click', function () {
-            $(this).toggleClass('open');
+            $('.offcanvas-backdrop').not(':last').remove();
+        });
+        $(document).on('click','.offcanvas-backdrop', function () {
+            setTimeout(() => {
+                $('body').removeAttr('style');
+            }, 500);
         });
 
         // Box Style 
