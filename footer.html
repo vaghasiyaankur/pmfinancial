@@ -11,7 +11,7 @@
     <!-- #description -->
     <meta name="description" content="Forex and Stock Broker HTML Template">
     <!-- #title -->
-    <title>About Us</title>
+    <title>Footer</title>
     <!-- #favicon -->
     <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
     <!-- ==== css dependencies start ==== -->
@@ -26,18 +26,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="/assets/css/all.min.css">
     <style>
         .footer-wrapper .footer-section {
             background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
-            position: relative;
         }
 
         .footer-wrapper .footer-section .ready-to-start-section {
             background-color: #020D42;
             border-radius: 10px;
             padding: 35px 40px;
-            margin: 0 0 70px;
+            margin: 0;
+            translate: 0 -50%;
+            width: 100%;
+            z-index: 1;
         }
 
         .footer-wrapper .footer-section .ready-to-start-section .start-trading-btn {
@@ -49,15 +51,18 @@
             max-width: 210px;
         }
 
-        .footer-wrapper .footer-section .main-footer {
-            margin-bottom: 60px;
-        }
-
-        .footer-wrapper .footer-section .main-footer .company-discr {
-            max-width: 415px;
+        .footer-wrapper .footer-section .main-footer .company-discr p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
         }
 
         .footer-wrapper .footer-section .main-footer h4 {
+            font-weight: 500;
+            line-height: 25px;
+        }
+
+        .footer-wrapper .footer-section .main-footer h3 {
             font-weight: 500;
             line-height: 30px;
             margin-bottom: 20px;
@@ -69,15 +74,19 @@
 
         .footer-wrapper .footer-section .main-footer li a {
             color: #FFFFFF;
+            text-wrap: nowrap;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
         }
 
         .footer-wrapper .footer-section .main-footer .links-bottom-box {
             position: absolute;
             bottom: 0;
-            right: 0;
         }
 
         .footer-wrapper .footer-section hr {
+            height: 1px;
             color: rgba(255, 255, 255, 0.2);
             margin: 0;
         }
@@ -92,11 +101,120 @@
             font-weight: 400;
             color: #E7E7E7;
         }
+
         .footer-wrapper .footer-section .disclaimers span {
             font-size: 14px;
             line-height: 21px;
             font-weight: 600;
             color: #E7E7E7 !important;
+        }
+
+        .footer-wrapper .footer-section .footer-copy-right {
+            padding: 22px 0;
+        }
+
+        .footer-wrapper .footer-section .footer-copy-right .rights-note p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+
+        .footer-wrapper .footer-section .footer-copy-right .social-icons>div {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media only screen and (min-width: 992px) {
+            .footer-wrapper .footer-section .main-footer .company-discr {
+                max-width: 415px;
+            }
+
+            .footer-wrapper .footer-section .main-footer {
+                margin-bottom: 60px;
+            }
+
+            .footer-wrapper .footer-section .main-footer .links-bottom-box {
+                right: 0;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .footer-wrapper .footer-section .main-footer .links-bottom-box {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+
+        @media only screen and (min-width: 576px) {
+
+            .footer-wrapper .footer-section .main-footer .company-discr+.quick-links,
+            .footer-wrapper .footer-section .main-footer .company-discr+.company-docs,
+            .footer-wrapper .footer-section .main-footer .company-discr+.partnership {
+                padding-bottom: 70px;
+            }
+
+            .footer-wrapper .footer-section .main-footer {
+                margin-bottom: 40px;
+            }
+        }
+
+        @media only screen and (max-width: 575px) {
+
+            .footer-wrapper .footer-section .main-footer .company-discr,
+            .footer-wrapper .footer-section .main-footer .quick-links,
+            .footer-wrapper .footer-section .main-footer .company-docs {
+                padding-bottom: 40px;
+            }
+
+            .footer-wrapper .footer-section .main-footer .partnership {
+                padding-bottom: 70px;
+            }
+
+            .footer-wrapper .footer-section .main-footer {
+                margin-bottom: 40px;
+            }
+        }
+
+        @media only screen and (min-width: 425px) {
+            .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+                justify-content: space-between;
+            }
+        }
+
+        @media only screen and (max-width: 424px) {
+            .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .footer-wrapper .footer-section .main-footer .links-bottom-box {
+                gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .footer-wrapper .footer-section .main-footer .partnership {
+                padding-bottom: 140px;
+            }
+        }
+
+        @media only screen and (min-width: 320px) {}
+
+        @media only screen and (max-width: 319px) {
+            .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+                justify-content: start;
+            }
+
+            .footer-wrapper .footer-section .footer-copy-right {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
         }
     </style>
 </head>
@@ -105,15 +223,18 @@
     <div class="footer-wrapper">
         <div class="footer-section">
             <div class="container">
-                <div class="ready-to-start-section">
+                <div class="ready-to-start-section position-relative">
                     <div class="row align-items-center">
-                        <div class="col-8 px-0">
-                            <h3 class="text-start text-white mb-4 text-capitalize">Ready To Start Trading?</h3>
-                            <p class="text-start text-uppercase">EVERYTHING YOU NEED TO TRADE FOREX & CFDS WORLDWIDE
+                        <div class="col-xxl-8 px-0">
+                            <h3 class="text-xxl-start text-center text-white mb-4 text-capitalize">Ready To Start
+                                Trading?</h3>
+                            <p class="text-xxl-start text-center text-uppercase">EVERYTHING YOU NEED TO TRADE FOREX &
+                                CFDS WORLDWIDE
                                 WITH PM FINANCIALS</p>
                         </div>
-                        <div class="col-4 px-0">
-                            <div class="d-flex align-items-center justify-content-end gap-4">
+                        <div class="col-xxl-4 px-0 pt-5 pt-xxl-0">
+                            <div
+                                class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-center justify-content-xxl-end gap-4">
                                 <button
                                     class="start-trading-btn rounded-pill px-5 py-3 text-nowrap text-capitalize">Open
                                     Live Account</button>
@@ -123,8 +244,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container">
                 <div class="main-footer position-relative">
-                    <div class="d-flex align-items-start justify-content-between">
+                    <div
+                        class="d-sm-flex align-items-start justify-content-between flex-sm-wrap gap-sm-10 gap-lg-0 flex-lg-nowrap">
                         <div class="company-discr w-100">
                             <svg width="141" height="80" viewBox="0 0 141 80" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -182,15 +306,15 @@
                             <p class="text-white mt-9 mb-5">
                                 PM Financials Ltd. is fast growing multi-regulatory online forex and cfds broker.
                             </p>
-                            <h5 class="text-white mb-4">Downlaod MT5:</h5>
-                            <div class="get-app d-flex align-items-center justify-content-between">
+                            <h4 class="text-white mb-4">Downlaod MT5:</h4>
+                            <div class="get-app d-flex align-items-center">
                                 <img src="assets\img\google-play-footer.png" alt="google-play-footer">
                                 <img src="assets\img\apple-store-footer.png" alt="apple-store-footer">
                                 <img src="assets\img\app-gallery-footer.png" alt="app-gallery-footer">
                             </div>
                         </div>
                         <div class="quick-links">
-                            <h4 class="text-white">Quick Links</h4>
+                            <h3 class="text-white">Quick Links</h3>
                             <ul class="quick-links-list">
                                 <li><a href="">Open Live Account</a></li>
                                 <li><a href="">Open Demo Account</a></li>
@@ -199,7 +323,7 @@
                             </ul>
                         </div>
                         <div class="company-docs">
-                            <h4 class="text-white">Documents</h4>
+                            <h3 class="text-white">Documents</h3>
                             <ul class="docs-links-list">
                                 <li><a href="">Complaint Policy</a></li>
                                 <li><a href="">Risk Disclosure</a></li>
@@ -208,14 +332,14 @@
                             </ul>
                         </div>
                         <div class="partnership">
-                            <h4 class="text-white">Partnership</h4>
+                            <h3 class="text-white">Partnership</h3>
                             <ul class="partnership-links-list">
                                 <li><a href="">Become IB</a></li>
                                 <li><a href="">Affiliate</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="links-bottom-box d-flex align-items-center gap-4">
+                    <div class="links-bottom-box d-flex align-items-center justify-content-sm-between">
                         <img src="assets\img\visa-card-footer.png" alt="visa-card-footer">
                         <img src="assets\img\privacy-policy-footer.png" alt="privacy-policy-footer">
                         <img src="assets\img\adminstration-footer.png" alt="adminstration-footer">
@@ -250,7 +374,23 @@
                     </p>
                 </div>
                 <hr>
-
+                <div class="footer-copy-right d-md-flex align-md-center justify-content-between">
+                    <div class="rights-note text-center text-md-start">
+                        <p class="text-white">All rights reserved by PM Financials Limited</p>
+                    </div>
+                    <div
+                        class="social-icons d-flex align-center justify-content-center pt-5 pt-md-0 justify-content-md-end gap-4">
+                        <div class="facebook-icon">
+                            <i class="fa-brands fa-facebook-f" style="color: #224C8A;"></i>
+                        </div>
+                        <div class="insta-icon">
+                            <i class="fa-brands fa-instagram" style="color: #224C8A;"></i>
+                        </div>
+                        <div class="x-icon">
+                            <i class="fa-brands fa-x-twitter" style="color: #224C8A;"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -263,6 +403,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="/assets/js/all.min.js"></script>
 </body>
 
 </html>
