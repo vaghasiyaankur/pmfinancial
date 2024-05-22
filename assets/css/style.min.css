@@ -3705,6 +3705,9 @@ box-shadow: 0px 17px 85px 0px #0000001C;
         gap: 10px;
     }
 }
+.app-main{
+  margin-bottom: 160px;
+}
 /* Contact CSS */
 .contact-section{
   background-image: url("/assets/img/contact-bg.png");
@@ -3713,7 +3716,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   background-size: cover;
   padding: 280px 0 140px 0;
 }
-.contact-section h2{
+.contact-section h2, .mt5-hero-section h2{
   font-size: 44px;
   line-height: 55px;
   font-weight: 600;
@@ -3722,6 +3725,11 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 }
 .detail-section h3{
   color: #333333;
+}
+.detail-section h5{
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 .detail-section p{
   color: #666666;
@@ -3753,7 +3761,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   color: #333333;
 }
 .inquiry-section{
-  padding-bottom: 140px;
+  padding-bottom: 50px;
 }
 .inquiry-section input, .inquiry-section textarea, .inquiry-section select{
   background: transparent;
@@ -3788,15 +3796,31 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   list-style: disc !important;
   margin: 8px 0;
 }
+.mt5-hero-section{
+  background: linear-gradient(90deg, #179C6D 0%, #19355F 100%);
+  padding: 280px 0 140px 0;
+}
 @media only screen and (max-width: 768px) {
-  .contact-section h2{
+  .contact-section h2, .mt5-hero-section h2{
     font-size: 36px;
     line-height: 44px;
+  }
+  .inquiry-section{
+    padding-bottom: 60px;
+  }
+  .app-main{
+    margin-bottom: 220px;
   }
 }
 @media only screen and (max-width: 425px) {
   .inquiry-section img{
     display: none;
+  }
+  .inquiry-section{
+    padding-bottom: 100px;
+  }
+  .app-main{
+    margin-bottom: 250px;
   }
 }
 /* Contact CSS */
