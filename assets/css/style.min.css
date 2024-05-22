@@ -3660,9 +3660,6 @@ box-shadow: 0px 17px 85px 0px #0000001C;
         padding-bottom: 40px;
     }
 
-    .footer-wrapper .footer-section .main-footer .partnership {
-        padding-bottom: 70px;
-    }
 
     .footer-wrapper .footer-section .main-footer {
         margin-bottom: 40px;
@@ -3688,9 +3685,6 @@ box-shadow: 0px 17px 85px 0px #0000001C;
         justify-content: center;
     }
 
-    .footer-wrapper .footer-section .main-footer .partnership {
-        padding-bottom: 140px;
-    }
 }
 
 @media only screen and (min-width: 320px) {}
