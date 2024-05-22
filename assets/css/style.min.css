@@ -255,8 +255,8 @@ html {
 }
 body {
   font-family: "Be Vietnam Pro", sans-serif;
-  /* background: linear-gradient(90deg, #179C6D 0%, #19355F 100%); */
-  /* color: rgb(var(--nw2)); */
+  background: linear-gradient(90deg, #179C6D 0%, #19355F 100%);
+  color: rgb(var(--nw2));
   font-size: 16px;
   line-height: 150%;
   padding: 0;
