@@ -26,6 +26,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
     <style>
         .scroll-top {
             width: 50px;
@@ -61,92 +62,234 @@
         }
 
         .about-page-wrapper .about-page-banner-section {
-            background-image: linear-gradient(90deg, #179c6dbf 0%, #19355f 90%), url('/assets/img/about-bg.png') !important;
+            background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%), url('/assets/img/about-bg.png');
             background-size: 100% !important;
-            background-position: center;
-            background-color: #022091;
-            height: 100% !important;
-            width: 100% !important;
+            background-position: top;
+            height: 542px;
         }
 
-        .about-page-wrapper .about-banner {
-            padding: 50px 0 75px;
+        .about-page-wrapper .about-us-section .about-us {
+            padding: 100px 0 230px;
         }
 
-        /* .about-page-wrapper .about-banner h1 {
-            text-shadow: 2px 7px 5px rgb(0 0 0 / 30%), 0px -4px 10px rgb(255 255 255 / 30%);
-        } */
-
-        .about-page-wrapper .about-banner p {
-            font-size: 18px;
+        .about-page-wrapper .about-us-section .about-us .about-card {
+            box-shadow: 0px 1px 4.17px 0px #B2B2B209, 0px 2.75px 11.52px 0px #B2B2B20D, 0px 6.63px 27.74px 0px #B2B2B211, 0px 22px 92px 0px #B2B2B21A;
+            border-radius: 10px;
         }
 
-        .about-page-wrapper .about-banner a {
-            max-width: 300px;
-            width: 100%;
+        .about-page-wrapper .about-us-section .about-us .about-card .card-header .title-logo {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: #179C6D;
         }
 
-        .about-page-wrapper .about-banner .btn-global-dark-blue {
-            color: #FFFFFF;
-            padding: 16px;
-            width: 100%;
-            text-align: center;
-            text-transform: capitalize;
-            transition: 0.5s;
-            background-size: 200% auto;
-            border-radius: 20px;
-            display: block;
-            box-shadow: 0px 0px 14px -7px #f09819;
-            background-image: linear-gradient(45deg, #179C6D 25%, #5ED3A1 51%, #179C6D 100%);
-            cursor: pointer;
-            font-size: 18px;
-            text-transform: capitalize;
-            /* text-shadow: 1px 2px 4px #00000038; */
+        .about-page-wrapper .about-us-section .about-us .about-card .card-header h3 {
             font-weight: 600;
-            border: 1px solid #19355F;
-        }
-
-        .about-page-wrapper .about-banner .btn-global-dark-blue:hover {
-            background-position: right center;
-            color: #FFFFFF;
-            text-decoration: none !important;
-            transition: 0.5s;
-        }
-        .about-page-wrapper .about-us-section .about-us h6 {
+            line-height: 36px;
             color: #333333;
         }
-        .about-page-wrapper .about-us-section .about-us h1{
-            line-height: 46px;
-            font-weight: 600 !important;
-        }
-        .about-page-wrapper .about-us-section .about-us h1,
-        .about-page-wrapper .about-us-section .about-us h4 {
-            color: #333333;
-            font-weight: bold;
-            /* text-shadow: 1px 2px 4px #00000038; */
-            text-transform: capitalize;
-        }
 
-        .about-page-wrapper .about-us-section .about-us p {
-            font-size: 20px;
+        .about-page-wrapper .about-us-section .about-us .about-card p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
             color: #666666;
+        }
+
+
+        /* FOOTER CSS START*/
+        
+        .footer-wrapper .footer-section {
+            background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
+        }
+
+        .footer-wrapper .footer-section .ready-to-start-section {
+            background-color: #020D42;
+            border-radius: 10px;
+            padding: 35px 40px;
+            margin: 0;
+            translate: 0 -50%;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .footer-wrapper .footer-section .ready-to-start-section .start-trading-btn {
+            background-color: #135AC0;
+            color: #FFFFFF;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 600;
+            max-width: 210px;
+        }
+
+        .footer-wrapper .footer-section .main-footer .company-discr p {
+            font-size: 16px;
+            line-height: 24px;
             font-weight: 400;
         }
 
-        .about-page-wrapper .about-us-section .about-us p a {
-            color: #00BCFF;
-            text-decoration: none;
-            background-color: transparent;
+        .footer-wrapper .footer-section .main-footer h4 {
+            font-weight: 500;
+            line-height: 25px;
         }
-        .about-page-wrapper .about-us-section .about-us .license-img::before{
-            content: "";
-            height: 100%;
-            width: 10px;
+
+        .footer-wrapper .footer-section .main-footer h3 {
+            font-weight: 500;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        .footer-wrapper .footer-section .main-footer li:not(:last-child) {
+            margin-bottom: 12px;
+        }
+
+        .footer-wrapper .footer-section .main-footer li a {
+            color: #FFFFFF;
+            text-wrap: nowrap;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+
+        .footer-wrapper .footer-section .main-footer .links-bottom-box {
             position: absolute;
-            right: 0;
-            top: 0;
-            transform: 50%;
+            bottom: 0;
         }
+
+        .footer-wrapper .footer-section hr {
+            height: 1px;
+            color: rgba(255, 255, 255, 0.2);
+            margin: 0;
+        }
+
+        .footer-wrapper .footer-section .disclaimers {
+            margin: 40px 0;
+        }
+
+        .footer-wrapper .footer-section .disclaimers p {
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #E7E7E7;
+        }
+
+        .footer-wrapper .footer-section .disclaimers span {
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: 600;
+            color: #E7E7E7 !important;
+        }
+
+        .footer-wrapper .footer-section .footer-copy-right {
+            padding: 22px 0;
+        }
+
+        .footer-wrapper .footer-section .footer-copy-right .rights-note p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+
+        .footer-wrapper .footer-section .footer-copy-right .social-icons>div {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media only screen and (min-width: 992px) {
+            .footer-wrapper .footer-section .main-footer .company-discr {
+                max-width: 415px;
+            }
+
+            .footer-wrapper .footer-section .main-footer {
+                margin-bottom: 60px;
+            }
+
+            .footer-wrapper .footer-section .main-footer .links-bottom-box {
+                right: 0;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .footer-wrapper .footer-section .main-footer .links-bottom-box {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+
+        @media only screen and (min-width: 576px) {
+
+            .footer-wrapper .footer-section .main-footer .company-discr+.quick-links,
+            .footer-wrapper .footer-section .main-footer .company-discr+.company-docs,
+            .footer-wrapper .footer-section .main-footer .company-discr+.partnership {
+                padding-bottom: 70px;
+            }
+
+            .footer-wrapper .footer-section .main-footer {
+                margin-bottom: 40px;
+            }
+        }
+
+        @media only screen and (max-width: 575px) {
+
+            .footer-wrapper .footer-section .main-footer .company-discr,
+            .footer-wrapper .footer-section .main-footer .quick-links,
+            .footer-wrapper .footer-section .main-footer .company-docs {
+                padding-bottom: 40px;
+            }
+
+            .footer-wrapper .footer-section .main-footer .partnership {
+                padding-bottom: 70px;
+            }
+
+            .footer-wrapper .footer-section .main-footer {
+                margin-bottom: 40px;
+            }
+        }
+
+        @media only screen and (min-width: 425px) {
+            .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+                justify-content: space-between;
+            }
+        }
+
+        @media only screen and (max-width: 424px) {
+            .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .footer-wrapper .footer-section .main-footer .links-bottom-box {
+                gap: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .footer-wrapper .footer-section .main-footer .partnership {
+                padding-bottom: 140px;
+            }
+        }
+
+        @media only screen and (min-width: 320px) {}
+
+        @media only screen and (max-width: 319px) {
+            .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+                justify-content: start;
+            }
+
+            .footer-wrapper .footer-section .footer-copy-right {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+
+        /* FOOTER CSS END*/
     </style>
 </head>
 
@@ -157,107 +300,284 @@
     </button>
     <!-- Scroll To Top End -->
     <div class="about-page-wrapper">
-        <div class="about-page-banner-section">
+        <div class="about-page-banner-section w-100"></div>
+        <div class="about-us-section text-center">
             <div class="container">
-                <div class="about-banner w-100">
-                    <h1 class="text-center text-white mb-2">PM financials Limited</h1>
-                    <p class="text-center text-white mb-4">PM financials Limited is a well-known international CFD and
-                        currency trading broker with a growing selection of more than 300 products. Our online
-                        trading
-                        platform provides both individual and corporate investors, including money managers, banks,
-                        and
-                        financial institutions, with exceptional order execution at low spreads and commission-free
-                        trades.</p>
-                    <div class="row justify-content-center">
-
-                        <div class="col-md-3 px-2 px-lg-4 text-center">
-                            <div class="d-flex justify-content-center">
-                                <a href="https://cp.pmfinancials.mu/">
-                                    <button class="btn-global btn-global-dark-blue">Start Trading</button>
-                                </a>
+                <div class="about-us w-100 row gap-6 gap-xl-8 gap-xxl-11 mx-auto">
+                    <div class="about-card col-lg p-6">
+                        <div class="card-header d-flex align-items-center gap-3 gap-lg-5 pb-4">
+                            <div class="title-logo d-flex align-items-center justify-content-center">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.0111 14.4345C23.0023 14.4389 22.9892 14.4477 22.9804 14.4522V12.9427H24.0568V4.62088H24.5929V12.9427H25.1377C25.0103 13.0401 24.8741 13.1463 24.7379 13.2437C24.5577 13.3721 24.3776 13.5005 24.1931 13.6333C24.1008 13.6997 24.0041 13.7661 23.9118 13.8324C23.8108 13.8988 23.7141 13.9652 23.6175 14.0316C23.4197 14.1644 23.2176 14.2972 23.0111 14.4345ZM13.3184 18.8123C13.4678 18.768 13.6172 18.7282 13.771 18.6839C13.9204 18.6396 14.0698 18.5954 14.2235 18.5511L14.3334 18.5157L14.3641 18.5113C14.3334 18.5157 14.3641 18.5068 14.3597 18.5113L14.3729 18.5024L14.4256 18.4847L14.6453 18.4139C14.7244 18.3873 14.8079 18.3608 14.887 18.3342V13.1818H13.7182V6.6438H13.1778V13.1818H12.198V19.1088C12.4221 19.0513 12.6462 18.9938 12.8659 18.9406C13.0108 18.9052 13.1646 18.8565 13.3184 18.8123ZM7.44391 19.9455L7.67239 19.9189L7.89647 19.8879C8.05025 19.8702 8.19964 19.8481 8.35343 19.8304C8.60387 19.8038 8.85871 19.764 9.11355 19.7241V12.1371H8.01071V1H7.47467V12.1371H6.42455V20.0384C6.46409 20.034 6.50364 20.0296 6.54758 20.0251C6.84196 19.9986 7.14513 19.972 7.44391 19.9455ZM17.9978 17.1346C18.134 17.0771 18.2658 17.0195 18.3976 16.962C18.5295 16.9 18.6613 16.838 18.7887 16.7761C19.2852 16.5459 19.7641 16.298 20.2299 16.059V10.6896H19.1534V3.60721H18.6173V10.6896H17.5408V17.3338C17.5584 17.325 17.576 17.3205 17.5936 17.3117C17.7298 17.2541 17.866 17.1966 17.9978 17.1346ZM27.2951 9.89728L28.6967 11.2474C28.6528 11.2916 28.6044 11.3359 28.5561 11.3802C28.4682 11.4598 28.3759 11.5395 28.2837 11.628C28.187 11.7166 28.086 11.8095 27.9805 11.9025C27.8707 11.9999 27.752 12.1017 27.6334 12.2035C27.3873 12.4115 27.1281 12.6373 26.8381 12.8675C26.6975 12.987 26.5481 13.1021 26.3943 13.226C26.2406 13.35 26.078 13.4695 25.9154 13.5978C25.7485 13.7218 25.5771 13.8546 25.4013 13.983C25.2256 14.1069 25.0454 14.2353 24.8565 14.3725C24.7642 14.4389 24.672 14.5053 24.5753 14.5717C24.4786 14.6381 24.382 14.7045 24.2809 14.7709C24.0832 14.8992 23.8855 15.0365 23.679 15.1693C23.2616 15.4304 22.831 15.7093 22.3784 15.9705C21.9259 16.2449 21.4513 16.4928 20.968 16.7628C20.4759 17.0107 19.975 17.2763 19.4521 17.5153C19.3203 17.5728 19.1929 17.6348 19.0611 17.7012C18.9293 17.7588 18.7975 17.8163 18.6613 17.8739C18.5295 17.9314 18.3976 17.9889 18.257 18.0509C18.1911 18.0819 18.1252 18.1085 18.0593 18.1394C17.989 18.166 17.9187 18.1926 17.8528 18.2235C17.576 18.3298 17.3036 18.4404 17.0224 18.5511C16.7412 18.6573 16.46 18.7592 16.1744 18.861C16.0338 18.9141 15.8888 18.9583 15.7438 19.0115C15.5988 19.0602 15.4538 19.1044 15.3088 19.1531L15.0935 19.2239L15.0364 19.2416L15.0276 19.2461L15.0232 19.2505H15.0144L15.0012 19.2549L14.887 19.2903C14.7376 19.3302 14.5838 19.3744 14.4344 19.4187L13.9819 19.5515C13.8325 19.5958 13.6743 19.6445 13.5293 19.6799C13.2349 19.7507 12.9405 19.8259 12.6418 19.9012C12.3518 19.9809 12.0442 20.0384 11.741 20.1004C11.5917 20.1314 11.4379 20.1624 11.2885 20.1933C11.1391 20.2288 10.9853 20.2642 10.8359 20.2863C10.2296 20.3837 9.62323 20.5032 9.01689 20.5696C8.86311 20.5873 8.71372 20.6094 8.56433 20.6271L8.33585 20.6581L8.10737 20.6847C7.8086 20.7112 7.50542 20.7378 7.21104 20.7644C7.06165 20.7776 6.91226 20.7953 6.76287 20.8042L2 21.3619L6.53879 21.8798C6.62666 21.8798 6.71015 21.8843 6.79802 21.8843C6.95181 21.8887 7.10559 21.8843 7.25937 21.8798C7.56694 21.8798 7.8789 21.8754 8.19086 21.871L8.42812 21.8621L8.66099 21.8489C8.81917 21.84 8.97295 21.8312 9.13552 21.8267C9.76383 21.8046 10.4009 21.7293 11.038 21.6762C11.1962 21.6629 11.3544 21.6408 11.517 21.6187C11.6751 21.601 11.8333 21.5788 11.9959 21.5567C12.3122 21.5169 12.633 21.4815 12.9537 21.4195C13.2745 21.3664 13.5952 21.3088 13.9204 21.2557C14.0829 21.2291 14.2323 21.1937 14.3861 21.1627C14.5399 21.1318 14.6937 21.0963 14.8475 21.0654C15.0012 21.0344 15.1594 20.999 15.3088 20.9724L15.4274 20.9458L15.4538 20.937L15.4977 20.9281L15.5592 20.9149L15.7921 20.8573C15.9459 20.8175 16.1041 20.7821 16.2579 20.7422C16.4116 20.7024 16.5698 20.667 16.7192 20.6227C17.0268 20.5342 17.3343 20.4501 17.6375 20.366C17.9407 20.2686 18.2395 20.1756 18.5382 20.0827C18.6129 20.0605 18.6876 20.034 18.7623 20.0119C18.837 19.9853 18.9073 19.9587 18.982 19.9366C19.127 19.8835 19.2764 19.8348 19.4214 19.7817C19.5664 19.7286 19.7114 19.6843 19.8564 19.6312C20.0014 19.5736 20.142 19.5205 20.2826 19.4674C20.8538 19.2593 21.403 19.0203 21.9478 18.7946C22.4839 18.5511 23.0067 18.3209 23.5076 18.073C24.0129 17.8296 24.4918 17.5728 24.962 17.325C25.1904 17.201 25.4145 17.0727 25.6386 16.9443C25.7485 16.8823 25.8583 16.8203 25.9681 16.7628C26.078 16.6964 26.179 16.6344 26.2845 16.568C26.4954 16.4441 26.7019 16.3201 26.904 16.2006C27.1017 16.0767 27.2907 15.9483 27.4796 15.8288C27.6685 15.7049 27.8531 15.5898 28.0288 15.4703C28.2046 15.3507 28.3715 15.2357 28.5341 15.1206C28.868 14.8992 29.1668 14.6779 29.4436 14.4743C29.5842 14.3681 29.7204 14.2751 29.8435 14.1777C29.9753 14.0803 30.0939 13.9829 30.2082 13.89C30.3268 13.8015 30.4322 13.7174 30.5377 13.6377C30.6387 13.558 30.7398 13.4783 30.8189 13.4119C30.8453 13.3942 30.8672 13.3765 30.8848 13.3588L32.3128 14.7355L34 7.98503L27.2951 9.89728Z"
+                                        fill="white" />
+                                    <path
+                                        d="M8.74447 21.6187C8.8675 21.6098 8.99053 21.6054 9.11355 21.601V25.9832H8.01071V29.8476H7.47467V25.9832H6.42455V21.8666V21.6452C6.57394 21.6497 6.72772 21.6541 6.87711 21.6541C7.03089 21.6585 7.18468 21.6541 7.33846 21.6497C7.65042 21.6497 7.96238 21.6408 8.27434 21.6408L8.38858 21.6364L8.50721 21.632L8.74447 21.6187ZM19.5005 19.5515C19.3555 19.6002 19.2061 19.6533 19.0611 19.702C18.9864 19.7286 18.9117 19.7551 18.8414 19.7817C18.7667 19.8038 18.692 19.8259 18.6173 19.8525C18.3185 19.9455 18.0198 20.0384 17.7166 20.1314C17.6595 20.1491 17.6024 20.1624 17.5408 20.1801V28.4001H18.6173V35H19.1578V28.4001H20.2342V19.2859C20.1332 19.3213 20.0365 19.3612 19.9355 19.3966C19.7949 19.4497 19.6455 19.4984 19.5005 19.5515ZM25.0411 17.0948C24.5709 17.3382 24.0964 17.5994 23.5867 17.8384C23.389 17.9358 23.1869 18.0332 22.9804 18.1306V22.7607H24.0568V29.8476H24.5929V22.7607H25.6694V16.7407C25.4629 16.8558 25.252 16.9753 25.0411 17.0948ZM13.9995 21.0211C13.6787 21.0786 13.358 21.1318 13.0372 21.1893C12.756 21.238 12.4792 21.2734 12.198 21.3088V23.0042H13.1778V29.6528H13.7182V23.0042H14.887V20.844C14.7464 20.8706 14.6102 20.9016 14.4696 20.9326C14.3114 20.9636 14.162 20.999 13.9995 21.0211Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="card-title">
+                                <h3 class="text-sm-nowrap">Our Purpose</h3>
                             </div>
                         </div>
-
-                        <div class="col-md-3 px-2 px-lg-4 text-center">
-                            <div class="d-flex justify-content-center">
-                                <a href="https://cp.pmfinancials.mu/">
-                                    <button class="btn-global btn-global-dark-blue">Try Demo</button>
-                                </a>
+                        <p class="text-start">
+                            All Companies under the group provide brokerage, online trading services in currencies,
+                            commodities, indexes, CFDs and leveraged financial instruments.
+                        </p>
+                    </div>
+                    <div class="about-card col-lg p-6">
+                        <div class="card-header d-flex align-items-center gap-3 gap-lg-5 pb-4">
+                            <div class="title-logo d-flex align-items-center justify-content-center">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19.2017 19.4432C19.2017 19.6469 19.1079 19.8195 18.9249 19.9612C18.7374 20.1029 18.4561 20.1737 18.0811 20.1737C17.3043 20.1737 16.8267 19.8505 16.6525 19.2042L15.1347 19.5495C15.4204 20.6872 16.2284 21.3247 17.5588 21.462V22.5023H18.4427V21.462C19.2597 21.3867 19.8668 21.1211 20.2686 20.674C20.6704 20.2224 20.8713 19.7177 20.8713 19.1599C20.8713 18.757 20.7597 18.394 20.532 18.0664C20.3043 17.7388 20.0231 17.5042 19.6927 17.3536C19.3579 17.2076 18.8356 17.0659 18.1168 16.9198C17.6927 16.8357 17.4159 16.7383 17.2954 16.6232C17.1749 16.5081 17.1124 16.362 17.1124 16.1938C17.1124 15.7776 17.4383 15.5695 18.0856 15.5695C18.6972 15.5695 19.099 15.844 19.2865 16.393L20.6793 15.9326C20.3267 14.9586 19.5811 14.4141 18.4427 14.3078V13.4534H17.5588V14.3211C16.9517 14.3919 16.4561 14.6354 16.0722 15.0383C15.6883 15.4456 15.4963 15.9326 15.4963 16.5036C15.4963 16.9906 15.6481 17.4201 15.9517 17.7831C16.2597 18.1505 16.9338 18.4383 17.9784 18.6552C18.465 18.7482 18.7865 18.8544 18.9517 18.9651C19.1213 19.0802 19.2017 19.2396 19.2017 19.4432ZM18.0008 11.1164C14.7329 11.1164 11.0677 14.7638 11.0677 18.0177C11.0677 21.2672 14.7329 24.9146 18.0008 24.9146C21.2731 24.9146 24.9338 21.2672 24.9338 18.0177C24.9338 14.7638 21.2731 11.1164 18.0008 11.1164ZM18.0008 26.0612C14.0945 26.0612 9.9204 21.9003 9.9204 18.0177C9.9204 14.1307 14.0945 9.97422 18.0008 9.97422C21.907 9.97422 26.0856 14.1307 26.0856 18.0177C26.0856 21.9003 21.907 26.0612 18.0008 26.0612ZM4.64362 6.3612C4.63915 6.3612 4.63915 6.36563 4.63915 6.37005C4.24183 9.42474 4.45165 12.7318 4.67933 15.2729C4.97397 18.5622 5.63915 21.3513 6.71505 23.7995C6.81772 24.043 6.92933 24.282 7.0454 24.5167C8.28648 27.0755 9.95612 29.2979 12.0052 31.1263C12.1347 31.2414 12.2642 31.3521 12.3892 31.4583C13.9159 32.7156 15.6168 33.4992 17.3133 33.7162C18.8624 33.9198 20.6838 33.4151 22.4472 32.3039C22.849 32.0516 23.2418 31.7638 23.6124 31.4583C23.7418 31.3521 23.8713 31.2414 24.0008 31.1263C26.0499 29.2979 27.7195 27.0755 28.9606 24.5167C29.0722 24.282 29.1838 24.043 29.2909 23.7995C30.3668 21.3513 31.032 18.5622 31.3267 15.2729C31.5543 12.7318 31.7642 9.42032 31.3624 6.37005C31.3624 6.36563 31.3624 6.3612 31.3624 6.3612C31.3445 6.35677 31.3177 6.35677 31.2865 6.35677C30.7999 6.33021 30.3177 6.33907 29.8043 6.35235C29.1838 6.36563 28.5454 6.37891 27.9025 6.32578C26.7597 6.23281 25.6168 6.02474 24.5052 5.70157C22.3133 5.07292 20.2284 3.99271 18.474 2.58932L18.4383 2.56276C18.34 2.47865 18.1034 2.29271 18.0008 2.275C17.9025 2.29271 17.6704 2.47865 17.5722 2.55391L17.532 2.58932C15.7775 3.99271 13.6927 5.07292 11.5008 5.70157C10.3892 6.02474 9.2463 6.23281 8.10344 6.32578C7.46058 6.37891 6.82219 6.36563 6.20165 6.35235C5.68826 6.33907 5.20612 6.33021 4.71951 6.35677C4.68826 6.35677 4.66147 6.35677 4.64362 6.3612ZM17.9918 34.9867C17.7061 34.9867 17.4293 34.969 17.157 34.9336C15.224 34.6857 13.3043 33.8091 11.6034 32.4013C11.465 32.2862 11.3222 32.1622 11.1838 32.0383C9.00969 30.1037 7.24629 27.7529 5.9338 25.0479C5.81326 24.8 5.69719 24.5477 5.58558 24.2909C4.45612 21.7188 3.75969 18.8057 3.45165 15.3792C3.21951 12.776 3.00076 9.38047 3.4204 6.21068C3.43826 6.05573 3.47844 5.76797 3.68826 5.52448C3.9963 5.16146 4.46058 5.13932 4.65701 5.13047C5.18826 5.10391 5.71505 5.11719 6.22844 5.12604C6.84005 5.13932 7.42487 5.15261 8.00522 5.10391C9.06326 5.01979 10.1258 4.825 11.157 4.52839C13.1927 3.93958 15.1302 2.93906 16.7597 1.63307L16.7954 1.60208C17.0856 1.36745 17.5275 1.01328 18.0722 1.0487C18.5588 1.07969 18.9517 1.39844 19.215 1.61094L19.2463 1.63307C20.8758 2.93906 22.8088 3.93958 24.8445 4.52839C25.8802 4.825 26.9427 5.01979 28.0008 5.10391C28.5811 5.15261 29.1615 5.13932 29.7775 5.12604C30.2909 5.11719 30.8177 5.10391 31.349 5.13047C31.5454 5.13932 32.0097 5.16146 32.3177 5.52448C32.5275 5.76797 32.5677 6.05573 32.5856 6.21068C33.0008 9.38047 32.7865 12.776 32.5543 15.3792C32.2463 18.8057 31.5499 21.7188 30.4204 24.2909C30.3088 24.5477 30.1927 24.8 30.0722 25.0479C28.7597 27.7529 26.9918 30.1037 24.8222 32.0383C24.6793 32.1622 24.5409 32.2862 24.4025 32.4013C23.9918 32.7422 23.5543 33.0565 23.1079 33.3399C21.4025 34.4156 19.6168 34.9867 17.9918 34.9867Z"
+                                        fill="white" stroke="white" stroke-width="0.5" />
+                                </svg>
+                            </div>
+                            <div class="card-title">
+                                <h3 class="text-sm-nowrap">Funds Security</h3>
                             </div>
                         </div>
-
+                        <p class="text-start">
+                            In addition to stricken regulatory and financial auditing standard the company has
+                            exceptional clients funds safety with segregated Client Money accounts.
+                        </p>
+                    </div>
+                    <div class="about-card col-lg p-6">
+                        <div class="card-header d-flex align-items-center gap-3 gap-lg-5 pb-4">
+                            <div class="title-logo d-flex align-items-center justify-content-center">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_38_771" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1"
+                                        y="3" width="34" height="11">
+                                        <path d="M1 3H35V13.5625H1V3Z" fill="white" />
+                                    </mask>
+                                    <g mask="url(#mask0_38_771)">
+                                        <path
+                                            d="M33.8577 13.3839H2.14209C1.99157 13.3839 1.8499 13.3527 1.70824 13.2946C1.571 13.2366 1.44704 13.1518 1.34079 13.0446C1.23454 12.9375 1.15485 12.8125 1.0973 12.6696C1.03975 12.5313 1.01318 12.3839 1.01318 12.2277V4.15179C1.01318 4 1.03975 3.85268 1.0973 3.70982C1.15485 3.56696 1.23454 3.44643 1.34079 3.33482C1.44704 3.22768 1.571 3.14286 1.70824 3.08482C1.8499 3.02679 1.99157 3 2.14209 3H33.8577C34.0038 3 34.1499 3.02679 34.2871 3.08482C34.4288 3.14286 34.5483 3.22768 34.6546 3.33482C34.7608 3.44643 34.845 3.56696 34.9025 3.70982C34.9601 3.85268 34.9866 4 34.9866 4.15179V12.2277C34.9866 12.3839 34.9601 12.5313 34.9025 12.6696C34.845 12.8125 34.7608 12.9375 34.6546 13.0446C34.5483 13.1518 34.4288 13.2366 34.2871 13.2946C34.1499 13.3527 34.0038 13.3839 33.8577 13.3839ZM3.27542 11.0759H32.7244V5.30804H3.27542V11.0759Z"
+                                            fill="white" />
+                                    </g>
+                                    <mask id="mask1_38_771" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2"
+                                        y="10" width="32" height="23">
+                                        <path d="M2.41699 10.1339H33.017V33H2.41699V10.1339Z" fill="white" />
+                                    </mask>
+                                    <g mask="url(#mask1_38_771)">
+                                        <path
+                                            d="M31.592 33H4.4097C4.25918 33 4.11309 32.9732 3.97585 32.9107C3.83861 32.8527 3.71465 32.7723 3.6084 32.6607C3.50215 32.5536 3.42246 32.4286 3.36491 32.2902C3.30736 32.1473 3.27637 32 3.27637 31.8482V12.2277C3.27637 12.0759 3.30736 11.9285 3.36491 11.7857C3.42246 11.6473 3.50215 11.5223 3.6084 11.4152C3.71465 11.3035 3.83861 11.2232 3.97585 11.1652C4.11309 11.1027 4.25918 11.0759 4.4097 11.0759H31.592C31.7425 11.0759 31.8842 11.1027 32.0258 11.1652C32.1631 11.2232 32.287 11.3035 32.3933 11.4152C32.4995 11.5223 32.5792 11.6473 32.6368 11.7857C32.6943 11.9285 32.7253 12.0759 32.7253 12.2277V31.8482C32.7253 32 32.6943 32.1473 32.6368 32.2902C32.5792 32.4286 32.4995 32.5536 32.3933 32.6607C32.287 32.7723 32.1631 32.8527 32.0258 32.9107C31.8842 32.9732 31.7425 33 31.592 33ZM5.54303 30.6919H30.4587V13.3839H5.54303V30.6919Z"
+                                            fill="white" />
+                                    </g>
+                                    <path
+                                        d="M21.3957 23.7678H14.6002C14.153 23.7678 13.7192 23.683 13.303 23.5044C12.8869 23.3303 12.5194 23.0803 12.2007 22.7544C11.8819 22.4285 11.634 22.058 11.4614 21.6339C11.2887 21.2098 11.2046 20.7678 11.2046 20.308C11.2046 19.8482 11.2887 19.4062 11.4614 18.9821C11.634 18.558 11.8819 18.183 12.2007 17.8571C12.5194 17.5357 12.8869 17.2857 13.303 17.1071C13.7192 16.933 14.153 16.8437 14.6002 16.8437H21.3957C21.8473 16.8437 22.2812 16.933 22.6973 17.1071C23.1134 17.2857 23.4809 17.5357 23.7996 17.8571C24.1184 18.183 24.3663 18.558 24.5345 18.9821C24.7072 19.4062 24.7957 19.8482 24.7957 20.308C24.7957 20.7678 24.7072 21.2098 24.5345 21.6339C24.3663 22.058 24.1184 22.4285 23.7996 22.7544C23.4809 23.0803 23.1134 23.3303 22.6973 23.5044C22.2812 23.683 21.8473 23.7678 21.3957 23.7678ZM14.6002 19.1518C14.4541 19.1518 14.308 19.183 14.1707 19.241C14.0291 19.2991 13.9095 19.3839 13.8033 19.491C13.697 19.5982 13.6129 19.7232 13.5554 19.866C13.4978 20.0089 13.4713 20.1562 13.4713 20.308C13.4713 20.4598 13.4978 20.6071 13.5554 20.75C13.6129 20.8884 13.697 21.0134 13.8033 21.1205C13.9095 21.2321 14.0291 21.3125 14.1707 21.375C14.308 21.433 14.4541 21.4598 14.6002 21.4598H21.3957C21.5463 21.4598 21.6924 21.433 21.8296 21.375C21.9713 21.3125 22.0908 21.2321 22.197 21.125C22.3033 21.0134 22.3874 20.8884 22.445 20.75C22.5025 20.6071 22.5291 20.4598 22.5291 20.308C22.5291 20.1562 22.5025 20.0089 22.445 19.866C22.3874 19.7232 22.3033 19.5982 22.197 19.491C22.0908 19.3839 21.9713 19.2991 21.8296 19.241C21.6924 19.183 21.5463 19.1518 21.3957 19.1518H14.6002Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <div class="card-title">
+                                <h3 class="text-sm-nowrap">All In One</h3>
+                            </div>
+                        </div>
+                        <p class="text-start">
+                            Multi Product Trading Platform all in one single trading account, real time quotes, charts
+                            and news to support traders of all size and types.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="about-us-section text-center">
-            <div class="container mt-19">
-                <div class="about-us">
-                    <div class="d-flex align-items-center justify-content-center gap-2">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_8_258)">
-                                <mask id="mask0_8_258" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0"
-                                    y="0" width="24" height="24">
-                                    <path d="M0 0H24V24H0V0Z" fill="white" />
-                                </mask>
-                                <g mask="url(#mask0_8_258)">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M23.707 5.29297C23.8945 5.4805 23.9998 5.73481 23.9998 5.99997C23.9998 6.26513 23.8945 6.51944 23.707 6.70697L14.207 16.207C14.0195 16.3944 13.7652 16.4998 13.5 16.4998C13.2348 16.4998 12.9805 16.3944 12.793 16.207L8.50001 11.914L1.70701 18.707C1.51841 18.8891 1.26581 18.9899 1.00361 18.9876C0.741412 18.9854 0.4906 18.8802 0.305192 18.6948C0.119784 18.5094 0.0146148 18.2586 0.0123364 17.9964C0.010058 17.7342 0.110852 17.4816 0.29301 17.293L7.79301 9.79297C7.98054 9.6055 8.23485 9.50018 8.50001 9.50018C8.76517 9.50018 9.01948 9.6055 9.20701 9.79297L13.5 14.086L22.293 5.29297C22.4805 5.1055 22.7348 5.00018 23 5.00018C23.2652 5.00018 23.5195 5.1055 23.707 5.29297Z"
-                                        fill="#179C6D" />
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M16 6C16 5.73478 16.1054 5.48043 16.2929 5.29289C16.4804 5.10536 16.7348 5 17 5H23C23.2652 5 23.5196 5.10536 23.7071 5.29289C23.8946 5.48043 24 5.73478 24 6V12C24 12.2652 23.8946 12.5196 23.7071 12.7071C23.5196 12.8946 23.2652 13 23 13C22.7348 13 22.4804 12.8946 22.2929 12.7071C22.1054 12.5196 22 12.2652 22 12V7H17C16.7348 7 16.4804 6.89464 16.2929 6.70711C16.1054 6.51957 16 6.26522 16 6Z"
-                                        fill="#179C6D" />
-                                </g>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_8_258">
-                                    <rect width="24" height="24" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h6 class="text-center">About FXvibe</h6>
-                    </div>
-                    <h1 class="text-center mb-4 mt-3">
-                        Combining Technology And Experties
-                    </h1>
-                    <h4 class="text-center mb-2">Combining technology and experties To deliver the best trading solution.
-                    </h4>
-                    <div class="paragraph-text mt-8 mb-10">
-                        <p class="text-center">
-                            PM Financials ltd is established as global online multi asset trading broker offering low
-                            latency, spreads and commission on multi asset products such as currencies, commodities and
-                            global equities. The company was founded by financial market veterans, with vision to
-                            provide excellent online trade execution service to individual and corporate traders alike.
-                            Our trading applications and technology specialize in spot, future and contract for
-                            difference (CFDs) is user friendly and easy to place order. We provide ultra-fast trade
-                            execution with no/low delay and re-quotes one of its many benefits our customer enjoys.
-                        </p>
-                        <p class="text-center mt-6">
-                            Our core strength is in our professional staff, with complete understanding of the business
-                            operation to look after the best interests of our clients. Our professional staff is
-                            available 24 hours a day (Monday to Friday) to answer your inquiry.
-                        </p>
-                    </div>
-                    <h4 class="text-center">Licensed And Regulations</h4>
-                    <div class="row pt-8 pb-8 justify-content-center gap-5">
-                        <div class="col-md-2 d-flex justify-content-center license-img">
-                            <img src="assets\img\Mauritius-flag.svg" alt="Mauritius-flag">
+        <div class="footer-wrapper">
+            <div class="footer-section">
+                <div class="container">
+                    <div class="ready-to-start-section position-relative">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-8 px-0">
+                                <h3 class="text-xxl-start text-center text-white mb-4 text-capitalize">Ready To Start
+                                    Trading?</h3>
+                                <p class="text-xxl-start text-center text-uppercase">EVERYTHING YOU NEED TO TRADE FOREX
+                                    &
+                                    CFDS WORLDWIDE
+                                    WITH PM FINANCIALS</p>
+                            </div>
+                            <div class="col-xxl-4 px-0 pt-5 pt-xxl-0">
+                                <div
+                                    class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-center justify-content-xxl-end gap-4">
+                                    <button
+                                        class="start-trading-btn rounded-pill px-5 py-3 text-nowrap text-capitalize">Open
+                                        Live Account</button>
+                                    <button
+                                        class="start-trading-btn rounded-pill px-5 py-3 text-nowrap text-capitalize">Try
+                                        Demo Account</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 pl-5 d-flex justify-content-center">
-                            <p class="text-justify">
-                                PM Financials Limited License No: (GBC2220942) is registered and regulated by the
-                                <a
-                                    href="https://www.fscmauritius.org/en/supervision/register-of-licensees/register-of-licensees-details?licence_no=GB22200942&amp;cat=_GB&amp;key=&amp;code=">Financial
-                                    Services Commission (FSC)</a>
-                                , Mauritius. As a GBL/Category 1 Investment Dealer (Full-Service Dealer, excluding
-                                underwriting).
-                            </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-footer position-relative">
+                        <div
+                            class="d-sm-flex align-items-start justify-content-between flex-sm-wrap gap-sm-10 gap-lg-0 flex-lg-nowrap">
+                            <div class="company-discr w-100">
+                                <svg width="141" height="80" viewBox="0 0 141 80" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_27_131)">
+                                        <path
+                                            d="M49.1185 58.3872V30.3584L67.8313 12.4256L55.1013 10.0576L56.0005 8.44482L72.0383 11.3856L51.071 31.5456V53.8912L54.276 51.5488L54.5682 54.0448L49.1185 58.3872Z"
+                                            fill="white" />
+                                        <path
+                                            d="M57.5002 46.5728H55.5477V33.8144L82.1317 8.352L51.0389 2.7424L51.071 5.2224L49.1185 4.1408V0L86.5442 7.1136L57.5002 35.0048V46.5728Z"
+                                            fill="white" />
+                                        <path
+                                            d="M72.3883 59.3024L64.3341 50.0992V35.2L72.3883 27.52V59.3024ZM66.2866 49.3824L70.4358 54.1248V32.368L66.2866 36.3808V49.3824Z"
+                                            fill="white" />
+                                        <path
+                                            d="M87.4434 56.5471L85.4876 54.8447L85.478 17.9295L80.9339 22.3263V49.9807L78.9813 48.0351V21.3247L87.4434 13.0815V56.5471Z"
+                                            fill="white" />
+                                        <path
+                                            d="M0 67.6128H5.63923C6.98588 67.6128 8.07347 67.9712 8.90202 68.688C9.30956 69.0365 9.63295 69.4722 9.84813 69.9625C10.0633 70.4528 10.1647 70.9852 10.1448 71.52C10.1651 72.0619 10.0641 72.6014 9.8491 73.0995C9.63414 73.5977 9.31062 74.0419 8.90202 74.4C8.07347 75.1339 6.98053 75.4997 5.62317 75.4976H2.62051V79.7536H0V67.6128ZM5.50435 73.3152C6.02217 73.344 6.53202 73.1784 6.93343 72.8512C7.10989 72.6894 7.24831 72.4908 7.33879 72.2695C7.42928 72.0483 7.46961 71.8098 7.45688 71.5712C7.46806 71.3328 7.42703 71.0948 7.33664 70.8737C7.24624 70.6527 7.10866 70.4539 6.93343 70.2912C6.53233 69.9631 6.02254 69.7964 5.50435 69.824H2.61408V73.344L5.50435 73.3152Z"
+                                            fill="white" />
+                                        <path
+                                            d="M25.1261 67.6128V79.7504H22.5248L22.5923 71.5712L18.8702 76.8576H18.1541L14.4835 71.7056L14.5477 79.7504H11.9464V67.6128H14.6151L18.5202 73.4816L22.3739 67.6128H25.1261Z"
+                                            fill="white" />
+                                        <path
+                                            d="M32.0338 67.6128H41.2955V69.792H34.6543V72.8352H40.6596V75.0112H34.6543V79.7504H32.0338V67.6128Z"
+                                            fill="white" />
+                                        <path d="M43.3958 67.6128H46.0163V79.7504H43.3958V67.6128Z" fill="white" />
+                                        <path
+                                            d="M60.0533 67.6128V79.7504H57.4521L51.2284 71.6544L51.2444 79.7504H48.6239V67.6128H51.2284L57.4521 75.7952V67.6128H60.0533Z"
+                                            fill="white" />
+                                        <path
+                                            d="M66.6367 67.6128H69.3086L74.5817 79.7504H71.7621L70.7601 77.3728H65.2526L64.2891 79.7504H61.4663L66.6367 67.6128ZM69.8738 75.2L67.9726 70.5952L66.1036 75.2H69.8738Z"
+                                            fill="white" />
+                                        <path
+                                            d="M87.4787 67.6128V79.7504H84.8743L78.6506 71.6544L78.6666 79.7504H76.0493V67.6128H78.6506L84.8743 75.7952V67.6128H87.4787Z"
+                                            fill="white" />
+                                        <path
+                                            d="M91.2489 78.2625C90.035 77.1041 89.4398 75.5777 89.4633 73.6833C89.4419 71.7889 90.0371 70.2614 91.2489 69.1009C92.4607 67.9404 94.0664 67.3622 96.066 67.3665C97.5861 67.3616 99.0812 67.7509 100.405 68.4961L99.6885 70.6721C98.6235 70.0287 97.4013 69.6899 96.1559 69.6929C95.6165 69.6727 95.0786 69.7613 94.5743 69.9534C94.0701 70.1454 93.6101 70.437 93.2217 70.8106C92.8334 71.1842 92.5248 71.6321 92.3144 72.1275C92.1041 72.6228 91.9963 73.1554 91.9976 73.6933C91.9989 74.2312 92.1092 74.7632 92.322 75.2576C92.5347 75.7519 92.8455 76.1984 93.2356 76.5701C93.6258 76.9418 94.0872 77.2312 94.5924 77.4208C95.0975 77.6105 95.6359 77.6965 96.1752 77.6737C97.4215 77.6646 98.6422 77.3196 99.7077 76.6753L100.424 78.8545C99.0973 79.6079 97.5961 80.0028 96.0692 80.0001C94.0696 80.0001 92.4628 79.4209 91.2489 78.2625Z"
+                                            fill="white" />
+                                        <path d="M102.277 67.6128H104.897V79.7504H102.277V67.6128Z" fill="white" />
+                                        <path
+                                            d="M111.503 67.6128H114.172L119.445 79.7504H116.625L115.611 77.3728H110.119L109.156 79.7504H106.33L111.503 67.6128ZM114.74 75.2L112.839 70.5952L110.97 75.2H114.74Z"
+                                            fill="white" />
+                                        <path d="M120.913 67.6128H123.533V77.5712H129.821V79.7504H120.913V67.6128Z"
+                                            fill="white" />
+                                        <path
+                                            d="M131.141 78.7519L131.876 76.4927C133.156 77.2768 134.626 77.6963 136.128 77.7055C136.675 77.7313 137.218 77.6144 137.705 77.3663C137.894 77.264 138.05 77.1106 138.155 76.9237C138.26 76.7369 138.31 76.5242 138.299 76.3103C138.295 76.1155 138.231 75.9267 138.116 75.769C138.001 75.6112 137.841 75.492 137.657 75.4271C136.841 75.1159 136.001 74.8719 135.146 74.6975C134.722 74.5983 134.356 74.4959 134.044 74.3967C133.69 74.2792 133.346 74.1325 133.016 73.9583C132.676 73.787 132.366 73.5623 132.098 73.2927C131.841 73.0114 131.638 72.6862 131.497 72.3327C131.332 71.9208 131.25 71.4803 131.257 71.0367C131.232 70.5064 131.344 69.9786 131.58 69.5029C131.817 69.0271 132.171 68.619 132.609 68.3167C133.512 67.6767 134.69 67.3567 136.141 67.3567C137.622 67.3538 139.082 67.7073 140.396 68.3871L139.581 70.5311C138.476 69.9242 137.236 69.604 135.974 69.5999C135.457 69.5725 134.941 69.6829 134.481 69.9199C134.319 70.0025 134.184 70.1289 134.092 70.2846C133.999 70.4403 133.953 70.619 133.957 70.7999C133.959 70.9893 134.017 71.1738 134.124 71.3304C134.231 71.487 134.382 71.6086 134.558 71.6799C135.225 71.9669 135.922 72.1815 136.636 72.3199C137.127 72.4287 137.538 72.5343 137.872 72.6399C138.266 72.765 138.65 72.9179 139.022 73.0975C139.402 73.2688 139.754 73.4964 140.065 73.7727C140.348 74.0473 140.574 74.3732 140.733 74.7327C140.922 75.1544 141.015 75.6121 141.006 76.0735C141.025 76.6334 140.905 77.1893 140.656 77.6917C140.407 78.1942 140.038 78.6276 139.581 78.9535C138.626 79.6511 137.409 79.9999 135.929 79.9999C134.255 79.9814 132.61 79.5528 131.141 78.7519Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_27_131">
+                                            <rect width="141" height="80" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p class="text-white mt-9 mb-5">
+                                    PM Financials Ltd. is fast growing multi-regulatory online forex and cfds broker.
+                                </p>
+                                <h4 class="text-white mb-4">Downlaod MT5:</h4>
+                                <div class="get-app d-flex align-items-center">
+                                    <img src="assets\img\google-play-footer.png" alt="google-play-footer">
+                                    <img src="assets\img\apple-store-footer.png" alt="apple-store-footer">
+                                    <img src="assets\img\app-gallery-footer.png" alt="app-gallery-footer">
+                                </div>
+                            </div>
+                            <div class="quick-links">
+                                <h3 class="text-white">Quick Links</h3>
+                                <ul class="quick-links-list">
+                                    <li><a href="">Open Live Account</a></li>
+                                    <li><a href="">Open Demo Account</a></li>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="company-docs">
+                                <h3 class="text-white">Documents</h3>
+                                <ul class="docs-links-list">
+                                    <li><a href="">Complaint Policy</a></li>
+                                    <li><a href="">Risk Disclosure</a></li>
+                                    <li><a href="">Terms of Service</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <div class="partnership">
+                                <h3 class="text-white">Partnership</h3>
+                                <ul class="partnership-links-list">
+                                    <li><a href="">Become IB</a></li>
+                                    <li><a href="">Affiliate</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="links-bottom-box d-flex align-items-center justify-content-sm-between">
+                            <img src="assets\img\visa-card-footer.png" alt="visa-card-footer">
+                            <img src="assets\img\privacy-policy-footer.png" alt="privacy-policy-footer">
+                            <img src="assets\img\adminstration-footer.png" alt="adminstration-footer">
+                            <img src="assets\img\master-card-footer.png" alt="master-card-footer">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="disclaimers">
+                        <p class="mb-4">
+                            <span>Risk Warning: </span>
+                            Trading Forex and CFDs a leveraged Financial Instruments involves significant risk and can
+                            result in the loss of your invested capital. You should not invest more than you can afford
+                            to
+                            lose and should ensure that you fully understand the risks involved. Trading leveraged
+                            products
+                            may not be suitable for all investors. Past performance is no guarantee of future results.
+                            It is
+                            the responsibility of the Client to ascertain whether he/she is permitted to use the
+                            services of
+                            the PMfinancials brand based on the legal requirements in his/her country of residence.
+                            Please
+                            read PMfinancial ’s full Risk Disclosure.
+                        </p>
+                        <p class="mb-4">
+                            <span>PM Financials Limited License No: </span>
+                            (GBC2220942) is licensed and regulated by the Financial Services Commission (FSC),
+                            Mauritius. As
+                            a GBL/Category 1 Investment Dealer (Full-Service Dealer, excluding underwriting), pursuant
+                            to
+                            the Section 29 of the Securities Act 2005, rule 4 of the Securities Rule 2007 and Financial
+                            Services Rules 2008.
+                        </p>
+                        <p>
+                            <span>Regional restrictions: </span>
+                            PM Financial Ltd does not provide services to residents of the USA, Japan, British Columbia,
+                            Iran, North Korea, Myanmar, Quebec , China, Cuba, Sudan, Republic of Sudan, North Sudan,
+                            Venezuela, Libya, Belarus, Afghanistan, Russia, regions of Crimea, Luhansk and Donetsk.
+                            Visit FATF Website for FATF black listed countries.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="footer-copy-right d-md-flex align-md-center justify-content-between">
+                        <div class="rights-note text-center text-md-start">
+                            <p class="text-white">All rights reserved by PM Financials Limited</p>
+                        </div>
+                        <div
+                            class="social-icons d-flex align-center justify-content-center pt-5 pt-md-0 justify-content-md-end gap-4">
+                            <div class="facebook-icon">
+                                <i class="fa-brands fa-facebook-f" style="color: #224C8A;"></i>
+                            </div>
+                            <div class="insta-icon">
+                                <i class="fa-brands fa-instagram" style="color: #224C8A;"></i>
+                            </div>
+                            <div class="x-icon">
+                                <i class="fa-brands fa-x-twitter" style="color: #224C8A;"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="/assets/js/all.min.js"></script>
 </body>
 
 </html>

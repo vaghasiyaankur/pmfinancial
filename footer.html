@@ -11,7 +11,7 @@
     <!-- #description -->
     <meta name="description" content="Forex and Stock Broker HTML Template">
     <!-- #title -->
-    <title>About Us</title>
+    <title>Footer</title>
     <!-- #favicon -->
     <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
     <!-- ==== css dependencies start ==== -->
@@ -30,14 +30,16 @@
     <style>
         .footer-wrapper .footer-section {
             background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
-            position: relative;
         }
 
         .footer-wrapper .footer-section .ready-to-start-section {
             background-color: #020D42;
             border-radius: 10px;
             padding: 35px 40px;
-            margin: 0 0 70px;
+            margin: 0;
+            translate: 0 -50%;
+            width: 100%;
+            z-index: 1;
         }
 
         .footer-wrapper .footer-section .ready-to-start-section .start-trading-btn {
@@ -218,10 +220,10 @@
 </head>
 
 <body>
-    <div class="footer-wrapper position-relative">
+    <div class="footer-wrapper">
         <div class="footer-section">
             <div class="container">
-                <div class="ready-to-start-section">
+                <div class="ready-to-start-section position-relative">
                     <div class="row align-items-center">
                         <div class="col-xxl-8 px-0">
                             <h3 class="text-xxl-start text-center text-white mb-4 text-capitalize">Ready To Start
@@ -231,7 +233,8 @@
                                 WITH PM FINANCIALS</p>
                         </div>
                         <div class="col-xxl-4 px-0 pt-5 pt-xxl-0">
-                            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-center justify-content-xxl-end gap-4">
+                            <div
+                                class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-center justify-content-xxl-end gap-4">
                                 <button
                                     class="start-trading-btn rounded-pill px-5 py-3 text-nowrap text-capitalize">Open
                                     Live Account</button>
