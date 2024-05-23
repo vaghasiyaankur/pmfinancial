@@ -72,6 +72,13 @@
 .navbar-accord .navbar-link a {
     color: #333333;
 }
+.navbar-accord .start_trending a {
+    color: #333333;
+    display: block;
+    padding: 15px 20px;
+    border-bottom: 1px solid #66666633;
+    font-size: 17px;
+}
 @media (min-width: 1600px){
     
 }
@@ -87,6 +94,19 @@
 @media (min-width: 768px){
     
 }
-@media (min-width: 576px){
-    
+@media (min-width: 425px){
+    .navbar-accord .start_trending{
+        display: none;
+    }
+    .navbar .single-item.start_trending{
+        display: block;
+    }
+}
+@media (max-width: 425px){
+    .navbar-accord .start_trending{
+        display: block;
+    }
+    .navbar .single-item.start_trending{
+        display: none;
+    }
 }
