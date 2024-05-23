@@ -3430,9 +3430,6 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   flex-direction: column;
   gap: 12px;
 }
-
-
-
 /* Home Page CSS Extra */
 .section-heading h2{
   font-size: 32px;
@@ -3493,215 +3490,10 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   background: #179C6D;
   border-radius: 50%;
 }
-@media only screen and (max-width: 768px) {
-  .section-heading h2 {
-    font-size: 24px;
-    line-height: 30px;
-    margin-top: 8px;
-    margin-bottom: 15px;
-}
-.trading-potential-section .trading-box h3{
-  font-size: 22px;
-  line-height: 28px;
-}
-.trading-potential-section .trading-box .trading-img {
-  width: 55px;
-  height: 55px;
-}
-}
 /* Home Page CSS Extra */
-
-
-  /* FOOTER CSS START*/
 .footer-wrapper {
   margin-top: 100px;  
 }
-
-/* .footer-wrapper .footer-section {
-  background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
-}
-
-.footer-wrapper .footer-section .ready-to-start-section {
-    background-color: #020D42;
-    border-radius: 10px;
-    padding: 35px 40px;
-    margin: 0;
-    translate: 0 -50%;
-    width: 100%;
-    z-index: 1;
-}
-
-.footer-wrapper .footer-section .ready-to-start-section .start-trading-btn {
-    background-color: #135AC0;
-    color: #FFFFFF;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 600;
-    max-width: 210px;
-}
-
-.footer-wrapper .footer-section .main-footer .company-discr p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-}
-
-.footer-wrapper .footer-section .main-footer h4 {
-    font-weight: 500;
-    line-height: 25px;
-}
-
-.footer-wrapper .footer-section .main-footer h3 {
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
-
-.footer-wrapper .footer-section .main-footer li:not(:last-child) {
-    margin-bottom: 12px;
-}
-
-.footer-wrapper .footer-section .main-footer li a {
-    color: #FFFFFF;
-    text-wrap: nowrap;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-}
-
-.footer-wrapper .footer-section .main-footer .links-bottom-box {
-    position: absolute;
-    bottom: 0;
-}
-
-.footer-wrapper .footer-section hr {
-    height: 1px;
-    color: rgba(255, 255, 255, 0.2);
-    margin: 0;
-}
-
-.footer-wrapper .footer-section .disclaimers {
-    margin: 40px 0;
-}
-
-.footer-wrapper .footer-section .disclaimers p {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    color: #E7E7E7;
-}
-
-.footer-wrapper .footer-section .disclaimers span {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 600;
-    color: #E7E7E7 !important;
-}
-
-.footer-wrapper .footer-section .footer-copy-right {
-    padding: 22px 0;
-}
-
-.footer-wrapper .footer-section .footer-copy-right .rights-note p {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-}
-
-.footer-wrapper .footer-section .footer-copy-right .social-icons>div {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media only screen and (min-width: 992px) {
-    .footer-wrapper .footer-section .main-footer .company-discr {
-        max-width: 415px;
-    }
-
-    .footer-wrapper .footer-section .main-footer {
-        margin-bottom: 60px;
-    }
-
-    .footer-wrapper .footer-section .main-footer .links-bottom-box {
-        right: 0;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .footer-wrapper .footer-section .main-footer .links-bottom-box {
-        width: 100%;
-        justify-content: space-between;
-    }
-}
-
-@media only screen and (min-width: 576px) {
-
-    .footer-wrapper .footer-section .main-footer .company-discr+.quick-links,
-    .footer-wrapper .footer-section .main-footer .company-discr+.company-docs,
-    .footer-wrapper .footer-section .main-footer .company-discr+.partnership {
-        padding-bottom: 70px;
-    }
-
-    .footer-wrapper .footer-section .main-footer {
-        margin-bottom: 40px;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-
-    .footer-wrapper .footer-section .main-footer .company-discr,
-    .footer-wrapper .footer-section .main-footer .quick-links,
-    .footer-wrapper .footer-section .main-footer .company-docs {
-        padding-bottom: 40px;
-    }
-
-
-    .footer-wrapper .footer-section .main-footer {
-        margin-bottom: 40px;
-    }
-}
-
-@media only screen and (min-width: 425px) {
-    .footer-wrapper .footer-section .main-footer .company-discr .get-app {
-        justify-content: space-between;
-    }
-}
-
-@media only screen and (max-width: 424px) {
-    .footer-wrapper .footer-section .main-footer .company-discr .get-app {
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    .footer-wrapper .footer-section .main-footer .links-bottom-box {
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (min-width: 320px) {}
-
-@media only screen and (max-width: 319px) {
-    .footer-wrapper .footer-section .main-footer .company-discr .get-app {
-        justify-content: start;
-    }
-
-    .footer-wrapper .footer-section .footer-copy-right {
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-}
-.app-main{
-  margin-bottom: 160px;
-} */
 /* Contact CSS */
 .contact-section{
   background-image: url("/assets/img/contact-bg.png");
@@ -3793,29 +3585,6 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 .mt5-hero-section{
   background: linear-gradient(90deg, #179C6D 0%, #19355F 100%);
   padding: 280px 0 140px 0;
-}
-@media only screen and (max-width: 768px) {
-  .contact-section h2, .mt5-hero-section h2{
-    font-size: 36px;
-    line-height: 44px;
-  }
-  .inquiry-section{
-    padding-bottom: 60px;
-  }
-  .app-main{
-    margin-bottom: 220px;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .inquiry-section img{
-    display: none;
-  }
-  .inquiry-section{
-    padding-bottom: 100px;
-  }
-  .app-main{
-    margin-bottom: 250px;
-  }
 }
 /* Contact CSS */
 
@@ -3923,96 +3692,6 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media only screen and (min-width: 1200px) {
-  .footer-wrapper .footer-section .main-footer .company-discr {
-      max-width: 415px;
-  }
-}
-
-@media only screen and (max-width: 1199px) {
-
-  .footer-wrapper .footer-section .main-footer .company-discr+div {
-      padding-bottom: 70px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-
-  .footer-wrapper .footer-section .main-footer {
-      margin-bottom: 60px;
-  }
-
-  .footer-wrapper .footer-section .main-footer .links-bottom-box {
-      right: 0;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .footer-wrapper .footer-section .main-footer .links-bottom-box {
-      width: 100%;
-      justify-content: space-between;
-  }
-}
-
-@media only screen and (min-width: 576px) {
-
-  .footer-wrapper .footer-section .main-footer {
-      margin-bottom: 40px;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-
-  .footer-wrapper .footer-section .main-footer .company-discr+div {
-      padding-bottom: 70px;
-  }
-
-  .footer-wrapper .footer-section .main-footer {
-      margin-bottom: 40px;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  .footer-wrapper .footer-section .main-footer .company-discr {
-      min-width: 415px;
-  }
-
-  .footer-wrapper .footer-section .main-footer .company-discr .get-app {
-      justify-content: space-between;
-  }
-}
-
-@media only screen and (max-width: 424px) {
-  .footer-wrapper .footer-section .main-footer .company-discr .get-app {
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-  }
-
-  .footer-wrapper .footer-section .main-footer .links-bottom-box {
-      gap: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-
-  .footer-wrapper .footer-section .main-footer .company-discr+div {
-      padding-bottom: 140px;
-  }
-}
-
-@media only screen and (min-width: 320px) {}
-
-@media only screen and (max-width: 319px) {
-  .footer-wrapper .footer-section .main-footer .company-discr .get-app {
-      justify-content: start;
-  }
-
-  .footer-wrapper .footer-section .footer-copy-right {
-      flex-wrap: wrap;
-      gap: 10px;
-  }
 }
 /* Footer CSS */
 /* Introducing Broker CSS */
@@ -4144,57 +3823,6 @@ footer{
   line-height: 24px;
   color: #666666;
 }
-
-@media only screen and (min-width: 992px) {
-  .about-page-wrapper .about-us-section .about-us .about-card {
-      max-width: 400px;
-  }
-}
-@media only screen and (max-width: 1280px) {
-  .own-business-section .list-box{
-    width: 90%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .own-business-section .list-box{
-    width: 100%;
-    padding-left: 16px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .introducing-broker-section h2{
-    font-size: 30px;
-    line-height: 40px;
-    margin-bottom: 10px;
-  }
-  .introducing-broker-section{
-    padding: 150px 0 70px 0;
-  }
-}
-@media only screen and (max-width: 425px) {
-  .introducing-broker-section h2{
-    font-size: 25px;
-  }
-  .ib-account-section .slider-box span{
-    font-size: 28px;
-    line-height: 38px;
-    color: #FFF;
-    width: 70px;
-    height: 70px;
-  }
-  .ib-account-section .slider-box{
-    padding-top: 60px !important;
-  }
-  .partner-section{
-    padding-bottom: 120px !important;
-  }
-  .partner-section .about-us .card-header{
-    flex-direction: column;
-  }
-  .partner-section .about-us .about-card p{
-    text-align: center !important;
-  }
-}
 /* Introducing Broker CSS */
 /* Forex CSS */
 .own-business-section .trading-box p{
@@ -4245,9 +3873,160 @@ footer{
   white-space: nowrap;
   overflow: auto;
 }
+/* Forex CSS */
+
+/* Media Query CSS */
+@media only screen and (max-width: 1280px) {
+  .own-business-section .list-box{
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .footer-wrapper .footer-section .main-footer .company-discr {
+      max-width: 415px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+
+  .footer-wrapper .footer-section .main-footer .company-discr+div {
+      padding-bottom: 70px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .footer-wrapper .footer-section .main-footer {
+    margin-bottom: 60px;
+  }
+  .footer-wrapper .footer-section .main-footer .links-bottom-box {
+    right: 0;
+  }
+  .about-page-wrapper .about-us-section .about-us .about-card {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .footer-wrapper .footer-section .main-footer .links-bottom-box {
+      width: 100%;
+      justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 576px) {
+
+  .footer-wrapper .footer-section .main-footer {
+      margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .introducing-broker-section h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .introducing-broker-section{
+    padding: 150px 0 70px 0;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .footer-wrapper .footer-section .main-footer .company-discr+div {
+    padding-bottom: 70px;
+  }
+  .footer-wrapper .footer-section .main-footer {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-heading h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+  .contact-section h2, .mt5-hero-section h2{
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .inquiry-section{
+    padding-bottom: 60px;
+  }
+  .app-main{
+    margin-bottom: 220px;
+  }
+  .trading-potential-section .trading-box h3{
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .trading-potential-section .trading-box .trading-img {
+    width: 55px;
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .own-business-section .list-box{
+    width: 100%;
+    padding-left: 16px;
+  }
+}
 @media only screen and (max-width: 425px) {
+  .inquiry-section img{
+    display: none;
+  }
   .trading-section{
     padding-bottom: 120px !important;
   }
+  .footer-wrapper .footer-section .main-footer .company-discr {
+    min-width: 415px;
+  }
+  .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+    justify-content: space-between;
+  }
+  .inquiry-section{
+    padding-bottom: 100px;
+  }
+  .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-wrapper .footer-section .main-footer .links-bottom-box {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-wrapper .footer-section .main-footer .company-discr+div {
+    padding-bottom: 140px;
+  }
+  .app-main{
+    margin-bottom: 250px;
+  }
+  .introducing-broker-section h2{
+    font-size: 25px;
+  }
+  .ib-account-section .slider-box span{
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFF;
+    width: 70px;
+    height: 70px;
+  }
+  .ib-account-section .slider-box{
+    padding-top: 60px !important;
+  }
+  .partner-section{
+    padding-bottom: 120px !important;
+  }
+  .partner-section .about-us .card-header{
+    flex-direction: column;
+  }
+  .partner-section .about-us .about-card p{
+    text-align: center !important;
+  }
 }
-/* Forex CSS */
+@media only screen and (max-width: 319px) {
+  .footer-wrapper .footer-section .main-footer .company-discr .get-app {
+    justify-content: start;
+  }
+  .footer-wrapper .footer-section .footer-copy-right {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+/* Media Query CSS */
