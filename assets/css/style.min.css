@@ -4196,3 +4196,30 @@ footer{
   }
 }
 /* Introducing Broker CSS */
+/* Forex CSS */
+.own-business-section .trading-box p{
+  color: #179C6D;
+}
+.own-business-section .trading-box h2{
+  max-width: 850px;
+  margin: 0 auto;
+}
+.explore-limitless-section h2{
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.competitive-forex-section h2{
+  max-width: 900px;
+}
+.competitive-forex-section .slider-btn a{
+  position: inherit;
+}
+.competitive-forex-section .slider-btn a::after{
+  content: "";
+}
+@media only screen and (max-width: 425px) {
+  .trading-section{
+    padding-bottom: 120px !important;
+  }
+}
+/* Forex CSS */
