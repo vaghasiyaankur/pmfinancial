@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zigzag Steps</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .step-card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            position: absolute;
+            top: -20px;
+            left: calc(50% - 20px);
+        }
+
+        .step-content {
+            margin-top: 30px;
+        }
+
+        .active {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .active .step-number {
+            background-color: #fff;
+            color: #007bff;
+        }
+
+        /* Zigzag Line */
+        .row:before,
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row:before,
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row {
+            position: relative;
+        }
+
+        .row:before {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .col-md-4 {
+            float: left;
+            width: 33.33333333%;
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .col-md-4:nth-child(odd):before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            width: 50%;
+            height: 2px;
+            background: #007bff;
+        }
+
+        .col-md-4:nth-child(even):before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 100%;
+            width: 50%;
+            height: 2px;
+            background: #007bff;
+        }
+
+        .col-md-4:last-child:before {
+            width: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 300px; width: 100%;"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="step-card active">
+                    <div class="step-number">1</div>
+                    <div class="step-content">Step 1 Content</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-content">Step 2 Content</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-content">Step 3 Content</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
