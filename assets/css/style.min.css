@@ -4474,20 +4474,19 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   max-width: 840px;
   color: #666666;
 }
-.refer-friend-outer-wrapper .recommendations-section .how-to-section {
-}
 .refer-friend-outer-wrapper .recommendations-section .how-to-section h3,
 .refer-friend-outer-wrapper .recommendations-section .how-to-section h4 {
   color: #333333;
 }
-.refer-friend-outer-wrapper .recommendations-section.step-card {
+.refer-friend-outer-wrapper .recommendations-section .step-card {
   display: flex;
   align-items: center;
-  margin-bottom: 150px;
   position: relative;
 }
-
-.refer-friend-outer-wrapper .recommendations-section.step-card .step-number {
+.refer-friend-outer-wrapper .recommendations-section .step-card:not(:last-child) {
+  margin-bottom: 150px;
+}
+.refer-friend-outer-wrapper .recommendations-section .step-card .step-number {
   max-width: 70px;
   width: 100%;
   height: 70px;
@@ -4503,44 +4502,48 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   border: 1px solid #96C3B366;
 }
 
-.refer-friend-outer-wrapper .recommendations-section.step-card .step-description {
+.refer-friend-outer-wrapper .recommendations-section .step-card .step-description {
   border-radius: 10px;
   position: relative;
 }
-.refer-friend-outer-wrapper .recommendations-section.step-card:first-child,
-.refer-friend-outer-wrapper .recommendations-section.step-card:nth-child(3){
+.refer-friend-outer-wrapper .recommendations-section .step-card:first-child,
+.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(3){
     max-width: 580px;
     left: 50px;
 }
-.refer-friend-outer-wrapper .recommendations-section.step-card:nth-child(2),
-.refer-friend-outer-wrapper .recommendations-section.step-card:last-child{
+.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(2),
+.refer-friend-outer-wrapper .recommendations-section .step-card:last-child{
     max-width: 643px;
     right: 100px;
 }
-.refer-friend-outer-wrapper .recommendations-section.step-card:first-child .step-description,
-.refer-friend-outer-wrapper .recommendations-section.step-card:nth-child(3) .step-description {
+.refer-friend-outer-wrapper .recommendations-section .step-card:first-child .step-description,
+.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(3) .step-description {
   margin-left: 190px;
   max-width: 643px;
 }
-.refer-friend-outer-wrapper .recommendations-section.step-card:nth-child(2) .step-description,
-.refer-friend-outer-wrapper .recommendations-section.step-card:last-child .step-description {
+.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(2) .step-description,
+.refer-friend-outer-wrapper .recommendations-section .step-card:last-child .step-description {
   margin-right: 190px;
   max-width: 643px;
 }
-.refer-friend-outer-wrapper .recommendations-section.step-card:first-child .step-number,
-.refer-friend-outer-wrapper .recommendations-section.step-card:nth-child(3) .step-number{
+.refer-friend-outer-wrapper .recommendations-section .step-card:first-child .step-number,
+.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(3) .step-number{
 left: 0;
-}
-.refer-friend-outer-wrapper .recommendations-section.step-card:nth-child(2) .step-number,
-.refer-friend-outer-wrapper .recommendations-section .step-card:last-child .step-number {
-  /* right: -50px; */
-  /* left: auto; */
 }
 /* .refer-friend-outer-wrapper .recommendations-section .step-card:first-child .step-description:before,
 .refer-friend-outer-wrapper .recommendations-section .step-card:last-child .step-description:before {
   border: none;
 } */
-.refer-friend-outer-wrapper .recommendations-section .how-to-section
+.refer-friend-outer-wrapper .recommendations-section .how-to-section button{
+  max-width: 240px;
+  width: 100%;
+  padding: 14px;
+  background-color: #179C6D;
+  margin: 50px 0 100px;
+}
+.refer-friend-outer-wrapper .recommendations-section .how-to-section button p{
+  color: #FFFFFF;
+}
 .refer-friend-outer-wrapper .recommendations-section .note-section {
   padding: 43px 50px;
   border-radius: 15px;
