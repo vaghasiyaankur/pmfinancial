@@ -2023,6 +2023,10 @@ iframe {
   padding: 10px 0;
   padding-right: 15px;
 }
+
+.collapse:not(.show) {
+  display: none;
+}
 .header-section .navbar .navbar-nav .navbar-nav li {
   padding: 5px 0;
 }

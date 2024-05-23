@@ -69,9 +69,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.collapse:not(.show) {
-    display: none;
-}
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
@@ -267,21 +264,7 @@
         padding: 0 80px;
     }
 }
-@media (max-width: 1399px){
-    .header-section .navbar{
-        max-width: 1370px;
-    }
-    .main-outer-wrapper .header-section{
-        padding: 0 15px;
-    }
-    .navbar .right-area .single-item:first-child{
-        display: none;
-    }
-}
 @media (max-width: 1199px){
-    .header-section .navbar{
-        max-width: 1170px;
-    }
     .trading-potential-section .swiper-button-next, .trading-potential-section .swiper-button-prev {
         position: absolute;
         top: 65%;
@@ -291,15 +274,6 @@
     }
     .swiper-button-next, .swiper-rtl .swiper-button-prev{
         right: -10px;
-    }
-    .navbar-expand-lg .navbar-collapse {
-        display: none !important;
-    }
-}
-@media screen and (min-width : 1200px) {    
-    .navbar-expand-lg .navbar-collapse {
-        display: flex !important;
-        flex-basis: auto;
     }
 }
 @media (min-width: 992px){
@@ -314,9 +288,6 @@
     }
 }
 @media (max-width: 991px){
-    .header-section .navbar{
-        max-width: 962px;
-    }
     .about-heading-content{
         width: 100% !important;
     }
