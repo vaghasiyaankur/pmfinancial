@@ -4200,3 +4200,58 @@ footer{
   }
 }
 /* Introducing Broker CSS */
+/* Forex CSS */
+.own-business-section .trading-box p{
+  color: #179C6D;
+}
+.own-business-section .trading-box h2{
+  max-width: 850px;
+  margin: 0 auto;
+}
+.explore-limitless-section h2{
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.competitive-forex-section h2{
+  max-width: 900px;
+}
+.competitive-forex-section .slider-btn a{
+  position: inherit;
+}
+.competitive-forex-section .slider-btn a::after{
+  content: "";
+}
+.competitive-forex-section table thead tr{
+  background: rgb(185 185 185 / 25%);
+}
+.competitive-forex-section table thead tr th{
+  border: 1px solid rgb(185 185 185 / 40%);
+  padding: 13px 20px;
+}
+.competitive-forex-section table .trading-up{
+  color: #179C6D;
+}
+.competitive-forex-section table .trading-down{
+  color: #EC0000;
+}
+.competitive-forex-section table td{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  border: 1px solid rgb(185 185 185 / 40%);
+  padding: 15px 20px;
+}
+.competitive-forex-section table{
+  color: #333333;
+  border-collapse: collapse;
+}
+.table-div{
+  white-space: nowrap;
+  overflow: auto;
+}
+@media only screen and (max-width: 425px) {
+  .trading-section{
+    padding-bottom: 120px !important;
+  }
+}
+/* Forex CSS */
