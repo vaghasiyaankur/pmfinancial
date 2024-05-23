@@ -60,11 +60,54 @@
             background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%), url('/assets/img/about-bg.png');
             background-size: 100% !important;
             background-position: top;
-            height: 542px;
+        }
+
+        .about-page-wrapper .about-page-banner-section .about-sec-btns a {
+            text-decoration: none;
+            max-width: 300px;
+            width: 100%;
+        }
+
+        .about-page-wrapper .about-page-banner-section .about-sec-btns .btn-global-dark-blue {
+            max-width: 300px;
+            width: 100%;
+            padding: 18px;
+            background-image: linear-gradient(45deg, #179C6D 25%, #64CC9C 51%, #19355F 100%);
+            border: 1px solid #19355F;
+            text-transform: capitalize;
+            border-radius: 20px;
+            color: #fff;
+            transition: 0.5s;
+            background-size: 200% auto;
+            display: block;
+            box-shadow: 0px 0px 14px -7px #19355F;
+            cursor: pointer;
+            text-transform: capitalize;
+            text-shadow: 1px 2px 4px #00000038;
+            font-weight: bolder;
+        }
+
+        .about-page-wrapper .about-page-banner-section .about-sec-btns .btn-global:hover {
+            background-position: right center;
+            color: white;
+            text-decoration: none !important;
+            transition: 0.5s;
+        }
+        .about-page-wrapper .about-us-section .section-heading{
+            margin-top: 50px;
+        }
+        .about-page-wrapper .about-us-section .section-heading p {
+            font-weight: 500;
+            color: #666666;
         }
 
         .about-page-wrapper .about-us-section .about-us {
-            padding: 100px 0 230px;
+            padding: 50px 0;
+        }
+
+        .about-page-wrapper .about-us-section .about-us .about-summery {
+            font-weight: 400;
+            color: #666666;
         }
 
         .about-page-wrapper .about-us-section .about-us .about-card {
@@ -86,15 +129,83 @@
         }
 
         .about-page-wrapper .about-us-section .about-us .about-card p {
-            font-size: 16px;
             font-weight: 400;
-            line-height: 24px;
+            color: #666666;
+        }
+        .about-page-wrapper .about-us-section .about-us-detail{
+            padding-bottom: 50px;
+        }
+        .about-page-wrapper .about-us-section .about-us-detail h2 {
+            font-weight: 600;
+            color: #333333;
+        }
+
+        .about-page-wrapper .about-us-section .about-us-detail h6 {
+            font-weight: 600;
+            color: #666666;
+            text-transform: uppercase;
+        }
+
+        .about-page-wrapper .about-us-section .about-us-detail p {
+            font-weight: 400;
             color: #666666;
         }
 
+
         @media only screen and (min-width: 992px) {
+            .about-page-wrapper .about-page-banner-section {
+                padding: 200px 0 150px;
+            }
+
+            .about-page-wrapper .about-page-banner-section h1 {
+                line-height: 1.2;
+            }
+
+            .about-page-wrapper p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+
             .about-page-wrapper .about-us-section .about-us .about-card {
                 max-width: 400px;
+            }
+        }
+
+        @media only screen and (max-width: 991px) {
+            .about-page-wrapper .about-page-banner-section {
+                padding: 150px 0 100px;
+            }
+
+            .about-page-wrapper .about-page-banner-section h1 {
+                line-height: 1.2;
+            }
+
+            .about-page-wrapper p {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .about-page-wrapper .about-page-banner-section .about-sec-btns a {
+                max-width: 200px;
+            }
+
+            .about-page-wrapper .about-page-banner-section .about-sec-btns .btn-global-dark-blue {
+                max-width: 200px;
+                padding: 14px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .about-page-wrapper .about-page-banner-section {
+                padding: 150px 0 50px;
+            }
+
+        }
+
+        @media only screen and (max-width: 576px) {
+            .about-page-wrapper p {
+                font-size: 12px;
+                line-height: 16px;
             }
         }
 
@@ -272,7 +383,7 @@
                 flex-wrap: wrap;
                 justify-content: center;
             }
- 
+
         }
 
         @media only screen and (min-width: 320px) {}
@@ -467,8 +578,57 @@
         </header>
         <!-- header-section end -->
         <div class="about-page-wrapper">
-            <div class="about-page-banner-section w-100"></div>
+            <div class="about-page-banner-section w-100 d-flex justify-content-center">
+                <div class="container">
+                    <h1 class="text-white text-center mb-2">
+                        PM financials Limited
+                    </h1>
+                    <p class="text-white text-center mb-4">
+                        PM Financials Limited stands as a prominent international broker, specializing in CFD and
+                        currency trading, boasting a diverse portfolio of over 300 products. Our advanced online trading
+                        platform delivers exceptional order execution with minimal spreads and commission-free trades,
+                        serving both individual and corporate investors, alongside money managers, banks, and financial
+                        institutions.
+                    </p>
+                    <div class="about-sec-btns row justify-content-center align-items-center pt-5 pt-md-0">
+
+                        <div class="col-md-3 mb-2 mb-md-0">
+
+                            <div class="d-flex justify-content-center">
+
+                                <a href="https://cp.pmfinancials.mu/"><button
+                                        class="btn-global btn-global-dark-blue">Start Trading</button></a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="d-flex justify-content-center">
+
+                                <a href="https://cp.pmfinancials.mu/"><button
+                                        class="btn-global btn-global-dark-blue">Try Demo</button></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             <div class="about-us-section text-center">
+                <div class="container">
+                    <div class="section-heading">
+                        <p class="text-start">
+                            We built FXTM because we thought trading was too exciting to be kept for the few. As traders
+                            ourselves, we recognized the potential of the internet to equalize opportunities for those
+                            willing to take some risk and dedicate time to learning. We set forth five guiding
+                            principles to
+                            extend opportunities globally.
+                        </p>
+                    </div>
+                </div>
                 <div class="container">
                     <div class="about-us w-100 mx-auto d-flex flex-column gap-10">
                         <div class="row gap-6 gap-xl-8 gap-xxl-11">
@@ -618,6 +778,35 @@
                                 </p>
                             </div>
                         </div>
+                        <p class="about-summery">
+                            With PM Your Trading Is Equally Protected & Monitored
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="about-us-detail">
+                        <h2 class="text-start mb-4">
+                            Technology + Expertise = Winning Trade
+                        </h2>
+                        <p class="text-start mb-4">
+                            PM Financials Ltd has emerged as a leading global online trading broker, offering
+                            competitive
+                            spreads and commissions across a range of assets including currencies, commodities, and
+                            global
+                            equities. Founded by financial market pros, our mission is to deliver great online trade
+                            execution services to both individual and corporate traders. Our user-friendly trading
+                            applications and technology focus on spot, futures, and contract for difference (CFDs),
+                            ensuring
+                            an easy order placement. With ultra-fast trade execution and minimal delays or re-quotes,
+                            our
+                            customers enjoy a host of benefits unmatched in the industry.
+                        </p>
+                        <p class="text-start mb-2">
+                            Our greatest asset lies in our professional staff, who possess a deep understanding of our
+                            business operations and prioritize the best interests of our clients. Available 24/5, our
+                            dedicated team is ready to address your concerns.
+
+                        </p>
                     </div>
                 </div>
             </div>
@@ -628,14 +817,8 @@
                     <div class="ready-to-start-section position-relative">
                         <div class="row align-items-center">
                             <div class="col-xxl-8 px-0">
-                                <h3 class="text-xxl-start text-center text-white mb-4 text-capitalize">Ready To
-                                    Start
-                                    Trading?</h3>
-                                <p class="text-xxl-start text-center text-uppercase">EVERYTHING YOU NEED TO TRADE
-                                    FOREX
-                                    &
-                                    CFDS WORLDWIDE
-                                    WITH PM FINANCIALS</p>
+                                <h3 class="text-xxl-start text-center text-white mb-4 text-capitalize">Ready to make this your Day 1?</h3>
+                                <p class="text-xxl-start text-center text-uppercase">EXPAND YOUR HORIZON WITH PM FINANCIAL LIMITED</p>
                             </div>
                             <div class="col-xxl-4 px-0 pt-5 pt-xxl-0">
                                 <div
