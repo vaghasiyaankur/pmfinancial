@@ -3517,7 +3517,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   margin-top: 100px;  
 }
 
-.footer-wrapper .footer-section {
+/* .footer-wrapper .footer-section {
   background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
 }
 
@@ -3701,7 +3701,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 }
 .app-main{
   margin-bottom: 160px;
-}
+} */
 /* Contact CSS */
 .contact-section{
   background-image: url("/assets/img/contact-bg.png");
@@ -4015,3 +4015,184 @@ footer{
   }
 }
 /* Footer CSS */
+/* Introducing Broker CSS */
+.introducing-broker-section{
+  background: linear-gradient(90deg, #179C6D 0%, #19355F 100%);
+  padding: 220px 0 70px 0;
+}
+.introducing-broker-section a{
+  max-width: fit-content;
+}
+.introducing-broker-section h2{
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 54px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.introducing-broker-section p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #F9F9F9;
+  max-width: 610px;
+}
+.own-business-section p{
+  color: #333333;
+}
+.own-business-section a{
+  max-width: fit-content;
+}
+.own-business-section ul li{
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  margin: 10px 0;
+  list-style: disc !important;
+}
+.own-business-section .list-box{
+  width: 70%;
+  float: right;
+}
+.ib-account-section{
+  background: linear-gradient(99.85deg, #19355F 38.1%, #1F447C 70.59%, #2A60AF 100%);
+}
+.ib-account-section .slider-box h2{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.ib-account-section .slider-box p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+  min-height: 120px;
+}
+.ib-account-section .slider-box{
+  position: relative;
+  border-radius: 10px;
+  padding-top: 65px !important;
+}
+.ib-account-section .swiper-slide{
+  padding-top: 40px;
+}
+.ib-account-section a{
+  position: inherit;
+}
+.ib-account-section a::after{
+  content: "";
+}
+.ib-account-section .slider-btn a{
+  border: 1px solid #FFFFFF;
+}
+.ib-account-section .slider-btn a svg{
+  color: #FFFFFF;
+}
+.ib-account-section .slider-box span{
+  font-size: 32px;
+    line-height: 42px;
+    color: #FFF;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #226DDC 0%, #104BA0 100%);
+    box-shadow: 0px 1.22px 1.77px 0px #09389613,0px 3.38px 4.88px 0px #0938961B,0px 8.14px 11.76px 0px #09389623,0px 27px 39px 0px #09389636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about-page-wrapper {
+  background-color: #FFFFFF;
+}
+
+.about-page-wrapper .about-page-banner-section {
+  background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%), url('/assets/img/about-bg.png');
+  background-size: 100% !important;
+  background-position: top;
+  height: 542px;
+}
+.about-page-wrapper .about-us-section .about-us .about-card {
+  box-shadow: 0px 1px 4.17px 0px #B2B2B209, 0px 2.75px 11.52px 0px #B2B2B20D, 0px 6.63px 27.74px 0px #B2B2B211, 0px 22px 92px 0px #B2B2B21A;
+  border-radius: 10px;
+}
+.about-page-wrapper .section-heading h2{
+  max-width: none;
+}
+.about-page-wrapper .about-us-section .about-us .about-card .card-header .title-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #179C6D;
+}
+
+.about-page-wrapper .about-us-section .about-us .about-card .card-header h3 {
+  font-weight: 600;
+  line-height: 36px;
+  color: #333333;
+}
+
+.about-page-wrapper .about-us-section .about-us .about-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+
+@media only screen and (min-width: 992px) {
+  .about-page-wrapper .about-us-section .about-us .about-card {
+      max-width: 400px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .own-business-section .list-box{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .own-business-section .list-box{
+    width: 100%;
+    padding-left: 16px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .introducing-broker-section h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  .introducing-broker-section{
+    padding: 150px 0 70px 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .introducing-broker-section h2{
+    font-size: 25px;
+  }
+  .ib-account-section .slider-box span{
+    font-size: 28px;
+    line-height: 38px;
+    color: #FFF;
+    width: 70px;
+    height: 70px;
+  }
+  .ib-account-section .slider-box{
+    padding-top: 60px !important;
+  }
+  .partner-section{
+    padding-bottom: 120px !important;
+  }
+  .partner-section .about-us .card-header{
+    flex-direction: column;
+  }
+  .partner-section .about-us .about-card p{
+    text-align: center !important;
+  }
+}
+/* Introducing Broker CSS */
