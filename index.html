@@ -1,589 +1,423 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
 
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <!-- required meta -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- #keywords -->
-    <meta name="keywords" content="boot, Bootstrap, Forex and Stock Broker HTML Template">
-    <!-- #description -->
-    <meta name="description" content="Forex and Stock Broker HTML Template">
-    <!-- #title -->
-    <title>tradez - Forex and Stock Broker HTML Template</title>
-    <!-- #favicon -->
-    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
-    <!-- ==== css dependencies start ==== -->
-    <link rel="stylesheet" href="assets\css\tabler-icons.min.css">
+    <link rel="shortcut icon"
+        href="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/themes/fxvibe/assets/images/favicon.ico"
+        type="image/x-icon">
+    <link rel="icon" href="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/themes/fxvibe/assets/images/favicon.ico"
+        type="image/x-icon">
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PM Financials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/odometer-min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
 </head>
 
+
 <body>
-    <!--  Preloader  -->
-    <div class="preloader">
-        <span class="loader"></span>
-    </div>
-    <!-- end preloader -->
 
     <!-- Scroll To Top Start-->
-    <button class="scrollToTop d-none d-md-flex d-center rounded" aria-label="scroll Bar Button"><i
-            class="mat-icon fs-four nb4-color ti ti-arrow-up"></i></button>
+    <button type="button" class="scroll-top scroll-to-target" id="btn-back-to-top" data-target="html">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
     <!-- Scroll To Top End -->
-
-    <!-- Start Custom Cursor -->
-    <div class="mouse-follower">
-        <span class="cursor-outline"></span>
-        <span class="cursor-dot"></span>
-    </div>
-    <!-- End Custom Cursor -->
-<div class="outer-wrapper">
-    <!-- header-section start -->
-    <header class="header-section a2-bg-0 header-section--secondary header-menu w-100 d-center">
-        <div class="outer-container d-center">
-            <nav class="navbar a2-lg-bg py-0 navbar-expand-lg w-100 justify-content-between ">
-                <div class="d-flex align-items-center gap-1 gap-lg-2 gap-xxl-3">
-                    <div class="d-flex align-items-center w-10">
-                        <button class="navbar-toggler ms-4" type="button" data-bs-toggle="collapse"
-                            aria-label="Navbar Toggler" data-bs-target="#navbar-content" aria-expanded="true"
-                            id="nav-icon3">
-                            <span></span><span></span><span></span><span></span>
-                        </button>
-                        <a href="index.html" class="navbar-brand m-0 p-0 d-flex align-items-center gap-5 gap-xl-5 me-2">
-                            <svg class="brand-logo" width="119" height="68" viewBox="0 0 119 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1_43)">
-                                <path d="M41.4546 49.6291V25.8046L57.2477 10.5618L46.5039 8.54897L47.2628 7.17809L60.7983 9.67777L43.1025 26.8138V45.8075L45.8074 43.8165L46.054 45.9381L41.4546 49.6291Z" fill="white"/>
-                                <path d="M48.5286 39.5869H46.8807V28.7422L69.3168 7.0992L43.0754 2.33104L43.1025 4.43904L41.4546 3.51968V0L73.0408 6.04656L48.5286 29.7541V39.5869Z" fill="white"/>
-                                <path d="M61.0937 50.407L54.2962 42.5843V29.92L61.0937 23.392V50.407ZM55.944 41.975L59.4458 46.0061V27.5128L55.944 30.9237V41.975Z" fill="white"/>
-                                <path d="M73.7997 48.0651L72.1491 46.6181L72.141 15.2402L68.3059 18.9774V42.4837L66.658 40.8299V18.1261L73.7997 11.1194V48.0651Z" fill="white"/>
-                                <path d="M0 57.4709H4.75935C5.89588 57.4709 6.81379 57.7755 7.51305 58.3848C7.857 58.6811 8.12994 59.0514 8.31154 59.4681C8.49314 59.8849 8.57874 60.3374 8.56195 60.792C8.57904 61.2526 8.49378 61.7112 8.31236 62.1346C8.13094 62.558 7.8579 62.9356 7.51305 63.24C6.81379 63.8638 5.89137 64.1748 4.7458 64.173H2.21163V67.7906H0V57.4709ZM4.64552 62.3179C5.08254 62.3424 5.51284 62.2017 5.85162 61.9235C6.00054 61.786 6.11737 61.6172 6.19374 61.4291C6.27011 61.241 6.30414 61.0383 6.2934 60.8355C6.30283 60.6329 6.2682 60.4306 6.19191 60.2427C6.11563 60.0548 5.99951 59.8858 5.85162 59.7475C5.5131 59.4686 5.08286 59.327 4.64552 59.3504H2.20621V62.3424L4.64552 62.3179Z" fill="white"/>
-                                <path d="M21.2057 57.4709V67.7878H19.0103L19.0672 60.8355L15.9259 65.329H15.3215L12.2236 60.9498L12.2778 67.7878H10.0824V57.4709H12.3347L15.6305 62.4594L18.8829 57.4709H21.2057Z" fill="white"/>
-                                <path d="M27.0356 57.4709H34.8522V59.3232H29.2472V61.9099H34.3156V63.7595H29.2472V67.7878H27.0356V57.4709Z" fill="white"/>
-                                <path d="M36.6248 57.4709H38.8368V67.7878H36.6248V57.4709Z" fill="white"/>
-                                <path d="M50.6833 57.4709V67.7878H48.4879L43.2353 60.9062L43.2488 67.7878H41.0372V57.4709H43.2353L48.4879 64.4259V57.4709H50.6833Z" fill="white"/>
-                                <path d="M56.2395 57.4709H58.4945L62.9448 67.7878H60.5652L59.7195 65.7669H55.0713L54.2582 67.7878H51.8758L56.2395 57.4709ZM58.9715 63.92L57.367 60.0059L55.7895 63.92H58.9715Z" fill="white"/>
-                                <path d="M73.8295 57.4709V67.7878H71.6315L66.3788 60.9062L66.3924 67.7878H64.1835V57.4709H66.3788L71.6315 64.4259V57.4709H73.8295Z" fill="white"/>
-                                <path d="M77.0115 66.523C75.987 65.5384 75.4847 64.241 75.5045 62.6307C75.4865 61.0205 75.9888 59.7221 77.0115 58.7357C78.0342 57.7492 79.3894 57.2578 81.077 57.2614C82.3599 57.2573 83.6218 57.5882 84.7387 58.2216L84.1343 60.0712C83.2355 59.5243 82.204 59.2364 81.1529 59.2389C80.6976 59.2217 80.2436 59.297 79.8181 59.4603C79.3925 59.6235 79.0042 59.8714 78.6765 60.1889C78.3487 60.5065 78.0883 60.8872 77.9108 61.3083C77.7332 61.7293 77.6423 62.182 77.6434 62.6392C77.6445 63.0964 77.7376 63.5487 77.9171 63.9689C78.0967 64.3891 78.359 64.7685 78.6882 65.0845C79.0175 65.4005 79.407 65.6464 79.8333 65.8076C80.2596 65.9688 80.714 66.0419 81.1691 66.0226C82.221 66.0148 83.2512 65.7215 84.1505 65.1739L84.7549 67.0262C83.6353 67.6666 82.3684 68.0023 81.0797 68C79.3921 68 78.036 67.5077 77.0115 66.523Z" fill="white"/>
-                                <path d="M86.3188 57.4709H88.5308V67.7878H86.3188V57.4709Z" fill="white"/>
-                                <path d="M94.1056 57.4709H96.3578L100.808 67.7878H98.4285L97.5721 65.7669H92.9374L92.1243 67.7878H89.7392L94.1056 57.4709ZM96.8376 63.92L95.2331 60.0059L93.6556 63.92H96.8376Z" fill="white"/>
-                                <path d="M102.047 57.4709H104.259V65.9355H109.565V67.7878H102.047V57.4709Z" fill="white"/>
-                                <path d="M110.679 66.9392L111.3 65.0189C112.38 65.6854 113.621 66.0419 114.888 66.0498C115.349 66.0717 115.808 65.9723 116.219 65.7614C116.379 65.6745 116.51 65.5441 116.599 65.3852C116.688 65.2264 116.73 65.0457 116.721 64.8638C116.717 64.6983 116.663 64.5378 116.566 64.4037C116.469 64.2696 116.334 64.1683 116.179 64.1131C115.49 63.8486 114.781 63.6412 114.059 63.4929C113.701 63.4086 113.392 63.3216 113.129 63.2373C112.831 63.1374 112.54 63.0127 112.262 62.8646C111.975 62.719 111.713 62.528 111.487 62.2989C111.27 62.0598 111.099 61.7833 110.98 61.4829C110.841 61.1327 110.772 60.7583 110.777 60.3813C110.756 59.9305 110.85 59.4819 111.05 59.0775C111.25 58.6731 111.548 58.3262 111.918 58.0693C112.68 57.5253 113.674 57.2533 114.899 57.2533C116.149 57.2508 117.381 57.5513 118.49 58.1291L117.802 59.9515C116.87 59.4357 115.823 59.1635 114.758 59.16C114.322 59.1367 113.887 59.2306 113.498 59.432C113.362 59.5022 113.248 59.6097 113.17 59.742C113.091 59.8744 113.052 60.0262 113.056 60.18C113.058 60.3409 113.107 60.4978 113.197 60.6309C113.287 60.764 113.414 60.8674 113.563 60.928C114.126 61.1719 114.714 61.3543 115.317 61.472C115.731 61.5645 116.078 61.6542 116.36 61.744C116.692 61.8503 117.017 61.9803 117.33 62.1329C117.651 62.2785 117.948 62.472 118.211 62.7069C118.449 62.9403 118.641 63.2173 118.775 63.5229C118.934 63.8813 119.013 64.2703 119.005 64.6625C119.021 65.1385 118.92 65.611 118.71 66.038C118.5 66.4651 118.188 66.8335 117.802 67.1105C116.996 67.7035 115.969 68 114.72 68C113.307 67.9843 111.919 67.62 110.679 66.9392Z" fill="white"/>
-                                </g>
-                                <defs>
-                                <clipPath id="clip0_1_43">
-                                <rect width="119" height="68" fill="white"/>
-                                </clipPath>
-                                </defs>
+    <div class="main-outer-wrapper">
+        <!-- header-section start -->
+        <header class="header-section a2-bg-0 header-section--secondary header-menu w-100 d-center">
+            <div class="outer-container d-center w-100">
+                <nav class="navbar a2-lg-bg py-0 navbar-expand-lg w-100 justify-content-between ">
+                    <div class="d-flex align-items-center w-100 justify-content-between gap-1 gap-lg-2 gap-xxl-3">
+                        <div class="d-flex justify-content-between align-items-center w-10">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                aria-label="Toggle navigation">
+                                <span></span><span></span><span></span><span></span>
+                            </button>
+                            <a href="index.html"
+                                class="navbar-brand m-0 p-0 d-flex align-items-center gap-5 gap-xl-5 me-2">
+                                <svg class="brand-logo" width="119" height="68" viewBox="0 0 119 68" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_1_43)">
+                                        <path
+                                            d="M41.4546 49.6291V25.8046L57.2477 10.5618L46.5039 8.54897L47.2628 7.17809L60.7983 9.67777L43.1025 26.8138V45.8075L45.8074 43.8165L46.054 45.9381L41.4546 49.6291Z"
+                                            fill="white" />
+                                        <path
+                                            d="M48.5286 39.5869H46.8807V28.7422L69.3168 7.0992L43.0754 2.33104L43.1025 4.43904L41.4546 3.51968V0L73.0408 6.04656L48.5286 29.7541V39.5869Z"
+                                            fill="white" />
+                                        <path
+                                            d="M61.0937 50.407L54.2962 42.5843V29.92L61.0937 23.392V50.407ZM55.944 41.975L59.4458 46.0061V27.5128L55.944 30.9237V41.975Z"
+                                            fill="white" />
+                                        <path
+                                            d="M73.7997 48.0651L72.1491 46.6181L72.141 15.2402L68.3059 18.9774V42.4837L66.658 40.8299V18.1261L73.7997 11.1194V48.0651Z"
+                                            fill="white" />
+                                        <path
+                                            d="M0 57.4709H4.75935C5.89588 57.4709 6.81379 57.7755 7.51305 58.3848C7.857 58.6811 8.12994 59.0514 8.31154 59.4681C8.49314 59.8849 8.57874 60.3374 8.56195 60.792C8.57904 61.2526 8.49378 61.7112 8.31236 62.1346C8.13094 62.558 7.8579 62.9356 7.51305 63.24C6.81379 63.8638 5.89137 64.1748 4.7458 64.173H2.21163V67.7906H0V57.4709ZM4.64552 62.3179C5.08254 62.3424 5.51284 62.2017 5.85162 61.9235C6.00054 61.786 6.11737 61.6172 6.19374 61.4291C6.27011 61.241 6.30414 61.0383 6.2934 60.8355C6.30283 60.6329 6.2682 60.4306 6.19191 60.2427C6.11563 60.0548 5.99951 59.8858 5.85162 59.7475C5.5131 59.4686 5.08286 59.327 4.64552 59.3504H2.20621V62.3424L4.64552 62.3179Z"
+                                            fill="white" />
+                                        <path
+                                            d="M21.2057 57.4709V67.7878H19.0103L19.0672 60.8355L15.9259 65.329H15.3215L12.2236 60.9498L12.2778 67.7878H10.0824V57.4709H12.3347L15.6305 62.4594L18.8829 57.4709H21.2057Z"
+                                            fill="white" />
+                                        <path
+                                            d="M27.0356 57.4709H34.8522V59.3232H29.2472V61.9099H34.3156V63.7595H29.2472V67.7878H27.0356V57.4709Z"
+                                            fill="white" />
+                                        <path d="M36.6248 57.4709H38.8368V67.7878H36.6248V57.4709Z" fill="white" />
+                                        <path
+                                            d="M50.6833 57.4709V67.7878H48.4879L43.2353 60.9062L43.2488 67.7878H41.0372V57.4709H43.2353L48.4879 64.4259V57.4709H50.6833Z"
+                                            fill="white" />
+                                        <path
+                                            d="M56.2395 57.4709H58.4945L62.9448 67.7878H60.5652L59.7195 65.7669H55.0713L54.2582 67.7878H51.8758L56.2395 57.4709ZM58.9715 63.92L57.367 60.0059L55.7895 63.92H58.9715Z"
+                                            fill="white" />
+                                        <path
+                                            d="M73.8295 57.4709V67.7878H71.6315L66.3788 60.9062L66.3924 67.7878H64.1835V57.4709H66.3788L71.6315 64.4259V57.4709H73.8295Z"
+                                            fill="white" />
+                                        <path
+                                            d="M77.0115 66.523C75.987 65.5384 75.4847 64.241 75.5045 62.6307C75.4865 61.0205 75.9888 59.7221 77.0115 58.7357C78.0342 57.7492 79.3894 57.2578 81.077 57.2614C82.3599 57.2573 83.6218 57.5882 84.7387 58.2216L84.1343 60.0712C83.2355 59.5243 82.204 59.2364 81.1529 59.2389C80.6976 59.2217 80.2436 59.297 79.8181 59.4603C79.3925 59.6235 79.0042 59.8714 78.6765 60.1889C78.3487 60.5065 78.0883 60.8872 77.9108 61.3083C77.7332 61.7293 77.6423 62.182 77.6434 62.6392C77.6445 63.0964 77.7376 63.5487 77.9171 63.9689C78.0967 64.3891 78.359 64.7685 78.6882 65.0845C79.0175 65.4005 79.407 65.6464 79.8333 65.8076C80.2596 65.9688 80.714 66.0419 81.1691 66.0226C82.221 66.0148 83.2512 65.7215 84.1505 65.1739L84.7549 67.0262C83.6353 67.6666 82.3684 68.0023 81.0797 68C79.3921 68 78.036 67.5077 77.0115 66.523Z"
+                                            fill="white" />
+                                        <path d="M86.3188 57.4709H88.5308V67.7878H86.3188V57.4709Z" fill="white" />
+                                        <path
+                                            d="M94.1056 57.4709H96.3578L100.808 67.7878H98.4285L97.5721 65.7669H92.9374L92.1243 67.7878H89.7392L94.1056 57.4709ZM96.8376 63.92L95.2331 60.0059L93.6556 63.92H96.8376Z"
+                                            fill="white" />
+                                        <path d="M102.047 57.4709H104.259V65.9355H109.565V67.7878H102.047V57.4709Z"
+                                            fill="white" />
+                                        <path
+                                            d="M110.679 66.9392L111.3 65.0189C112.38 65.6854 113.621 66.0419 114.888 66.0498C115.349 66.0717 115.808 65.9723 116.219 65.7614C116.379 65.6745 116.51 65.5441 116.599 65.3852C116.688 65.2264 116.73 65.0457 116.721 64.8638C116.717 64.6983 116.663 64.5378 116.566 64.4037C116.469 64.2696 116.334 64.1683 116.179 64.1131C115.49 63.8486 114.781 63.6412 114.059 63.4929C113.701 63.4086 113.392 63.3216 113.129 63.2373C112.831 63.1374 112.54 63.0127 112.262 62.8646C111.975 62.719 111.713 62.528 111.487 62.2989C111.27 62.0598 111.099 61.7833 110.98 61.4829C110.841 61.1327 110.772 60.7583 110.777 60.3813C110.756 59.9305 110.85 59.4819 111.05 59.0775C111.25 58.6731 111.548 58.3262 111.918 58.0693C112.68 57.5253 113.674 57.2533 114.899 57.2533C116.149 57.2508 117.381 57.5513 118.49 58.1291L117.802 59.9515C116.87 59.4357 115.823 59.1635 114.758 59.16C114.322 59.1367 113.887 59.2306 113.498 59.432C113.362 59.5022 113.248 59.6097 113.17 59.742C113.091 59.8744 113.052 60.0262 113.056 60.18C113.058 60.3409 113.107 60.4978 113.197 60.6309C113.287 60.764 113.414 60.8674 113.563 60.928C114.126 61.1719 114.714 61.3543 115.317 61.472C115.731 61.5645 116.078 61.6542 116.36 61.744C116.692 61.8503 117.017 61.9803 117.33 62.1329C117.651 62.2785 117.948 62.472 118.211 62.7069C118.449 62.9403 118.641 63.2173 118.775 63.5229C118.934 63.8813 119.013 64.2703 119.005 64.6625C119.021 65.1385 118.92 65.611 118.71 66.038C118.5 66.4651 118.188 66.8335 117.802 67.1105C116.996 67.7035 115.969 68 114.72 68C113.307 67.9843 111.919 67.62 110.679 66.9392Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_1_43">
+                                            <rect width="119" height="68" fill="white" />
+                                        </clipPath>
+                                    </defs>
                                 </svg>
-                                
-                            <!-- <img src="assets\img\White_Logo.png" class="logo small_logo d-sm-none" alt="logo">
+
+                                <!-- <img src="assets\img\White_Logo.png" class="logo small_logo d-sm-none" alt="logo">
                             <img src="assets\img\White_Logo.png" class="logo d-none d-sm-flex" alt="logo"> -->
-                        </a>
-                    </div>
-                    <div class="nav_alt">
-                        <div class="right-area position-relative ms-0 d-center gap-1 gap-xl-4 d-lg-none">
-                            <div class="single-item">
-                                <a href="partnership.html"
-                                    class="rotate_eff flex-nowrap py-1 px-2 px-xl-3 d-center gap-1 fw-bold nw1-color">
-                                    Partnership <i class="ti ti-arrow-right fs-six-up"></i></a>
-                            </div>
-                            <div class="single-item">
-                                <a href="portal_login.html"
-                                    class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"> Portal
-                                    Login <i class="ti ti-arrow-right fw-semibold fs-six-up"></i></a>
-                            </div>
-                            <div class="single-item">
-                                <a href="start_trading.html"
-                                    class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"> Start
-                                    Trading <i class="ti ti-arrow-right fw-semibold fs-six-up"></i></a>
+                            </a>
+                        </div>
+                        <div class="nav_alt">
+                            <div class="right-area position-relative ms-0 d-center gap-1 gap-xl-4 d-lg-none">
+                                <div class="single-item">
+                                    <a href="partnership.html"
+                                        class="rotate_eff flex-nowrap py-1 px-2 px-xl-3 d-center gap-1 fw-bold nw1-color">
+                                        Partnership <i class="ti ti-arrow-right fs-six-up"></i></a>
+                                </div>
+                                <div class="single-item">
+                                    <a href="portal_login.html"
+                                        class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1">
+                                        Portal
+                                        Login <i class="ti ti-arrow-right fw-semibold fs-six-up"></i></a>
+                                </div>
+                                <div class="single-item start_trending">
+                                    <a href="start_trending.html"
+                                        class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1">
+                                        Start
+                                        Trading <i class="ti ti-arrow-right fw-semibold fs-six-up"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="collapse navbar-collapse justify-content-start" id="navbar-content">
-                        <ul class="navbar-nav gap-1 gap-lg-2 gap-xxl-2  align-self-center">
-                            <li class="dropdown show-dropdown">
-                                <button type="button" aria-label="Navbar Dropdown Button"
-                                    class="dropdown-toggle dropdown-nav active">Quick Start</button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="index.html">Open Live Account</a></li>
-                                    <li><a class="dropdown-item" href="index-2.html">Open Demo Account</a></li>
-                                    <li><a class="dropdown-item" href="index-2.html">Deposites & Withdrawls</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown show-dropdown">
-                                <button type="button" aria-label="Navbar Dropdown Button"
-                                    class="dropdown-toggle dropdown-nav">Products</button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="market.html">Forex</a></li>
-                                    <li><a class="dropdown-item" href="market-details.html">Precious metals</a></li>
-                                    <li><a class="dropdown-item" href="market-details.html">Energies</a></li>
-                                    <li><a class="dropdown-item" href="market-details.html">Indices</a></li>
-                                    <li><a class="dropdown-item" href="market-details.html">Shares</a></li>
-                                    <li><a class="dropdown-item" href="market-details.html">Commodities</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown show-dropdown">
-                                <button type="button" aria-label="Navbar Dropdown Button"
-                                    class="dropdown-toggle dropdown-nav">Plateform</button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about.html">MT5 Desktop</a></li>
-                                    <li><a class="dropdown-item" href="team.html">MT5 Mobile</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown show-dropdown">
-                                <button type="button" aria-label="Navbar Dropdown Button"
-                                    class="dropdown-toggle dropdown-nav">Partnership</button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about.html">Introducing Broker</a></li>
-                                    <li><a class="dropdown-item" href="team.html">Affiliate Partner</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown show-dropdown">
-                                <button type="button" aria-label="Navbar Dropdown Button"
-                                    class="dropdown-toggle dropdown-nav">Promotion</button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="about.html">Refer a Friend</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown show-dropdown">
-                                <button type="button" aria-label="Navbar Dropdown Button"
-                                    class="dropdown-toggle dropdown-nav">About</button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="legal-docs.html">About Us</a></li>
-                                    <li><a class="dropdown-item" href="customers.html">Contact Us</a></li>
-                                    <li><a class="dropdown-item" href="roadmap.html">Welcome Bonus</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div
-                    class="right-area position-relative  ms-0 d-center gap-3 gap-xl-4 d-none d-lg-flex justify-content-end">
-                    <div class="single-item">
-                        <a href="partnership.html"
-                            class="cmn-btn fw-bold py-3 px-2 px-sm-3 px-lg-5 align-items-center gap-1"> Partnership</a>
-                    </div>
-                    <div class="single-item">
-                        <a href="portal-login.html"
-                            class="cmn-btn fw-bold py-3 px-2 px-sm-3 px-lg-5 align-items-center gap-1"> Portal Login</a>
-                    </div>
-                    <div class="single-item">
-                        <a href="start-trading.html"
-                            class="cmn-btn fw-bold py-3 px-2 px-sm-3 px-lg-5 align-items-center gap-1"> Start Trading</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- header-section end -->
-
-
-    <!-- hero section start-->
-    <!-- <section class="hero-section position-relative z-0 ">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
-            <img src="assets/images/hero_vector.png" alt="vector" class="position-absolute d-none d-xxxl-flex bottom-0 end-0 previewShapeRevX">
-        </div>
-        <div class="container pt-20 mt-12 mt-lg-20">
-            <div class="row pt-4 pt-lg-10 gy-12 gy-lg-0 justify-content-center justify-content-lg-between align-items-center">
-                <div class="col-lg-6 col-xxl-7">
-                    <div class="hero-card p1-xxl-bg pt-xl-20 pb-xl-20 position-relative">
-                        <div class="pt-xxl-10 pb-xxl-10">
-                            <div class="circle-text first d-center cus-z1 position-absolute end-0 top-0 d-none d-xxl-flex  me-lg-10 mt-lg-10">
-                                <div class="text d-center">
-                                    <p class="fs-six">Trading Unlocking Diversified</p>
-                                </div>
-                                <img src="assets/images/circle_star.png" alt="star" class="push_animat">
-                            </div>
-                            <span class="heading p1-max-xxl nb4-xxl-color fs-five mb-3">Trading platforms </span>
-                            <h1 class="display-two nb4-xxl-color mb-5 mb-lg-6">Trade Abundance</h1>
-                            <p class="fs-six-up fw_500 nb4-xxl-color">Covesting allows you to automatically copy top performing traders and achieve the returns</p>
-                            <div class="d-inline-flex flex-wrap gap-4 gap-lg-10 align-items-center mt-8 mt-lg-10">
-                                <a href="signup.html" class="cmn-btn alt-xxl-bg fs-five nb4-xxl-bg gap-2 gap-lg-3 align-items-center py-2 px-5 py-lg-3 px-lg-6">Start Trading <i class="ti ti-trending-up"></i></a>
-                                <a href="signin.html" class="cmn-btn link link-xxl-color fs-five  gap-2 gap-lg-3 align-items-center "><i class="ti ti-arrow-narrow-right fs-four"></i> Try demo account</a>
-                            </div>
+                        <div class="collapse navbar-collapse justify-content-start" id="navbar-content">
+                            <ul class="navbar-nav gap-1 gap-lg-2 gap-xxl-2  align-self-center">
+                                <li class="dropdown show-dropdown">
+                                    <button type="button" aria-label="Navbar Dropdown Button"
+                                        class="dropdown-toggle dropdown-nav active">Quick Start</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="open-live-account.html">Open Live Account</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="index.html">Open Demo Account</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Deposites & Withdrawls</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown show-dropdown">
+                                    <button type="button" aria-label="Navbar Dropdown Button"
+                                        class="dropdown-toggle dropdown-nav">Products</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="forex.html">Forex</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Precious metals</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Energies</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Indices</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Shares</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Commodities</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown show-dropdown">
+                                    <button type="button" aria-label="Navbar Dropdown Button"
+                                        class="dropdown-toggle dropdown-nav">Plateform</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="mt5.html">MT5 Desktop</a></li>
+                                        <li><a class="dropdown-item" href="index.html">MT5 Mobile</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown show-dropdown">
+                                    <button type="button" aria-label="Navbar Dropdown Button"
+                                        class="dropdown-toggle dropdown-nav">Partnership</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="introducing-broker.html">Introducing
+                                                Broker</a></li>
+                                        <li><a class="dropdown-item" href="index.html">Affiliate Partner</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown show-dropdown">
+                                    <button type="button" aria-label="Navbar Dropdown Button"
+                                        class="dropdown-toggle dropdown-nav">Promotion</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="refer-a-friend.html">Refer a Friend</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown show-dropdown">
+                                    <button type="button" aria-label="Navbar Dropdown Button"
+                                        class="dropdown-toggle dropdown-nav">About</button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                        <li><a class="dropdown-item" href="welcome-bonus.html">Welcome Bonus</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-10 col-lg-6 col-xxl-5">
-                    <div class="hero-section__thumbs pb-xxl-10">
-                        <img src="assets/images/hero_thumb.png" class="max-auto max-xxl-un" alt="img">
-                    </div>
-                </div>
-                <ul class="list_items col-12 d-flex row-gap-6 gap-lg-15 justify-content-between flex-wrap pt-2 pt-lg-15 pt-xl-2 pt-xxl-15 pb-15">
-                    <li class="d-flex gap-3 align-items-center">
-                        <span class="d-center s1-bg p-3 p-lg-4 rounded-circle"><i class="ti ti-tools fs-three nb4-color"></i></span>
-                        <h4 class="nw1-color">Enhanced Tools</h4>
-                    </li>
-                    <li class="d-flex gap-3 align-items-center">
-                        <span class="d-center s1-bg p-3 p-lg-4 rounded-circle"><i class="ti ti-trending-up fs-three nb4-color"></i></span>
-                        <h4 class="nw1-color">Trading Guides</h4>
-                    </li>
-                    <li class="d-flex gap-3 align-items-center">
-                        <span class="d-center s1-bg p-3 p-lg-4 rounded-circle"><i class="ti ti-broadcast fs-three nb4-color"></i></span>
-                        <h4 class="nw1-color">Fast Execution</h4>
-                    </li>
-                    <li class="d-flex gap-3 align-items-center">
-                        <span class="d-center s1-bg p-3 p-lg-4 rounded-circle"><i class="ti ti-percentage fs-three nb4-color"></i></span>
-                        <h4 class="nw1-color">0% Commission</h4>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section> -->
-    <!-- hero section end -->
-
-    <!-- Why Trade start-->
-    <!-- <section class="why-trade s1-bg alt-color position-relative z-0">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
-            <img src="assets/images/sun.png" alt="vector" class="position-absolute push_animat">
-            <img src="assets/images/star.png" alt="vector" class="position-absolute  d-xxxl-flex previewSkew">
-        </div>
-        <div class="container">
-            <div class="row gy-3 gy-lg-0 justify-content-center">
-                <div class="col-sm-7 col-lg-6 col-xxl-5 order-2 order-lg-0">
-                    <div class="why-trade__thumbs h-100 d-flex align-items-end ps-20 ps-sm-5 ps-lg-0">
-                        <img src="assets/images/why_trade.png" alt="Imgae">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xxl-7">
-                    <div class="row pt-120 pb-120">
-                        <div class="col-xxl-6 offset-xxl-2">
-                            <div class="why-trade__part">
-                                <span class="heading fs-five">Why Trade With</span>
-                                <h3 class="mb-3 mt-5">Trade Genius</h3>
-                                <p>Trading is the art and science of buying and selling financial instruments, such as stocks bonds currencies. </p>
-                                <a href="about.html" class="cmn-btn link secondary-link fs-six-up  gap-2 gap-lg-3 align-items-center mt-5"> Learn more <i class="ti ti-arrow-narrow-right fs-four"></i></a>
-                            </div>  
-                        </div>  
-                        <div class="col-xxl-12 mt-7 mt-md-8 mt-xxl-3">
-                            <div class="why-trade__part d-flex align-items-center">
-                                <div class="vector d-none d-xxl-flex px-xxl-15">
-                                    <img src="assets/images/trade_vector.png" alt="Image" class="max-xxl-un">
-                                </div>
-                                <div class="content">
-                                    <h3 class="mb-3">Trade Apex</h3>
-                                    <p>Trading is the art and science of buying and selling financial instruments, suc stocks, bonds, currencies commodities, and cryptocurrencies, with the aim of making a profit. It's a dynamic and multifaceted professionals from around the world.</p>
-                                    <a href="about.html" class="cmn-btn link secondary-link fs-six-up  gap-2 gap-lg-3 align-items-center mt-5"> Learn more <i class="ti ti-arrow-narrow-right fs-four"></i></a>    
-                                </div>
-                            </div>  
+                    <div
+                        class="right-area position-relative  ms-0 d-center gap-3 gap-xl-4 d-none d-lg-flex justify-content-end">
+                        <div class="single-item">
+                            <a href="partnership.html"
+                                class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1">
+                                Partnership</a>
                         </div>
-                    </div>  
-                </div>
+                        <div class="single-item">
+                            <a href="portal-login.html"
+                                class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"> Portal
+                                Login</a>
+                        </div>
+                        <div class="single-item">
+                            <a href="#" class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1">
+                                Start Trading</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
-        </div>
-    </section> -->
-    <!-- Why Trade end -->
+        </header>
+        <!-- header-section end -->
 
-    <!--provide-world start-->
-    <section class="provide-world bg nb4-bg pt-120 pb-120  position-relative z-0">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1 d-none d-md-flex">
-            <img src="assets/images/button.png" alt="vector" class="position-absolute pt-6 pt-xl-15 previewShapeRevX">
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-7">
-                    <div class="heading__content mb-10 mb-lg-15 text-center">
-                        <span class="heading p1-color fs-five mb-5">We Provide World’s</span>
-                        <h3 class="mb-5 mb-lg-6">Join a club of more than <span class="s1-color">480,000</span> traders
-                        </h3>
-                        <p class="fs-six-up mx-ch mx-auto">Trading is the art and science of buying and selling
-                            financial instruments, such as stocks bonds currencies commodities</p>
+        <section class="hero--section">
+            <div class="outer-container">
+                <div class="hero-section-content d-center flex-column">
+                    <div class="hero-section-content-info mb-5">
+                        <h1 class="text-white text-center mb-4">Instant access to <br> Global Forex & CFDS</h1>
+                        <p class="text-center text-white hero-section-text">Start Online Trading With Best Online Forex
+                            & Cfds Broker <br> Offering Unmatched Spreads, Leverage And Trading Benefits.</p>
+                        <div class="mt-5 text-center">
+                            <a href="https://cp.pmfinancials.mu/" style="text-decoration: none;">
+                                <button class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"
+                                    style="max-width: min-content">Open Live Account</button>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row gy-6 gy-xxl-0">
-                <div class="col-md-6 col-xxl-4">
-                    <div class="provide-world__card nb3-bg text-center cus-rounded-1 py-5 py-lg-10 px-4 px-lg-9">
-                        <span class="provide-card__icon d-center nb4-bg p-4 rounded-circle mx-auto">
-                            <i class="ti ti-award-filled fs-three p1-color"></i>
-                        </span>
-                        <h4 class="mt-5 mb-5">Best Reputation</h4>
-                        <p>transformed the trading landscape. Online trading platforms and mobile apps have made it
-                            easier than ever for individuals</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xxl-4">
-                    <div class="provide-world__card nb3-bg text-center cus-rounded-1 py-5 py-lg-10 px-4 px-lg-9">
-                        <span class="provide-card__icon d-center nb4-bg p-4 rounded-circle mx-auto">
-                            <i class="ti ti-users fs-three p1-color"></i>
-                        </span>
-                        <h4 class="mt-5 mb-5">480,000+ Clients</h4>
-                        <p>One of the fundamental principles of trading is risk management. Successful traders carefully
-                            manage their capital,</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xxl-4">
-                    <div class="provide-world__card nb3-bg text-center cus-rounded-1 py-5 py-lg-10 px-4 px-lg-9">
-                        <span class="provide-card__icon d-center nb4-bg p-4 rounded-circle mx-auto">
-                            <i class="ti ti-shield-check-filled fs-three p1-color"></i>
-                        </span>
-                        <h4 class="mt-5 mb-5">Trusted and Secure</h4>
-                        <p>Trading is not without its challenges, as markets can be highly volatile and unpredictable.
-                            It requires discipline</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- provide-world end -->
-
-    <!--Trade On start-->
-    <section class="trade_on a2-bg pt-120 pb-120 position-relative z-0">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
-            <img src="assets/images/coin.png" alt="vector" class="position-absolute d-none d-md-flex previewShapeRevX">
-            <img src="assets/images/star2.png" alt="vector" class="position-absolute d-none d-xl-flex push_animat">
-            <img src="assets/images/coin_vector.png" alt="vector"
-                class="position-absolute d-none d-xxxl-flex bottom-0 end-0 previewShapeRevX opacity-50">
-        </div>
-        <div class="container">
-            <div class="row gy-10 gy-xxl-0 justify-content-center justify-content-xxl-between align-items-center">
-                <div class="col-lg-6 col-xxl-5">
-                    <div class="trade_on__content">
-                        <span class="heading s1-color fs-five mb-5">Trade On Our</span>
-                        <h3 class="mb-4 mb-lg-5">World Class Platform</h3>
-                        <p class="fs-six mx-ch">Trading in financial markets involves a wide range of strategies that
-                            traders employ to make informed decisions. From trading to swing trading and long-term
-                            investing, each strategy has its own set of principles and risk factors.</p>
-                        <ul class="d-flex gap-4 flex-column mt-6">
-                            <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                    class="ti ti-circle-check s1-color fs-four"></i>Charts trading</li>
-                            <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                    class="ti ti-circle-check s1-color fs-four"></i>Understanding Trading Strategies
-                            </li>
-                            <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                    class="ti ti-circle-check s1-color fs-four"></i>Risk Management in Trading </li>
-                            <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                    class="ti ti-circle-check s1-color fs-four"></i>Technical vs. Fundamental Analysis
-                            </li>
-                        </ul>
-                        <a href="signup.html"
-                            class="cmn-btn secondary-alt fs-six-up nb4-xxl-bg gap-2 gap-lg-3 align-items-center py-2 px-5 py-lg-3 px-lg-6 mt-7 mt-xxl-8">Sign
-                            up Now <i class="ti ti-arrow-right fs-four"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-8 col-lg-6">
-                    <div class="trade_on__thumbs d-flex justify-content-end">
-                        <img src="assets/images/trade_on.png" alt="Imgae">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Trade On end -->
-
-    <!--People Trust start-->
-    <section class="people_trust pt-120 pb-120 position-relative z-0">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
-            <img src="assets/images/vector.png" alt="vector" class="position-absolute jello d-none d-xl-flex">
-            <img src="assets/images/star3.png" alt="vector" class="position-absolute push_animat d-none d-xxxl-flex">
-            <img src="assets/images/vector3.png" alt="vector"
-                class="position-absolute bottom-0 end-0 d-none d-xxxl-flex">
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 col-xxl-7">
-                    <div class="heading__content mb-8 mb-lg-10 text-center">
-                        <span class="heading p1-color fs-five mb-5">People Trust Us</span>
-                        <h3 class="mb-4 mb-lg-6">Millions of Users Worldwide</h3>
-                        <p class="fs-six-up mx-ch mx-auto">The rise of cryptocurrencies has opened up new trading this
-                            beginner's guide to cryptocurrency trading,</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="singletab">
-                        <ul class="tablinks d-center flex-wrap gap-3 gap-lg-4  mb-10 mb-xxl-15">
-                            <li class="nav-links active">
-                                <button
-                                    class="tablink cmn-btn outline_btn align-items-center fs-six-up py-2 py-lg-3 px-6  px-md-3 px-xxl-10 d-flex gap-3 align-items-center"><i
-                                        class="ti ti-video fs-four s1-color"></i>Test Your Knowledge</button>
-                            </li>
-                            <li class="nav-links">
-                                <button
-                                    class="tablink cmn-btn outline_btn align-items-center fs-six-up py-2 py-lg-3 px-6  px-md-3 px-xxl-10 d-flex gap-3 align-items-center"><i
-                                        class="ti ti-video fs-four s1-color"></i>Tutorial Videos</button>
-                            </li>
-                            <li class="nav-links">
-                                <button
-                                    class="tablink cmn-btn outline_btn align-items-center fs-six-up py-2 py-lg-3 px-6  px-md-3 px-xxl-10 d-flex gap-3 align-items-center"><i
-                                        class="ti ti-video fs-four s1-color"></i>Live Commentary</button>
-                            </li>
-                        </ul>
-                        <div class="tabcontents">
-                            <div class="tabitem active">
-                                <div
-                                    class="row gy-10 gy-xl-0 justify-content-center justify-content-lg-between align-items-center">
-                                    <div class="col-xl-6 col-xxl-7 ">
-                                        <div
-                                            class="people_trust_thumb d-center p-2 p-lg-5 pseudo_element_after overflow-hidden">
-                                            <img src="assets/images/people_trust_video.png"
-                                                class="w-100 max-xxl-un cus-rounded-2" alt="video">
-                                            <a href="https://www.youtube.com/watch?v=BHACKCNDMW8"
-                                                class="popup-video box_10 btn-popup-animation position-absolute d-center rounded-circle">
-                                                <i class="fa-solid fa-play fs-four"></i>
-                                            </a>
+                    <div class="row hero-section-content-widgets widgets-row w-100 mt-5">
+                        <div class="col-md-6 col-lg-3 mt-15">
+                            <div class="widget-outer">
+                                <div class="widget-count">5</div>
+                                <div class="card-body sub-card">
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-buy">Ask</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="col d-flex justify-content-center text-white">Spread</div>
+                                        </div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-sell">Bid</div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-xxl-5">
-                                        <div class="trade_on__content">
-                                            <h4 class="mb-4">What you will learn</h4>
-                                            <p class="mx-ch">The rise of cryptocurrencies has opened up new trading In
-                                                this beginner's guide to cryptocurrency trading we demystify the world
-                                                of digital currencies</p>
-                                            <ul class="list_divided d-flex flex-wrap gap-5 mt-5 mt-xxl-6">
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Charts trading
-                                                </li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Supreme
-                                                    Authority</li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Worldly Power
-                                                </li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Global Dominance
-                                                </li>
-                                            </ul>
-                                            <div class="mt-8 mt-xxl-10">
-                                                <div class="counter-area d-flex gap-8 gap-xxl-10 ">
-                                                    <div class="counter-part">
-                                                        <div class="counters d-flex">
-                                                            <span class="odometer display-four s1-color"
-                                                                data-odometer-final="12">0</span>
-                                                            <span class="display-four symbol s1-color">K</span>
-                                                        </div>
-                                                        <span class="mt-4">Users Joined</span>
-                                                    </div>
-                                                    <div class="counter-part">
-                                                        <div class="counters d-flex">
-                                                            <span class="odometer display-four s1-color"
-                                                                data-odometer-final="5.5">0</span>
-                                                            <span class="display-four symbol s1-color">M</span>
-                                                        </div>
-                                                        <span class="mt-4">Monthly Voulme (In USD)</span>
-                                                    </div>
-                                                </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="ask-value">1.0865</div>
+                                        </div>
+                                        <div class="col col-md-4"></div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="bid-value">1.08645</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 text-center text-swap text-white">
+                                            Swap-Long: <br>
+                                            <div id="swap-long">-6.24800</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="d-flex justify-content-center">
+                                                <span class="widget-symbol text-white">EURUSD</span>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tabitem">
-                                <div
-                                    class="row gy-10 gy-xl-0 justify-content-center justify-content-lg-between align-items-center">
-                                    <div class="col-xl-6 col-xxl-5">
-                                        <div class="trade_on__content">
-                                            <h4 class="mb-4">What you will learn</h4>
-                                            <p class="mx-ch">The rise of cryptocurrencies has opened up new trading In
-                                                this beginner's guide to cryptocurrency trading we demystify the world
-                                                of digital currencies</p>
-                                            <ul class="list_divided d-flex flex-wrap gap-5 mt-5 mt-xxl-6">
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color"></i>Charts trading</li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color"></i>Supreme Authority</li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color"></i>Worldly Power</li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color"></i>Global Dominance</li>
-                                            </ul>
-                                            <div class="mt-8 mt-xxl-10">
-                                                <div class="counter-area d-flex gap-8 gap-xxl-10 ">
-                                                    <div class="counter-part">
-                                                        <div class="counters d-flex">
-                                                            <span class="odometer display-four s1-color"
-                                                                data-odometer-final="12">0</span>
-                                                            <span class="display-four symbol s1-color">K</span>
-                                                        </div>
-                                                        <span class="mt-4">Users Joined</span>
-                                                    </div>
-                                                    <div class="counter-part">
-                                                        <div class="counters d-flex">
-                                                            <span class="odometer display-four s1-color"
-                                                                data-odometer-final="5.5">0</span>
-                                                            <span class="display-four symbol s1-color">M</span>
-                                                        </div>
-                                                        <span class="mt-4">Monthly Voulme (In USD)</span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="col col-md-4 text-center text-swap text-white">
+                                            Swap-Short: <br> <span id="swap-short" class="text-white">2.20800</span>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-xxl-7 ">
-                                        <div
-                                            class="people_trust_thumb d-center p-2 p-lg-5 pseudo_element_after overflow-hidden">
-                                            <img src="assets/images/people_trust_video.png"
-                                                class="w-100 max-xxl-un cus-rounded-2" alt="video">
-                                            <a href="https://www.youtube.com/watch?v=BHACKCNDMW8"
-                                                class="popup-video box_10 btn-popup-animation position-absolute d-center rounded-circle">
-                                                <i class="fa-solid fa-play fs-four"></i>
-                                            </a>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-buy">Buy</span></a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"></div>
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-sell">Sell</span></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tabitem">
-                                <div
-                                    class="row gy-10 gy-xl-0 justify-content-center justify-content-lg-between align-items-center">
-                                    <div class="col-xl-6 col-xxl-7 ">
-                                        <div
-                                            class="people_trust_thumb d-center p-2 p-lg-5 pseudo_element_after overflow-hidden">
-                                            <img src="assets/images/people_trust_video.png"
-                                                class="w-100 max-xxl-un cus-rounded-2" alt="video">
-                                            <a href="https://www.youtube.com/watch?v=BHACKCNDMW8"
-                                                class="popup-video box_10 btn-popup-animation position-absolute d-center rounded-circle">
-                                                <i class="fa-solid fa-play fs-four"></i>
-                                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mt-15">
+                            <div class="widget-outer">
+                                <div class="widget-count">0</div>
+                                <div class="card-body sub-card">
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-buy">Ask</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="col d-flex justify-content-center text-white">Spread</div>
+                                        </div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-sell">Bid</div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-6 col-xxl-5">
-                                        <div class="trade_on__content">
-                                            <h4 class="mb-4">What you will learn</h4>
-                                            <p class="mx-ch">The rise of cryptocurrencies has opened up new trading In
-                                                this beginner's guide to cryptocurrency trading we demystify the world
-                                                of digital currencies</p>
-                                            <ul class="list_divided d-flex flex-wrap gap-5 mt-5 mt-xxl-6">
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Charts trading
-                                                </li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Supreme
-                                                    Authority</li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Worldly Power
-                                                </li>
-                                                <li class="d-flex align-items-center gap-3 fs-six-up"><i
-                                                        class="ti ti-circle-check s1-color fs-four"></i>Global Dominance
-                                                </li>
-                                            </ul>
-                                            <div class="mt-8 mt-xxl-10">
-                                                <div class="counter-area d-flex gap-8 gap-xxl-10 ">
-                                                    <div class="counter-part">
-                                                        <div class="counters d-flex">
-                                                            <span class="odometer display-four s1-color"
-                                                                data-odometer-final="12">0</span>
-                                                            <span class="display-four symbol s1-color">K</span>
-                                                        </div>
-                                                        <span class="mt-4">Users Joined</span>
-                                                    </div>
-                                                    <div class="counter-part">
-                                                        <div class="counters d-flex">
-                                                            <span class="odometer display-four s1-color"
-                                                                data-odometer-final="5.5">0</span>
-                                                            <span class="display-four symbol s1-color">M</span>
-                                                        </div>
-                                                        <span class="mt-4">Monthly Voulme (In USD)</span>
-                                                    </div>
-                                                </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="ask-value">0.000</div>
+                                        </div>
+                                        <div class="col col-md-4"></div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="bid-value">0.000</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 text-center text-white text-swap">
+                                            Swap-Long: <br>
+                                            <div class="text-white" id="swap-long">0.00000</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="d-flex justify-content-center">
+                                                <span class="widget-symbol text-white">NASDAQ</span>
                                             </div>
+                                        </div>
+                                        <div class="col col-md-4 text-center text-swap text-white">
+                                            Swap-Short: <br> <span id="swap-short" class="text-white">0.00000</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-buy">Buy</span></a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"></div>
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-sell">Sell</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mt-15">
+                            <div class="widget-outer">
+                                <div class="widget-count">0</div>
+                                <div class="card-body sub-card">
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-buy">Ask</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="col d-flex justify-content-center text-white">Spread</div>
+                                        </div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-sell">Bid</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="ask-value">0.000</div>
+                                        </div>
+                                        <div class="col col-md-4"></div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="bid-value">0.000</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 text-center text-white text-swap">
+                                            Swap-Long: <br>
+                                            <div class="text-white" id="swap-long">0.00000</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="d-flex text-white justify-content-center">
+                                                <span class="widget-symbol text-white">CRUDE</span>
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-4 text-center text-swap text-white">
+                                            Swap-Short: <br> <span class="text-white" id="swap-short">0.00000</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-buy">Buy</span></a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"></div>
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-sell">Sell</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 mt-15">
+                            <div class="widget-outer">
+                                <div class="widget-count">10</div>
+                                <div class="card-body sub-card">
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-buy">Ask</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="col d-flex justify-content-center text-white">Spread</div>
+                                        </div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="subheader text-white text-sell">Bid</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="ask-value">2418.73</div>
+                                        </div>
+                                        <div class="col col-md-4"></div>
+                                        <div class="col col-md-4 d-flex justify-content-center">
+                                            <div class="h2 price-up" id="bid-value">2418.64</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4 text-center text-swap text-white">
+                                            Swap-Long: <br>
+                                            <div id="swap-long" class="text-white">-47.03000</div>
+                                        </div>
+                                        <div class="col col-md-4">
+                                            <div class="d-flex justify-content-center text-white">
+                                                <span class="widget-symbol text-white">GOLD</span>
+                                            </div>
+                                        </div>
+                                        <div class="col col-md-4 text-center text-swap text-white">
+                                            Swap-Short: <br> <span id="swap-short" class="text-white">27.44000</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-buy">Buy</span></a>
+                                        </div>
+                                        <div class="col d-flex justify-content-center"></div>
+                                        <div class="col d-flex justify-content-center mt-3"><a href="#"><span
+                                                    class="badge badge-pill badge-success badge-sell">Sell</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -592,324 +426,751 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- People Trust end -->
+        </section>
 
-    <!--Testimonial start-->
-    <section class="testimonial p1-bg pt-120 pb-120 position-relative z-0">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
-            <img src="assets/images/star.png" alt="vector" class="position-absolute push_animat">
-            <img src="assets/images/vector2.png" alt="vector"
-                class="position-absolute bottom-0 start-0 d-none d-xxxl-flex">
-            <img src="assets/images/sun.png" alt="vector" class="position-absolute push_animat d-none d-xxl-flex">
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xxl-7">
-                    <div class="heading__content alt-color mb-10 mb-lg-15 text-center">
-                        <span class="heading fs-five mb-5">Testimonial</span>
-                        <h3>What people say</h3>
+        <!-- Trading Potential Section -->
+        <div>
+            <section class="trading-potential-section py-20">
+                <div class="container position-relative">
+                    <div class="pb-8 d-lg-flex align-items-center justify-content-between">
+                        <div class="section-heading">
+                            <div class="d-flex align-items-center gap-2">
+                                <span>
+                                    <i class="fa-solid fa-arrow-trend-up text-success"></i>
+                                </span>
+                                <p>MULTI ASSET TRADING
+                                    PRODUCTS</p>
+                            </div>
+                            <h2>Unleash Your Trading
+                                Potential Explore A
+                                Wide Range Of
+                                Multi-Asset Products
+                            </h2>
+                        </div>
+                        <div
+                            class="slider-btn d-flex align-items-center justify-content-lg-end justify-content-center gap-3">
+                            <a href="#" class="swiper-button-prev d-flex align-items-center justify-content-center">
+                                <span>
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.21675 11.5064L14.7427 20.7888C14.8108 20.8557 14.8919 20.9088 14.9812 20.9451C15.0705 20.9813 15.1663 21 15.263 21C15.3597 21 15.4555 20.9813 15.5448 20.9451C15.6341 20.9088 15.7151 20.8557 15.7832 20.7888C15.8519 20.7224 15.9064 20.6434 15.9436 20.5564C15.9808 20.4694 16 20.3761 16 20.2818C16 20.1876 15.9808 20.0942 15.9436 20.0072C15.9064 19.9202 15.8519 19.8412 15.7832 19.7749L6.77022 10.9994L15.7832 2.22392C15.9212 2.08946 15.9987 1.9071 15.9987 1.71696C15.9987 1.6228 15.9797 1.52957 15.9427 1.44259C15.9058 1.3556 15.8516 1.27657 15.7832 1.20999C15.7149 1.14342 15.6338 1.09061 15.5445 1.05457C15.4553 1.01854 15.3596 1 15.263 1C15.0678 1 14.8807 1.07554 14.7427 1.20999L5.21675 10.4924C5.14807 10.5588 5.09356 10.6378 5.05635 10.7248C5.01915 10.8118 5 10.9051 5 10.9994C5 11.0937 5.01915 11.187 5.05635 11.274C5.09356 11.361 5.14807 11.44 5.21675 11.5064Z"
+                                            fill="currentColor" stroke="currentColor" stroke-width="0.5" />
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="swiper-button-next d-flex align-items-center justify-content-center">
+                                <span>
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.7832 11.5064L8.25728 20.7888C8.18916 20.8557 8.10812 20.9088 8.01882 20.9451C7.92953 20.9813 7.83375 21 7.73702 21C7.64028 21 7.5445 20.9813 7.45521 20.9451C7.36592 20.9088 7.28487 20.8557 7.21675 20.7888C7.14807 20.7224 7.09356 20.6434 7.05636 20.5564C7.01915 20.4694 7 20.3761 7 20.2818C7 20.1876 7.01915 20.0942 7.05636 20.0072C7.09356 19.9202 7.14807 19.8412 7.21675 19.7749L16.2298 10.9994L7.21675 2.22392C7.07877 2.08946 7.00125 1.9071 7.00125 1.71696C7.00125 1.6228 7.02028 1.52957 7.05726 1.44259C7.09423 1.3556 7.14843 1.27657 7.21675 1.20999C7.28507 1.14342 7.36618 1.09061 7.45545 1.05457C7.54472 1.01854 7.64039 1 7.73702 1C7.93215 1 8.1193 1.07554 8.25728 1.20999L17.7832 10.4924C17.8519 10.5588 17.9064 10.6378 17.9436 10.7248C17.9808 10.8118 18 10.9051 18 10.9994C18 11.0937 17.9808 11.187 17.9436 11.274C17.9064 11.361 17.8519 11.44 17.7832 11.5064Z"
+                                            fill="currentColor" stroke="currentColor" stroke-width="0.5" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="swiper common-slider1 cus-rounded-1 d-center align-items-end align-items-xxl-center ">
+                    <div class="swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide cus-rounded-1 overflow-hidden cus-rounded-1 overflow-hidden">
-                                <div class="testimonial__part a2-bg d-flex flex-column flex-sm-row  align-items-center">
-                                    <div class="testimonial__author d-none d-sm-flex">
-                                        <img src="assets/images/author.png" class="max-xxl-un " alt="Image">
-                                    </div>
-                                    <div class="testimonial__content p-4 px-lg-7 px-xxl-8 py-lg-6 py-xxl-7">
-                                        <div class="content__part">
-                                            <img src="assets/images/icon/quote_left.png" alt="icon">
-                                            <p class=" fs-six-up mt-5 mt-xxl-6">"Trading has always been a passion, but
-                                                it wasn't management that began to see consistent profits. The journey
-                                                was not without its ups and downs, but the lessons I learned along the
-                                                way have been embraced riskinvaluable.</p>
-                                            <h5 class="heading p1-color mt-4">Brooklyn Simmons</h5>
-                                            <span class="fs-seven fw_500 mt-2">Marketing Director</span>
+                            <div class="swiper-slide">
+                                <div class="trading-box p-6">
+                                    <div class="box-title d-flex align-items-center gap-3">
+                                        <div class="trading-img d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/forex.png" alt="" />
                                         </div>
+                                        <h3>Forex</h3>
+                                    </div>
+                                    <p class="mt-4">24 Currency Pairs All Major & Cross Fx Leverage Upto 400:1 Low
+                                        Spreads EURUSD 0.1</p>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <a href="#">Read
+                                            More</a>
+                                        <span>
+                                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8621 9.82913L5.80009 15.8627C5.75674 15.9062 5.70516 15.9407 5.64834 15.9643C5.59152 15.9879 5.53057 16 5.46901 16C5.40745 16 5.3465 15.9879 5.28968 15.9643C5.23286 15.9407 5.18128 15.9062 5.13793 15.8627C5.09423 15.8196 5.05954 15.7682 5.03586 15.7117C5.01219 15.6551 5 15.5945 5 15.5332C5 15.4719 5.01219 15.4113 5.03586 15.3547C5.05954 15.2981 5.09423 15.2468 5.13793 15.2037L10.8735 9.4996L5.13793 3.79555C5.05013 3.70815 5.0008 3.58962 5.0008 3.46602C5.0008 3.40482 5.01291 3.34422 5.03644 3.28768C5.05997 3.23114 5.09445 3.17977 5.13793 3.13649C5.18141 3.09322 5.23303 3.05889 5.28983 3.03547C5.34664 3.01205 5.40752 3 5.46901 3C5.59319 3 5.71228 3.0491 5.80009 3.13649L11.8621 9.17008C11.9058 9.21322 11.9405 9.26456 11.9641 9.32111C11.9878 9.37767 12 9.43833 12 9.4996C12 9.56087 11.9878 9.62154 11.9641 9.67809C11.9405 9.73465 11.9058 9.78598 11.8621 9.82913Z"
+                                                    fill="#179C6D" stroke="#179C6D" />
+                                            </svg>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide cus-rounded-1 overflow-hidden">
-                                <div class="testimonial__part a2-bg d-flex flex-column flex-sm-row  align-items-center">
-                                    <div class="testimonial__author d-none d-sm-flex">
-                                        <img src="assets/images/author2.png" class="max-xxl-un " alt="Image">
-                                    </div>
-                                    <div class="testimonial__content p-4 p-lg-7 p-xxl-8">
-                                        <div class="content__part">
-                                            <img src="assets/images/icon/quote_left.png" alt="icon">
-                                            <p class=" fs-six-up mt-5 mt-xxl-6">"Trading has always been a passion, but
-                                                it wasn't management that began to see consistent profits. The journey
-                                                was not without its ups and downs, but the lessons I learned along the
-                                                way have been embraced riskinvaluable.</p>
-                                            <h5 class="heading p1-color mt-4">Chris Moore</h5>
-                                            <span class="fs-seven fw_500 mt-2">President of Sales</span>
+                            <div class="swiper-slide">
+                                <div class="trading-box p-6">
+                                    <div class="box-title d-flex align-items-center gap-3">
+                                        <div class="trading-img d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/metals.png" alt="" />
                                         </div>
+                                        <h3>Metals</h3>
+                                    </div>
+                                    <p class="mt-4">Gold, Silver and Platinum Spot and CFDs on Futures Leverage Upto
+                                        400:1 Low Spreads Gold 0.10</p>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <a href="#">Read
+                                            More</a>
+                                        <span>
+                                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8621 9.82913L5.80009 15.8627C5.75674 15.9062 5.70516 15.9407 5.64834 15.9643C5.59152 15.9879 5.53057 16 5.46901 16C5.40745 16 5.3465 15.9879 5.28968 15.9643C5.23286 15.9407 5.18128 15.9062 5.13793 15.8627C5.09423 15.8196 5.05954 15.7682 5.03586 15.7117C5.01219 15.6551 5 15.5945 5 15.5332C5 15.4719 5.01219 15.4113 5.03586 15.3547C5.05954 15.2981 5.09423 15.2468 5.13793 15.2037L10.8735 9.4996L5.13793 3.79555C5.05013 3.70815 5.0008 3.58962 5.0008 3.46602C5.0008 3.40482 5.01291 3.34422 5.03644 3.28768C5.05997 3.23114 5.09445 3.17977 5.13793 3.13649C5.18141 3.09322 5.23303 3.05889 5.28983 3.03547C5.34664 3.01205 5.40752 3 5.46901 3C5.59319 3 5.71228 3.0491 5.80009 3.13649L11.8621 9.17008C11.9058 9.21322 11.9405 9.26456 11.9641 9.32111C11.9878 9.37767 12 9.43833 12 9.4996C12 9.56087 11.9878 9.62154 11.9641 9.67809C11.9405 9.73465 11.9058 9.78598 11.8621 9.82913Z"
+                                                    fill="#179C6D" stroke="#179C6D" />
+                                            </svg>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide cus-rounded-1 overflow-hidden">
-                                <div class="testimonial__part a2-bg d-flex flex-column flex-sm-row  align-items-center">
-                                    <div class="testimonial__author d-none d-sm-flex">
-                                        <img src="assets/images/author3.png" class="max-xxl-un" alt="Image">
-                                    </div>
-                                    <div class="testimonial__content p-4 p-lg-7 p-xxl-8">
-                                        <div class="content__part">
-                                            <img src="assets/images/icon/quote_left.png" alt="icon">
-                                            <p class=" fs-six-up mt-5 mt-xxl-6">"Trading has always been a passion, but
-                                                it wasn't management that began to see consistent profits. The journey
-                                                was not without its ups and downs, but the lessons I learned along the
-                                                way have been embraced riskinvaluable.</p>
-                                            <h5 class="heading p1-color mt-4">Balogh Imre</h5>
-                                            <span class="fs-seven fw_500 mt-2">Account Executive</span>
+                            <div class="swiper-slide">
+                                <div class="trading-box p-6">
+                                    <div class="box-title d-flex align-items-center gap-3">
+                                        <div class="trading-img d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/energies.png" alt="" />
                                         </div>
+                                        <h3>Energies</h3>
                                     </div>
+                                    <p class="mt-4">Crude,Brent and Natural Gas Spot and CFDs on Futures Leverage Upto
+                                        400:1 Low Spreads Crude Oil 0.10</p>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <a href="#">Read
+                                            More</a>
+                                        <span>
+                                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8621 9.82913L5.80009 15.8627C5.75674 15.9062 5.70516 15.9407 5.64834 15.9643C5.59152 15.9879 5.53057 16 5.46901 16C5.40745 16 5.3465 15.9879 5.28968 15.9643C5.23286 15.9407 5.18128 15.9062 5.13793 15.8627C5.09423 15.8196 5.05954 15.7682 5.03586 15.7117C5.01219 15.6551 5 15.5945 5 15.5332C5 15.4719 5.01219 15.4113 5.03586 15.3547C5.05954 15.2981 5.09423 15.2468 5.13793 15.2037L10.8735 9.4996L5.13793 3.79555C5.05013 3.70815 5.0008 3.58962 5.0008 3.46602C5.0008 3.40482 5.01291 3.34422 5.03644 3.28768C5.05997 3.23114 5.09445 3.17977 5.13793 3.13649C5.18141 3.09322 5.23303 3.05889 5.28983 3.03547C5.34664 3.01205 5.40752 3 5.46901 3C5.59319 3 5.71228 3.0491 5.80009 3.13649L11.8621 9.17008C11.9058 9.21322 11.9405 9.26456 11.9641 9.32111C11.9878 9.37767 12 9.43833 12 9.4996C12 9.56087 11.9878 9.62154 11.9641 9.67809C11.9405 9.73465 11.9058 9.78598 11.8621 9.82913Z"
+                                                    fill="#179C6D" stroke="#179C6D" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="trading-box p-6">
+                                    <div class="box-title d-flex align-items-center gap-3">
+                                        <div class="trading-img d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/indices.png" alt="" />
+                                        </div>
+                                        <h3>Indices</h3>
+                                    </div>
+                                    <p class="mt-4">Dow Jones,S&P and NASDAQ Spot and CFDs on Futures Leverage Upto
+                                        400:1 Low Spreads NASDAQ 0.03</p>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <a href="#">Read
+                                            More</a>
+                                        <span>
+                                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8621 9.82913L5.80009 15.8627C5.75674 15.9062 5.70516 15.9407 5.64834 15.9643C5.59152 15.9879 5.53057 16 5.46901 16C5.40745 16 5.3465 15.9879 5.28968 15.9643C5.23286 15.9407 5.18128 15.9062 5.13793 15.8627C5.09423 15.8196 5.05954 15.7682 5.03586 15.7117C5.01219 15.6551 5 15.5945 5 15.5332C5 15.4719 5.01219 15.4113 5.03586 15.3547C5.05954 15.2981 5.09423 15.2468 5.13793 15.2037L10.8735 9.4996L5.13793 3.79555C5.05013 3.70815 5.0008 3.58962 5.0008 3.46602C5.0008 3.40482 5.01291 3.34422 5.03644 3.28768C5.05997 3.23114 5.09445 3.17977 5.13793 3.13649C5.18141 3.09322 5.23303 3.05889 5.28983 3.03547C5.34664 3.01205 5.40752 3 5.46901 3C5.59319 3 5.71228 3.0491 5.80009 3.13649L11.8621 9.17008C11.9058 9.21322 11.9405 9.26456 11.9641 9.32111C11.9878 9.37767 12 9.43833 12 9.4996C12 9.56087 11.9878 9.62154 11.9641 9.67809C11.9405 9.73465 11.9058 9.78598 11.8621 9.82913Z"
+                                                    fill="#179C6D" stroke="#179C6D" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="trading-box p-6">
+                                    <div class="box-title d-flex align-items-center gap-3">
+                                        <div class="trading-img d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/shares.png" alt="" />
+                                        </div>
+                                        <h3>Shares</h3>
+                                    </div>
+                                    <p class="mt-4">Amazon, Netflix and Tesla Trade all company shares High leverage on
+                                        stocks Low Spreads MT5 platform</p>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <a href="#">Read
+                                            More</a>
+                                        <span>
+                                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8621 9.82913L5.80009 15.8627C5.75674 15.9062 5.70516 15.9407 5.64834 15.9643C5.59152 15.9879 5.53057 16 5.46901 16C5.40745 16 5.3465 15.9879 5.28968 15.9643C5.23286 15.9407 5.18128 15.9062 5.13793 15.8627C5.09423 15.8196 5.05954 15.7682 5.03586 15.7117C5.01219 15.6551 5 15.5945 5 15.5332C5 15.4719 5.01219 15.4113 5.03586 15.3547C5.05954 15.2981 5.09423 15.2468 5.13793 15.2037L10.8735 9.4996L5.13793 3.79555C5.05013 3.70815 5.0008 3.58962 5.0008 3.46602C5.0008 3.40482 5.01291 3.34422 5.03644 3.28768C5.05997 3.23114 5.09445 3.17977 5.13793 3.13649C5.18141 3.09322 5.23303 3.05889 5.28983 3.03547C5.34664 3.01205 5.40752 3 5.46901 3C5.59319 3 5.71228 3.0491 5.80009 3.13649L11.8621 9.17008C11.9058 9.21322 11.9405 9.26456 11.9641 9.32111C11.9878 9.37767 12 9.43833 12 9.4996C12 9.56087 11.9878 9.62154 11.9641 9.67809C11.9405 9.73465 11.9058 9.78598 11.8621 9.82913Z"
+                                                    fill="#179C6D" stroke="#179C6D" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="trading-box p-6">
+                                    <div class="box-title d-flex align-items-center gap-3">
+                                        <div class="trading-img d-flex align-items-center justify-content-center">
+                                            <img src="assets/img/commodities.png" alt="" />
+                                        </div>
+                                        <h3>Commodities</h3>
+                                    </div>
+                                    <p class="mt-4">Sugar,Corn and Wheat Agricultural Commodities Leverage Upto 400:1
+                                        Low Spreads on all Softs</p>
+                                    <div class="d-flex align-items-center gap-1">
+                                        <a href="#">Read
+                                            More</a>
+                                        <span>
+                                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11.8621 9.82913L5.80009 15.8627C5.75674 15.9062 5.70516 15.9407 5.64834 15.9643C5.59152 15.9879 5.53057 16 5.46901 16C5.40745 16 5.3465 15.9879 5.28968 15.9643C5.23286 15.9407 5.18128 15.9062 5.13793 15.8627C5.09423 15.8196 5.05954 15.7682 5.03586 15.7117C5.01219 15.6551 5 15.5945 5 15.5332C5 15.4719 5.01219 15.4113 5.03586 15.3547C5.05954 15.2981 5.09423 15.2468 5.13793 15.2037L10.8735 9.4996L5.13793 3.79555C5.05013 3.70815 5.0008 3.58962 5.0008 3.46602C5.0008 3.40482 5.01291 3.34422 5.03644 3.28768C5.05997 3.23114 5.09445 3.17977 5.13793 3.13649C5.18141 3.09322 5.23303 3.05889 5.28983 3.03547C5.34664 3.01205 5.40752 3 5.46901 3C5.59319 3 5.71228 3.0491 5.80009 3.13649L11.8621 9.17008C11.9058 9.21322 11.9405 9.26456 11.9641 9.32111C11.9878 9.37767 12 9.43833 12 9.4996C12 9.56087 11.9878 9.62154 11.9641 9.67809C11.9405 9.73465 11.9058 9.78598 11.8621 9.82913Z"
+                                                    fill="#179C6D" stroke="#179C6D" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Trading Potential Section -->
+
+        <section class="download-app-section py-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="section-heading col-lg-6">
+                        <div class="d-flex align-items-center gap-2">
+                            <span>
+                                <i class="fa-solid fa-arrow-trend-up text-success"></i>
+                            </span>
+                            <p class="text-success">Download App</p>
+                        </div>
+                        <h2>Download The MT5 Desktop Application Today And Start Trading Like A Pro!</h2>
+                        <p class="download-app-info mt-3">You can now download the MetaTrader 5 (MT5) desktop
+                            application for various operating systems and trade with <span> PMfinancials </span> trading
+                            account, as well as practice on a demo account.</p>
+                        <div class="row mt-4 col-xl-9">
+                            <div class="col-md-6 mb-3">
+                                <a href="" class="download-application py-2 px-3 d-flex align-items-center gap-3 h-100">
+                                    <img src="assets/img/windows-icon.png" alt="">
+                                    <span>
+                                        <span class="d-block download-info">Download for</span>
+                                        <span class="d-block application-name">Windows</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="" class="download-application py-2 px-3 d-flex align-items-center gap-3 h-100">
+                                    <img src="assets/img/apple-icon.png" alt="">
+                                    <span>
+                                        <span class="d-block download-info">Download for</span>
+                                        <span class="d-block application-name">Mac Os</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="" class="download-application py-2 px-3 d-flex align-items-center gap-3 h-100">
+                                    <img src="assets/img/linux-icon.png" alt="">
+                                    <span>
+                                        <span class="d-block download-info">Download for</span>
+                                        <span class="d-block application-name">Linux</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="" class="download-application py-2 px-3 d-flex align-items-center gap-3 h-100">
+                                    <img src="assets/img/web-terminal-icon.png" alt="">
+                                    <span>
+                                        <span class="d-block download-info">MT5</span>
+                                        <span class="d-block application-name">WebTerminal</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-end mt-5">
+                        <img src="assets/img/app-trend.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-our-facilities-section py-20">
+            <div class="container">
+                <div class="about-heading-content text-center w-75 mx-auto">
+                    <div class="d-flex align-items-center justify-content-center gap-2">
+                        <span>
+                            <i class="fa-solid fa-arrow-trend-up text-white"></i>
+                        </span>
+                        <p class="text-white m-0">WHY CHOOSE US?</p>
+                    </div>
+                    <h2 class="text-white my-3">Discover Why We Are The Top Choice For Forex Trading - Unbeatable
+                        Features, Exceptional Service, And More!</h2>
+                    <p class="text-white-50 mt-4">With a focus on safety and security, our FX brokerage offers a safe
+                        and secure trading environment. We provide a variety of trading options with reasonable costs,
+                        high profit potential, and quick transfers for convenience.</p>
+                </div>
+                <div class="facilities-section mt-15">
+                    <div class="row w-100">
+                        <div class="col-md-6 col-lg-3 py-4">
+                            <div class="facility-info py-9 px-4 text-center">
+                                <div class="mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="58" viewBox="0 0 48 58"
+                                        fill="none">
+                                        <path
+                                            d="M24 2L1.5 11.3101V22.6278C1.5 37.2746 10.3931 50.465 24 56C37.6068 50.465 46.5 37.2746 46.5 22.6278V11.3101L24 2Z"
+                                            stroke="white" stroke-width="2.5" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.0459 27.1818L21.4623 33.5764L32.9541 22.1237" stroke="white"
+                                            stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <h4 class="text-white">Safe & Secure</h4>
+                                <p class="text-white-50 m-0">PM financials takes strong security precautions to protect
+                                    customers and comply with legal requirements.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 py-4">
+                            <div class="facility-info py-9 px-4 text-center">
+                                <div class="mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52"
+                                        fill="none">
+                                        <path
+                                            d="M7.8 34.6667C3.92329 34.6667 0 35.8575 0 38.1333V48.5333C0 50.8092 3.92329 52 7.8 52C11.6767 52 15.6 50.8092 15.6 48.5333V38.1333C15.6 35.8575 11.6767 34.6667 7.8 34.6667ZM7.8 36.4C11.7406 36.4 13.8667 37.6307 13.8667 38.1333C13.8667 38.636 11.7406 39.8667 7.8 39.8667C3.85938 39.8667 1.73333 38.636 1.73333 38.1333C1.73333 37.6307 3.85938 36.4 7.8 36.4ZM7.8 50.2667C3.85938 50.2667 1.73333 49.036 1.73333 48.5333V47.32C3.63708 48.1802 5.71185 48.5952 7.8 48.5333C9.88815 48.5952 11.9629 48.1802 13.8667 47.32V48.5333C13.8667 49.036 11.7406 50.2667 7.8 50.2667ZM7.8 46.8C3.85938 46.8 1.73333 45.5693 1.73333 45.0667V43.8533C3.63708 44.7135 5.71185 45.1285 7.8 45.0667C9.88815 45.1285 11.9629 44.7135 13.8667 43.8533V45.0667C13.8667 45.5693 11.7406 46.8 7.8 46.8ZM7.8 43.3333C3.85938 43.3333 1.73333 42.1027 1.73333 41.6V40.3867C3.63708 41.2469 5.71185 41.6618 7.8 41.6C9.88815 41.6618 11.9629 41.2469 13.8667 40.3867V41.6C13.8667 42.1027 11.7406 43.3333 7.8 43.3333ZM26 27.7333C22.1233 27.7333 18.2 28.9241 18.2 31.2V48.5333C18.2 50.8092 22.1233 52 26 52C29.8767 52 33.8 50.8092 33.8 48.5333V31.2C33.8 28.9241 29.8767 27.7333 26 27.7333ZM26 29.4667C29.9406 29.4667 32.0667 30.6973 32.0667 31.2C32.0667 31.7027 29.9406 32.9333 26 32.9333C22.0594 32.9333 19.9333 31.7027 19.9333 31.2C19.9333 30.6973 22.0594 29.4667 26 29.4667ZM26 50.2667C22.0594 50.2667 19.9333 49.036 19.9333 48.5333V47.32C21.8371 48.1802 23.9118 48.5952 26 48.5333C28.0882 48.5952 30.1629 48.1802 32.0667 47.32V48.5333C32.0667 49.036 29.9406 50.2667 26 50.2667ZM26 46.8C22.0594 46.8 19.9333 45.5693 19.9333 45.0667V43.8533C21.8371 44.7135 23.9118 45.1285 26 45.0667C28.0882 45.1285 30.1629 44.7135 32.0667 43.8533V45.0667C32.0667 45.5693 29.9406 46.8 26 46.8ZM26 43.3333C22.0594 43.3333 19.9333 42.1027 19.9333 41.6V40.3867C21.8371 41.2469 23.9118 41.6618 26 41.6C28.0882 41.6618 30.1629 41.2469 32.0667 40.3867V41.6C32.0667 42.1027 29.9406 43.3333 26 43.3333ZM26 39.8667C22.0594 39.8667 19.9333 38.636 19.9333 38.1333V36.92C21.8371 37.7802 23.9118 38.1952 26 38.1333C28.0882 38.1952 30.1629 37.7802 32.0667 36.92V38.1333C32.0667 38.636 29.9406 39.8667 26 39.8667ZM26 36.4C22.0594 36.4 19.9333 35.1693 19.9333 34.6667V33.4533C21.8371 34.3135 23.9118 34.7285 26 34.6667C28.0882 34.7285 30.1629 34.3135 32.0667 33.4533V34.6667C32.0667 35.1693 29.9406 36.4 26 36.4ZM44.2 17.3333C40.3233 17.3333 36.4 18.5241 36.4 20.8V48.5333C36.4 50.8092 40.3233 52 44.2 52C48.0767 52 52 50.8092 52 48.5333V20.8C52 18.5241 48.0767 17.3333 44.2 17.3333ZM44.2 19.0667C48.1406 19.0667 50.2667 20.2973 50.2667 20.8C50.2667 21.3027 48.1406 22.5333 44.2 22.5333C40.2594 22.5333 38.1333 21.3027 38.1333 20.8C38.1333 20.2973 40.2594 19.0667 44.2 19.0667ZM44.2 50.2667C40.2594 50.2667 38.1333 49.036 38.1333 48.5333V47.32C40.0371 48.1802 42.1119 48.5952 44.2 48.5333C46.2882 48.5952 48.3629 48.1802 50.2667 47.32V48.5333C50.2667 49.036 48.1406 50.2667 44.2 50.2667ZM44.2 46.8C40.2594 46.8 38.1333 45.5693 38.1333 45.0667V43.8533C40.0371 44.7135 42.1119 45.1285 44.2 45.0667C46.2882 45.1285 48.3629 44.7135 50.2667 43.8533V45.0667C50.2667 45.5693 48.1406 46.8 44.2 46.8ZM44.2 43.3333C40.2594 43.3333 38.1333 42.1027 38.1333 41.6V40.3867C40.0371 41.2469 42.1119 41.6618 44.2 41.6C46.2882 41.6618 48.3629 41.2469 50.2667 40.3867V41.6C50.2667 42.1027 48.1406 43.3333 44.2 43.3333ZM44.2 39.8667C40.2594 39.8667 38.1333 38.636 38.1333 38.1333V36.92C40.0371 37.7802 42.1119 38.1952 44.2 38.1333C46.2882 38.1952 48.3629 37.7802 50.2667 36.92V38.1333C50.2667 38.636 48.1406 39.8667 44.2 39.8667ZM44.2 36.4C40.2594 36.4 38.1333 35.1693 38.1333 34.6667V33.4533C40.0371 34.3135 42.1119 34.7285 44.2 34.6667C46.2882 34.7285 48.3629 34.3135 50.2667 33.4533V34.6667C50.2667 35.1693 48.1406 36.4 44.2 36.4ZM44.2 32.9333C40.2594 32.9333 38.1333 31.7027 38.1333 31.2V29.9867C40.0371 30.8469 42.1119 31.2618 44.2 31.2C46.2882 31.2618 48.3629 30.8469 50.2667 29.9867V31.2C50.2667 31.7027 48.1406 32.9333 44.2 32.9333ZM44.2 29.4667C40.2594 29.4667 38.1333 28.236 38.1333 27.7333V26.52C40.0371 27.3802 42.1119 27.7952 44.2 27.7333C46.2882 27.7952 48.3629 27.3802 50.2667 26.52V27.7333C50.2667 28.236 48.1406 29.4667 44.2 29.4667ZM44.2 26C40.2594 26 38.1333 24.7693 38.1333 24.2667V23.0533C40.0371 23.9135 42.1119 24.3285 44.2 24.2667C46.2882 24.3285 48.3629 23.9135 50.2667 23.0533V24.2667C50.2667 24.7693 48.1406 26 44.2 26ZM42.4667 0V1.73333H49.0412L32.5745 18.2H14.4075L0.295425 30.5475L1.43791 31.8525L15.0592 19.9333H33.2921L50.2667 2.9588V9.53333H52V0H42.4667Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4 class="text-white">Multi Assets Products</h4>
+                                <p class="text-white-50 m-0">PM financials provides clients with a variety of options to
+                                    trade financial assets.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 py-4">
+                            <div class="facility-info py-9 px-4 text-center">
+                                <div class="mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="58" height="56" viewBox="0 0 58 56"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M45.615 22.8261V23.4261H46.215H57.6485L29.0001 55.1055L0.351608 23.4261H11.785H12.385V22.8261V0.600049H45.615V22.8261ZM6.90673 25.7377H5.55518L6.46172 26.7401L28.5551 51.1708L29.0001 51.6629L29.4451 51.1708L51.5383 26.7401L52.4448 25.7377H51.0933H43.308V3.51165V2.91165H42.708H15.292H14.692V3.51165V25.7377H6.90673Z"
+                                            fill="white" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M32.5633 25.0894L32.5633 25.0894L32.5671 25.0922C33.2002 25.5465 33.632 26.0203 33.918 26.5554C34.2038 27.09 34.3636 27.7223 34.3998 28.5227L34.4001 28.534C34.3985 29.8614 33.9535 30.9808 33.0791 31.8936L33.0765 31.8963C32.4169 32.5934 31.6169 33.0544 30.685 33.2754L30.2234 33.3849V33.8592V35.4H28.244V33.8772V33.4062L27.7864 33.2944C25.7043 32.7855 24.1515 31.1924 23.6778 29.0133L25.5558 27.9182L25.5568 27.9216L25.5568 27.9216C25.9004 29.0861 26.3195 29.9875 26.92 30.5972C27.5491 31.2361 28.3223 31.501 29.2338 31.501C30.193 31.501 30.9684 31.2205 31.5551 30.5575L31.5551 30.5575L31.5631 30.5481C32.015 30.0157 32.2241 29.332 32.2241 28.5745C32.2241 27.8812 31.9586 27.3026 31.3962 26.7801C30.8678 26.2891 30.068 25.8382 28.9773 25.3377L28.9773 25.3377L28.9677 25.3335C27.5655 24.7194 26.9348 24.3443 26.0798 23.6352C25.2067 22.8862 24.8043 21.994 24.8043 20.7394C24.8043 18.8452 26.0173 17.2507 27.8147 16.7176L28.2441 16.5903V16.1424V14.6H30.2235V16.16V16.6144L30.6609 16.7376C31.8578 17.0747 32.8145 17.8684 33.5064 19.168L31.7586 20.259L31.7534 20.25L31.7534 20.25C31.3671 19.5871 30.9674 19.1245 30.4953 18.8377C30.0126 18.5445 29.5203 18.4753 29.0372 18.4753C27.8869 18.4753 26.9806 19.4319 26.9806 20.5735C26.9806 20.894 27.0161 21.2363 27.1801 21.5818C27.3442 21.9273 27.6101 22.2208 27.9785 22.498L27.9931 22.5089L28.0083 22.519L28.0426 22.5417L28.0431 22.5421L28.0618 22.5544C28.4034 22.7809 28.7106 22.9845 28.9689 23.1207L28.9689 23.1209L28.9805 23.1267L30.3015 23.7868L30.3014 23.7868L30.3093 23.7906C31.2706 24.2535 31.7417 24.49 32.5633 25.0894Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4 class="text-white">Low Cost</h4>
+                                <p class="text-white-50 m-0">PM financials offers competitive prices, no commission
+                                    fees, and volume discounts.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 py-4">
+                            <div class="facility-info py-9 px-4 text-center">
+                                <div class="mb-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54"
+                                        fill="none">
+                                        <path
+                                            d="M49.336 48.3647V23.0618H53.0152C53.2716 23.0618 53.5174 22.9602 53.6987 22.7794C53.88 22.5986 53.9819 22.3533 53.9819 22.0976V15.793C53.9818 15.6231 53.9367 15.4561 53.8512 15.3092C53.7656 15.1622 53.6426 15.0404 53.4947 14.956L27.4812 0.12725C27.335 0.0438643 27.1696 0 27.0012 0C26.8329 0 26.6674 0.0438643 26.5213 0.12725L0.506826 14.956C0.35887 15.0404 0.235883 15.1622 0.150323 15.3092C0.0647634 15.4561 0.0196718 15.6231 0.0196169 15.793V22.0976C0.0196169 22.3533 0.121463 22.5986 0.302752 22.7794C0.48404 22.9602 0.729921 23.0618 0.986301 23.0618H4.6655V48.3647C-0.849432 48.4419 0.0930849 47.4843 0.0196169 53.0357C0.0196169 53.2915 0.121463 53.5367 0.302752 53.7176C0.48404 53.8984 0.729921 54 0.986301 54H53.0142C53.2706 54 53.5165 53.8984 53.6978 53.7176C53.8791 53.5367 53.9809 53.2915 53.9809 53.0357C53.9036 47.4949 54.8596 48.439 49.336 48.3647ZM1.95395 16.3523L27.0007 2.07511L52.0485 16.3523V17.4256H1.95395V16.3523ZM1.95395 21.1333V19.3532H52.0475V21.1323L1.95395 21.1333ZM47.4046 23.0618V48.3647H43.8307V23.0618H47.4046ZM41.8983 23.0618V48.3647H12.1041V23.0618H41.8983ZM10.1717 23.0618V48.3647H6.59984V23.0618H10.1717ZM52.0475 52.0714H1.95395V50.2933H52.0475V52.0714Z"
+                                            fill="white" />
+                                        <path
+                                            d="M23.1465 32.7692H30.7176L29.3961 34.0874C29.22 34.2693 29.1226 34.5128 29.1248 34.7657C29.127 35.0185 29.2287 35.2604 29.4079 35.4391C29.5871 35.6179 29.8296 35.7193 30.083 35.7215C30.3365 35.7237 30.5807 35.6265 30.763 35.4509C35.0986 30.9631 35.0995 32.6477 30.763 28.1599C30.5807 27.9843 30.3365 27.8871 30.083 27.8893C29.8296 27.8915 29.5871 27.9929 29.4079 28.1717C29.2287 28.3505 29.127 28.5923 29.1248 28.8451C29.1226 29.098 29.22 29.3416 29.3961 29.5234L30.7176 30.8406H23.1465C22.8901 30.8406 22.6442 30.9422 22.4629 31.1231C22.2817 31.3039 22.1798 31.5492 22.1798 31.8049C22.1798 32.0607 22.2817 32.3059 22.4629 32.4868C22.6442 32.6676 22.8901 32.7692 23.1465 32.7692ZM25.4346 44.1015C25.617 44.2772 25.8611 44.3743 26.1146 44.3722C26.3681 44.37 26.6105 44.2685 26.7898 44.0898C26.969 43.911 27.0706 43.6691 27.0728 43.4163C27.0751 43.1634 26.9776 42.9199 26.8015 42.738L25.4801 41.4198H33.0511C33.3075 41.4198 33.5534 41.3182 33.7347 41.1374C33.916 40.9565 34.0178 40.7113 34.0178 40.4555C34.0178 40.1998 33.916 39.9545 33.7347 39.7737C33.5534 39.5928 33.3075 39.4912 33.0511 39.4912H25.4801L26.8015 38.1731C26.9776 37.9912 27.0751 37.7476 27.0728 37.4948C27.0706 37.242 26.969 37.0001 26.7898 36.8213C26.6105 36.6425 26.3681 36.5411 26.1146 36.5389C25.8611 36.5367 25.617 36.6339 25.4346 36.8096C21.0981 41.2983 21.0991 39.6127 25.4346 44.1015ZM27.0007 7.7749C26.2463 7.79436 25.5293 8.10696 25.0026 8.64609C24.476 9.18522 24.1812 9.90823 24.1812 10.661C24.1812 11.4138 24.476 12.1368 25.0026 12.6759C25.5293 13.2151 26.2463 13.5277 27.0007 13.5471C27.7551 13.5277 28.472 13.2151 28.9987 12.6759C29.5254 12.1368 29.8201 11.4138 29.8201 10.661C29.8201 9.90823 29.5254 9.18522 28.9987 8.64609C28.472 8.10696 27.7551 7.79436 27.0007 7.7749ZM27.0007 11.6185C26.7535 11.6075 26.5202 11.5018 26.3492 11.3234C26.1783 11.145 26.0829 10.9078 26.0829 10.661C26.0829 10.4142 26.1783 10.177 26.3492 9.99862C26.5202 9.82026 26.7535 9.71454 27.0007 9.70348C27.2478 9.71454 27.4811 9.82026 27.6521 9.99862C27.823 10.177 27.9185 10.4142 27.9185 10.661C27.9185 10.9078 27.823 11.145 27.6521 11.3234C27.4811 11.5018 27.2478 11.6075 27.0007 11.6185Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <h4 class="text-white">Quick Transfers</h4>
+                                <p class="m-0">PM financials's clients can benefit from its quick deposit and Withdrawal
+                                    processes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partnership-info-section py-20">
+            <div class="container">
+                <div class="partnership-info-content row">
+                    <div class="col-lg-6 mb-5">
+                        <div class="partnership-image position-relative">
+                            <img src="assets/img/partnership-img.jpg" alt="" class="w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="partnership-content">
+                            <h3 class="partnership-content-heading">Partnership Opportunities</h3>
+                        </div>
+                        <div class="mt-4 partner-info-content">
+                            <h5>Join as Introducing Broker (IB)</h5>
+                            <p>Our Forex partnership program is an ultimate tool to earn regular income as partners of
+                                any type. Choose the personalized income share programs that suits your target clientele
+                                best and get paid.</p>
+                            <a href="https://cp.pmfinancials.mu/" style="text-decoration: none;">
+                                <button class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"
+                                    style="max-width: min-content; --top: 21.21875px; --left: 99.5px;">Become
+                                    Partner</button>
+                            </a>
+                        </div>
+                        <div class="mt-5 partner-info-content">
+                            <h5>Join as Affiliate Partner</h5>
+                            <p>Join us as affiliate partner and start earning commision from every trade made by the
+                                traders you have referred.</p>
+                            <a href="https://cp.pmfinancials.mu/" style="text-decoration: none;">
+                                <button class="cmn-btn fw-bold py-2 px-2 px-sm-3 px-lg-4 align-items-center gap-1"
+                                    style="max-width: min-content; --top: 21.21875px; --left: 99.5px;">Register
+                                    Now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-wrapper">
+            <div class="footer-section">
+                <div class="container">
+                    <div class="ready-to-start-section position-relative">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-8 px-0">
+                                <h3 class="text-xxl-start text-center text-white mb-4 text-capitalize">Ready to make
+                                    this your Day 1?</h3>
+                                <p class="text-xxl-start text-center text-uppercase">EXPAND YOUR HORIZON WITH PM
+                                    FINANCIAL LIMITED</p>
+                            </div>
+                            <div class="col-xxl-4 px-0 pt-5 pt-xxl-0">
+                                <div
+                                    class="d-flex flex-column flex-sm-row align-items-center justify-content-sm-center justify-content-xxl-end gap-4">
+                                    <button
+                                        class="start-trading-btn rounded-pill px-5 py-3 text-nowrap text-capitalize">Open
+                                        Live Account</button>
+                                    <button
+                                        class="start-trading-btn rounded-pill px-5 py-3 text-nowrap text-capitalize">Try
+                                        Demo Account</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-footer position-relative">
+                        <div
+                            class="d-flex flex-column flex-xl-row align-items-start justify-content-between flex-wrap gap-10 flex-lg-nowrap">
+                            <div class="company-discr w-100">
+                                <svg width="141" height="80" viewBox="0 0 141 80" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_27_131)">
+                                        <path
+                                            d="M49.1185 58.3872V30.3584L67.8313 12.4256L55.1013 10.0576L56.0005 8.44482L72.0383 11.3856L51.071 31.5456V53.8912L54.276 51.5488L54.5682 54.0448L49.1185 58.3872Z"
+                                            fill="white" />
+                                        <path
+                                            d="M57.5002 46.5728H55.5477V33.8144L82.1317 8.352L51.0389 2.7424L51.071 5.2224L49.1185 4.1408V0L86.5442 7.1136L57.5002 35.0048V46.5728Z"
+                                            fill="white" />
+                                        <path
+                                            d="M72.3883 59.3024L64.3341 50.0992V35.2L72.3883 27.52V59.3024ZM66.2866 49.3824L70.4358 54.1248V32.368L66.2866 36.3808V49.3824Z"
+                                            fill="white" />
+                                        <path
+                                            d="M87.4434 56.5471L85.4876 54.8447L85.478 17.9295L80.9339 22.3263V49.9807L78.9813 48.0351V21.3247L87.4434 13.0815V56.5471Z"
+                                            fill="white" />
+                                        <path
+                                            d="M0 67.6128H5.63923C6.98588 67.6128 8.07347 67.9712 8.90202 68.688C9.30956 69.0365 9.63295 69.4722 9.84813 69.9625C10.0633 70.4528 10.1647 70.9852 10.1448 71.52C10.1651 72.0619 10.0641 72.6014 9.8491 73.0995C9.63414 73.5977 9.31062 74.0419 8.90202 74.4C8.07347 75.1339 6.98053 75.4997 5.62317 75.4976H2.62051V79.7536H0V67.6128ZM5.50435 73.3152C6.02217 73.344 6.53202 73.1784 6.93343 72.8512C7.10989 72.6894 7.24831 72.4908 7.33879 72.2695C7.42928 72.0483 7.46961 71.8098 7.45688 71.5712C7.46806 71.3328 7.42703 71.0948 7.33664 70.8737C7.24624 70.6527 7.10866 70.4539 6.93343 70.2912C6.53233 69.9631 6.02254 69.7964 5.50435 69.824H2.61408V73.344L5.50435 73.3152Z"
+                                            fill="white" />
+                                        <path
+                                            d="M25.1261 67.6128V79.7504H22.5248L22.5923 71.5712L18.8702 76.8576H18.1541L14.4835 71.7056L14.5477 79.7504H11.9464V67.6128H14.6151L18.5202 73.4816L22.3739 67.6128H25.1261Z"
+                                            fill="white" />
+                                        <path
+                                            d="M32.0338 67.6128H41.2955V69.792H34.6543V72.8352H40.6596V75.0112H34.6543V79.7504H32.0338V67.6128Z"
+                                            fill="white" />
+                                        <path d="M43.3958 67.6128H46.0163V79.7504H43.3958V67.6128Z" fill="white" />
+                                        <path
+                                            d="M60.0533 67.6128V79.7504H57.4521L51.2284 71.6544L51.2444 79.7504H48.6239V67.6128H51.2284L57.4521 75.7952V67.6128H60.0533Z"
+                                            fill="white" />
+                                        <path
+                                            d="M66.6367 67.6128H69.3086L74.5817 79.7504H71.7621L70.7601 77.3728H65.2526L64.2891 79.7504H61.4663L66.6367 67.6128ZM69.8738 75.2L67.9726 70.5952L66.1036 75.2H69.8738Z"
+                                            fill="white" />
+                                        <path
+                                            d="M87.4787 67.6128V79.7504H84.8743L78.6506 71.6544L78.6666 79.7504H76.0493V67.6128H78.6506L84.8743 75.7952V67.6128H87.4787Z"
+                                            fill="white" />
+                                        <path
+                                            d="M91.2489 78.2625C90.035 77.1041 89.4398 75.5777 89.4633 73.6833C89.4419 71.7889 90.0371 70.2614 91.2489 69.1009C92.4607 67.9404 94.0664 67.3622 96.066 67.3665C97.5861 67.3616 99.0812 67.7509 100.405 68.4961L99.6885 70.6721C98.6235 70.0287 97.4013 69.6899 96.1559 69.6929C95.6165 69.6727 95.0786 69.7613 94.5743 69.9534C94.0701 70.1454 93.6101 70.437 93.2217 70.8106C92.8334 71.1842 92.5248 71.6321 92.3144 72.1275C92.1041 72.6228 91.9963 73.1554 91.9976 73.6933C91.9989 74.2312 92.1092 74.7632 92.322 75.2576C92.5347 75.7519 92.8455 76.1984 93.2356 76.5701C93.6258 76.9418 94.0872 77.2312 94.5924 77.4208C95.0975 77.6105 95.6359 77.6965 96.1752 77.6737C97.4215 77.6646 98.6422 77.3196 99.7077 76.6753L100.424 78.8545C99.0973 79.6079 97.5961 80.0028 96.0692 80.0001C94.0696 80.0001 92.4628 79.4209 91.2489 78.2625Z"
+                                            fill="white" />
+                                        <path d="M102.277 67.6128H104.897V79.7504H102.277V67.6128Z" fill="white" />
+                                        <path
+                                            d="M111.503 67.6128H114.172L119.445 79.7504H116.625L115.611 77.3728H110.119L109.156 79.7504H106.33L111.503 67.6128ZM114.74 75.2L112.839 70.5952L110.97 75.2H114.74Z"
+                                            fill="white" />
+                                        <path d="M120.913 67.6128H123.533V77.5712H129.821V79.7504H120.913V67.6128Z"
+                                            fill="white" />
+                                        <path
+                                            d="M131.141 78.7519L131.876 76.4927C133.156 77.2768 134.626 77.6963 136.128 77.7055C136.675 77.7313 137.218 77.6144 137.705 77.3663C137.894 77.264 138.05 77.1106 138.155 76.9237C138.26 76.7369 138.31 76.5242 138.299 76.3103C138.295 76.1155 138.231 75.9267 138.116 75.769C138.001 75.6112 137.841 75.492 137.657 75.4271C136.841 75.1159 136.001 74.8719 135.146 74.6975C134.722 74.5983 134.356 74.4959 134.044 74.3967C133.69 74.2792 133.346 74.1325 133.016 73.9583C132.676 73.787 132.366 73.5623 132.098 73.2927C131.841 73.0114 131.638 72.6862 131.497 72.3327C131.332 71.9208 131.25 71.4803 131.257 71.0367C131.232 70.5064 131.344 69.9786 131.58 69.5029C131.817 69.0271 132.171 68.619 132.609 68.3167C133.512 67.6767 134.69 67.3567 136.141 67.3567C137.622 67.3538 139.082 67.7073 140.396 68.3871L139.581 70.5311C138.476 69.9242 137.236 69.604 135.974 69.5999C135.457 69.5725 134.941 69.6829 134.481 69.9199C134.319 70.0025 134.184 70.1289 134.092 70.2846C133.999 70.4403 133.953 70.619 133.957 70.7999C133.959 70.9893 134.017 71.1738 134.124 71.3304C134.231 71.487 134.382 71.6086 134.558 71.6799C135.225 71.9669 135.922 72.1815 136.636 72.3199C137.127 72.4287 137.538 72.5343 137.872 72.6399C138.266 72.765 138.65 72.9179 139.022 73.0975C139.402 73.2688 139.754 73.4964 140.065 73.7727C140.348 74.0473 140.574 74.3732 140.733 74.7327C140.922 75.1544 141.015 75.6121 141.006 76.0735C141.025 76.6334 140.905 77.1893 140.656 77.6917C140.407 78.1942 140.038 78.6276 139.581 78.9535C138.626 79.6511 137.409 79.9999 135.929 79.9999C134.255 79.9814 132.61 79.5528 131.141 78.7519Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_27_131">
+                                            <rect width="141" height="80" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p class="text-white mt-9 mb-5">
+                                    PM Financials Ltd. is fast growing multi-regulatory online forex and cfds broker.
+                                </p>
+                                <h4 class="text-white mb-4">Downlaod MT5:</h4>
+                                <div class="get-app d-flex align-items-center">
+                                    <img src="assets\img\google-play-footer.png" alt="google-play-footer">
+                                    <img src="assets\img\apple-store-footer.png" alt="apple-store-footer">
+                                    <img src="assets\img\app-gallery-footer.png" alt="app-gallery-footer">
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column flex-sm-row justify-content-between gap-8 w-100">
+                                <div class="quick-links">
+                                    <h3 class="text-white">Quick Links</h3>
+                                    <ul class="quick-links-list">
+                                        <li><a href="">Open Live Account</a></li>
+                                        <li><a href="">Open Demo Account</a></li>
+                                        <li><a href="">About Us</a></li>
+                                        <li><a href="">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="company-docs">
+                                    <h3 class="text-white">Documents</h3>
+                                    <ul class="docs-links-list">
+                                        <li><a href="">Complaint Policy</a></li>
+                                        <li><a href="">Risk Disclosure</a></li>
+                                        <li><a href="">Terms of Service</a></li>
+                                        <li><a href="">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                                <div class="partnership">
+                                    <h3 class="text-white">Partnership</h3>
+                                    <ul class="partnership-links-list">
+                                        <li><a href="">Become IB</a></li>
+                                        <li><a href="">Affiliate</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div
-                            class="slider-btn position-absolute justify-content-end d-center justify-content-xxl-between gap-2 w-100 pb-3 pb-sm-5 pb-xxl-0 px-8 px-sm-18 px-xl-12 px-xxl-18">
-                            <button type="button" aria-label="Slide Prev"
-                                class="ara-prev slide-button cmn-btn2 d-center">
-                                <i class="ti ti-arrow-narrow-right"></i>
-                            </button>
-                            <button type="button" aria-label="Slide Next"
-                                class="ara-next slide-button cmn-btn2 d-center">
-                                <i class="ti ti-arrow-narrow-right"></i>
-                            </button>
+                            class="links-bottom-box d-flex gap-2 gap-sm-4 align-items-center justify-content-sm-between">
+                            <img src="assets\img\visa-card-footer.png" alt="visa-card-footer">
+                            <img src="assets\img\privacy-policy-footer.png" alt="privacy-policy-footer">
+                            <img src="assets\img\adminstration-footer.png" alt="adminstration-footer">
+                            <img src="assets\img\master-card-footer.png" alt="master-card-footer">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="disclaimers">
+                        <p class="mb-4">
+                            <span>Risk Warning: </span>
+                            Trading Forex and CFDs a leveraged Financial Instruments involves significant risk and can
+                            result in the loss of your invested capital. You should not invest more than you can afford
+                            to
+                            lose and should ensure that you fully understand the risks involved. Trading leveraged
+                            products
+                            may not be suitable for all investors. Past performance is no guarantee of future results.
+                            It is
+                            the responsibility of the Client to ascertain whether he/she is permitted to use the
+                            services of
+                            the PMfinancials brand based on the legal requirements in his/her country of residence.
+                            Please
+                            read PMfinancial ’s full Risk Disclosure.
+                        </p>
+                        <p class="mb-4">
+                            <span>PM Financials Limited License No: </span>
+                            (GBC2220942) is licensed and regulated by the Financial Services Commission (FSC),
+                            Mauritius. As
+                            a GBL/Category 1 Investment Dealer (Full-Service Dealer, excluding underwriting), pursuant
+                            to
+                            the Section 29 of the Securities Act 2005, rule 4 of the Securities Rule 2007 and Financial
+                            Services Rules 2008.
+                        </p>
+                        <p>
+                            <span>Regional restrictions: </span>
+                            PM Financial Ltd does not provide services to residents of the USA, Japan, British Columbia,
+                            Iran, North Korea, Myanmar, Quebec , China, Cuba, Sudan, Republic of Sudan, North Sudan,
+                            Venezuela, Libya, Belarus, Afghanistan, Russia, regions of Crimea, Luhansk and Donetsk.
+                            Visit FATF Website for FATF black listed countries.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="footer-copy-right d-md-flex align-md-center justify-content-between">
+                        <div class="rights-note text-center text-md-start">
+                            <p class="text-white">All rights reserved by PM Financials Limited</p>
+                        </div>
+                        <div
+                            class="social-icons d-flex align-center justify-content-center pt-5 pt-md-0 justify-content-md-end gap-4">
+                            <div class="facebook-icon">
+                                <i class="fa-brands fa-facebook-f" style="color: #224C8A;"></i>
+                            </div>
+                            <div class="insta-icon">
+                                <i class="fa-brands fa-instagram" style="color: #224C8A;"></i>
+                            </div>
+                            <div class="x-icon">
+                                <i class="fa-brands fa-x-twitter" style="color: #224C8A;"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Testimonial end -->
+        </footer>
 
-    <!--blog_news start-->
-    <section class="blog_news pt-120 pb-120 position-relative z-0">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">
-            <img src="assets/images/star.png" alt="vector" class="position-absolute">
-            <img src="assets/images/vector2.png" alt="vector" class="position-absolute bottom-0 start-0">
-            <img src="assets/images/sun.png" alt="vector" class="position-absolute">
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div
-                    class="heading__content d-flex row-gap-7 gap-20 flex-wrap justify-content-between align-items-center mb-10 mb-lg-15 ">
-                    <div class="heading__part">
-                        <span class="heading s1-color fs-five mb-5">Blog</span>
-                        <h3>News & Analysis</h3>
-                    </div>
-                    <a href="blog.html" class="cmn-btn link fs-six-up  gap-2 gap-lg-3 align-items-center"> See All <i
-                            class="ti ti-arrow-right fs-four"></i></a>
+        <!-- Header Mobile View Section Start -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <div class="offcanvas-title w-25" id="offcanvasNavbarLabel">
+                    <img src="assets/img/pm-logo.svg" alt="">
                 </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="row gy-6">
-                <div class="col-md-6 col-xxl-4">
-                    <div class="blog_news__card nb3-bg cus-rounded-1 overflow-hidden">
-                        <div class="blog_news__thumbs position-relative">
-                            <img src="assets/images/blog_news.png" alt="Image" class="w-100">
-                            <a href="#"
-                                class="border border-color second nw1-color fs-seven rounded-3 position-absolute top-0 end-0 py-1 px-3 mt-5 me-5">News</a>
+            <div class="offcanvas-body">
+                <div>
+                    <div class="navbar-accord accordion" id="accordion">
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button active collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">Quick Start</button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                style="">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li class="navbar-link active"><a href="index.html">Open Live Account</a></li>
+                                        <li class="navbar-link"><a href="index-2.html">Open Demo Account</a></li>
+                                        <li class="navbar-link"><a href="index-2.html">Deposites & Withdrawls</a></li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog_news__content py-6 py-lg-7 py-xxl-8 px-4 px-lg-5 px-xxl-6">
-                            <a href="blog-details.html">
-                                <h5 class="mb-4 mb-lg-5">Trading Psychology: Mastering Your Mind for Profit</h5>
-                            </a>
-                            <div class="fs-seven fw_500 d-flex row-gap-0 flex-wrap gap-3 mb-4 mb-lg-5">August 17,2023
-                                <span>|</span> Written by jason Turner</div>
-                            <p>Trading in financial markets involves a wide
-                                employ to make informed decisions.</p>
-                            <a href="blog-details.html"
-                                class="link fs-five fw-semibold d-flex gap-2 gap-lg-3 align-items-center mt-6  mt-lg-8">
-                                Continue Reading <i class="ti ti-arrow-right"></i></a>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Products
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                style="">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li class="navbar-link"><a href="market.html">Forex</a></li>
+                                        <li class="navbar-link"><a href="market-details.html">Precious metals</a></li>
+                                        <li class="navbar-link"><a href="market-details.html">Energies</a></li>
+                                        <li class="navbar-link"><a href="market-details.html">Indices</a></li>
+                                        <li class="navbar-link"><a href="market-details.html">Shares</a></li>
+                                        <li class="navbar-link"><a href="market-details.html">Commodities</a></li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xxl-4">
-                    <div class="blog_news__card nb3-bg cus-rounded-1 overflow-hidden">
-                        <div class="blog_news__thumbs position-relative">
-                            <img src="assets/images/blog_news2.png" alt="Image" class="w-100">
-                            <a href="#"
-                                class="border border-color second nw1-color fs-seven rounded-3 position-absolute top-0 end-0 py-1 px-3 mt-5 me-5">Features</a>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Plateform
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                style="">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li class="navbar-link"><a href="about.html">MT5 Desktop</a></li>
+                                        <li class="navbar-link"><a href="team.html">MT5 Mobile</a></li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog_news__content py-6 py-lg-7 py-xxl-8 px-4 px-lg-5 px-xxl-6">
-                            <a href="blog-details.html">
-                                <h5 class="mb-4 mb-lg-5">Trading Pitfalls Common Mistakes and How to Avoid Them...</h5>
-                            </a>
-                            <div class="fs-seven fw_500 d-flex flex-wrap row-gap-0 gap-3 mb-4 mb-lg-5">August 17,2023
-                                <span>|</span> Written by jason Turner</div>
-                            <p>Trading in financial markets involves a wide
-                                employ to make informed decisions.</p>
-                            <a href="blog-details.html"
-                                class="link fs-five fw-semibold d-flex gap-2 gap-lg-3 align-items-center mt-6  mt-lg-8">
-                                Continue Reading <i class="ti ti-arrow-right"></i></a>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Partnership
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                style="">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li class="navbar-link"><a href="about.html">Introducing Broker</a></li>
+                                        <li class="navbar-link"><a href="team.html">Affiliate Partner</a></li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xxl-4">
-                    <div class="blog_news__card nb3-bg cus-rounded-1 overflow-hidden">
-                        <div class="blog_news__thumbs position-relative">
-                            <img src="assets/images/blog_news3.png" alt="Image" class="w-100">
-                            <a href="#"
-                                class="border border-color second nw1-color fs-seven rounded-3 position-absolute top-0 end-0 py-1 px-3 mt-5 me-5">News</a>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Promotion
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                style="">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li class="navbar-link"><a href="about.html">Refer a Friend</a></li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                        <div class="blog_news__content py-6 py-lg-7 py-xxl-8 px-4 px-lg-5 px-xxl-6">
-                            <a href="blog-details.html">
-                                <h5 class="mb-4 mb-lg-5">Trading Platforms: Tools for Success in Financial Markets</h5>
-                            </a>
-                            <div class="fs-seven fw_500 d-flex flex-wrap row-gap-0 gap-3 mb-4 mb-lg-5">August 17,2023
-                                <span>|</span> Written by jason Turner</div>
-                            <p>Trading in financial markets involves a wide
-                                employ to make informed decisions.</p>
-                            <a href="blog-details.html"
-                                class="link fs-five fw-semibold d-flex gap-2 gap-lg-3 align-items-center mt-6  mt-lg-8">
-                                Continue Reading <i class="ti ti-arrow-right"></i></a>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    About
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                style="">
+                                <div class="accordion-body">
+                                    <ol>
+                                        <li class="navbar-link"><a href="legal-docs.html">About Us</a></li>
+                                        <li class="navbar-link"><a href="customers.html">Contact Us</a></li>
+                                        <li class="navbar-link"><a href="roadmap.html">Welcome Bonus</a></li>
+                                    </ol>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- blog_news end -->
-
-    <!-- Footer Section Starts -->
-    <footer class="footer a2-bg position-relative pt-15 pt-lg-0 z-0 ">
-        <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1 d-none d-xxxl-flex">
-            <img src="assets/images/vector.png" alt="vector" class="position-absolute jello">
-            <img src="assets/images/vector4.png" alt="vector" class="position-absolute bottom-0 end-0">
-        </div>
-        <div class="container">
-            <div
-                class="start-earning nb3-bg cus-rounded-2 d-flex align-items-center p-4 p-sm-6 p-md-10 p-lg-15 p-xl-20 pe-lg-6 pe-xl-16 overflow-hidden position-relative">
-                <div class="vector_effect position-absolute d-center justify-content-end end-0  d-flex gap-20">
-                    <img src="assets/images/star2.png" alt="vector" class="d-none d-xxl-flex push_animat">
-                    <img src="assets/images/star_focus.png" alt="vector"
-                        class="d-none d-sm-flex rotate time_dur ms-auto ms-lg-0 me-md-5">
-                </div>
-                <div class="row gy-6 w-100 text-center text-sm-start align-items-center justify-content-sm-between">
-                    <div class="col-sm-8">
-                        <h2>Start earning with only $20</h2>
-                        <p class="fs-six-up fw_500 mt-5">Try our super easy portal for free</p>
-                    </div>
-                    <div class="col-sm-4 text-sm-end">
-                        <a href="signup.html"
-                            class="cmn-btn secondary-alt ms-auto fs-five nb4-xxl-bg gap-2 align-items-center  py-2 px-4 py-lg-3 px-lg-5">Register
-                            <i class="ti ti-arrow-right fs-four"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-8 gy-sm-12 gy-lg-0 pt-120 pb-120">
-                <div class="col-6 col-lg-3">
-                    <div class="footer__part">
-                        <h4 class="mb-6 mb-lg-8">Quick Link</h4>
-                        <ul class="footer_list d-flex flex-column gap-2 gap-sm-3 gap-md-4">
-                            <li>
-                                <a class="n2-color d-flex align-items-center" href="market.html"> markets</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="education.html">Education</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="support.html">Support</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="legal-docs.html">Legal docs</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="footer__part">
-                        <h4 class="mb-6 mb-lg-8">Company</h4>
-                        <ul class="footer_list d-flex flex-column gap-2 gap-sm-3 gap-md-4">
-                            <li>
-                                <a class="n2-color" href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="blog.html">Blog</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="careers.html">Carreers</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="footer__part">
-                        <h4 class="mb-6 mb-lg-8">Legal</h4>
-                        <ul class="footer_list d-flex flex-column gap-2 gap-sm-3 gap-md-4">
-                            <li>
-                                <a class="n2-color" href="terms-conditions.html">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="privacy-policy.html">Privacy & Policy</a>
-                            </li>
-                            <li>
-                                <a class="n2-color" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="footer__part">
-                        <h4 class="mb-6 mb-lg-8">Contact Us</h4>
-                        <div class="d-flex flex-column gap-2 gap-sm-3 gap-md-4">
-                            <a href="https://pixner.net/cdn-cgi/l/email-protection#dab3b4bcb59abfa2bbb7aab6bff4b9b5b7"><span
-                                    class="__cf_email__"
-                                    data-cfemail="cfa6a1a9a08faab7aea2bfa3aae1aca0a2">[email&#160;protected]</span></a>
-                            <a href="tel:+123456789">+0123 456 789</a>
+                        <div class="start_trending">
+                            <a href="#"> Partnership </a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 border-top border-color opac-20 py-7 py-xxl-8">
-                    <div class="footer__copyright d-center gap-15 flex-wrap justify-content-md-between">
-                        <p class="fs-six order-2 order-md-0 text-center text-md-start">Copyright ©<span
-                                class="currentYear"></span> Tradez <span>|</span> Designed By <a
-                                href="https://themeforest.net/user/uiaxis" class="p1-color"> UIAXIS</a> </p>
-                        <ul class="social-area d-center gap-2 gap-md-3">
-                            <li>
-                                <a class="d-center cus-rounded-1 fs-four" href="#"><i
-                                        class="ti ti-brand-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a class="d-center cus-rounded-1 fs-four" href="#"><i
-                                        class="ti ti-brand-twitch"></i></a>
-                            </li>
-                            <li>
-                                <a class="d-center cus-rounded-1 fs-four" href="#"><i
-                                        class="ti ti-brand-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a class="d-center cus-rounded-1 fs-four" href="#"><i
-                                        class="ti ti-brand-discord-filled"></i></a>
-                            </li>
-                            <li>
-                                <a class="d-center cus-rounded-1 fs-four" href="#"><i
-                                        class="ti ti-brand-youtube"></i></a>
-                            </li>
-                        </ul>
+                        <div class="start_trending">
+                            <a href="#"> Start Trending </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-</div>
+        <!-- Header Mobile View Section End -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!-- Footer Section Ends -->
     <!-- ==== js dependencies start ==== -->
-    <script data-cfasync="false" src="assets\js\email-decode.min.js"></script>
-    <script src="assets\js\plugins.js"></script>
-    <script src="assets\js\plugin-custom.js"></script>
-    <script src="assets\js\main.js"></script>
-</body>
+    <!-- <script data-cfasync="false" src="assets\js\email-decode.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+    <script src="assets\js\main.js"></script>
+
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            // direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            breakpoints: {
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/scroll-top.js"></script>
+</body>
 
 </html>

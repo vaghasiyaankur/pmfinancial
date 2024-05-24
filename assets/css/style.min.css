@@ -2076,12 +2076,7 @@ iframe {
 .header-section .navbar .navbar-nav .dropdown-menu,
 .header-section .navbar .navbar-nav .sub-menu {
   background-color: #FFFFFF;
-  box-shadow: 0px 1.13px 5.65px 0px #0000000B;
-
-box-shadow: 0px 3.8px 18.99px 0px #00000011;
-
-box-shadow: 0px 17px 85px 0px #0000001C;
-
+  box-shadow: 0px 1.13px 5.65px 0px #0000000B, 0px 3.8px 18.99px 0px #00000011, 0px 17px 85px 0px #0000001C;
 }
 @media (min-width: 992px) {
   .header-section .navbar .navbar-nav .dropdown-menu,
@@ -2174,13 +2169,13 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   margin-right: 20px;
 } */
 .header-section .navbar .show-dropdown:hover .dropdown-menu {
-  inset-block-start: calc(100% + 5px);
+  inset-block-start: calc(100%);
   pointer-events: unset;
   opacity: 1;
   visibility: visible;
 }
 .header-section .navbar .show-dropdown:hover .dropdown-menu{
-  padding: 10px 0 25px;
+  padding: 10px 0;
   padding-right: 0;
 }
 .header-section .navbar .show-dropdown .dropdown-menu li{
@@ -3711,7 +3706,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 /* Footer CSS End */
 /* Contact CSS */
 .contact-section{
-  background-image: url("/assets/img/contact-bg.png");
+  background-image: url("../img/contact-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3924,7 +3919,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 }
 
 .about-page-wrapper .about-page-banner-section {
-  background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%), url('/assets/img/about-bg.png');
+  background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%), url('../img/about-bg.png');
   background-size: 100% !important;
   background-position: top;
   height: 542px;
@@ -4070,7 +4065,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 }
 
 .about-page-wrapper .about-page-banner-section {
-  background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%),url("/assets/img/about-bg.png");
+  background: linear-gradient(90deg, rgba(23, 156, 109, 0.95) 0%, rgba(25, 53, 95, 0.95) 100%),url("../img/about-bg.png");
   background-size: 100% !important;
   background-position: top;
 }
@@ -4454,7 +4449,7 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   position: relative;
 }
 .refer-friend-outer-wrapper .recommendations-section .shape {
-  background-image: url(/assets/img/how-to-img.png);
+  background-image: url('../img/how-to-img.png');
   position: absolute;
   left: 30px;
   top: 0;
@@ -4892,3 +4887,7 @@ border-radius: 50%;
 @media only screen and (min-width: 386px){}
 @media only screen and (max-width: 385px){}
 /* Open Live Account Section End */
+
+.accordion-button::after {
+  background-image: var(--bs-accordion-btn-icon) !important;
+}
