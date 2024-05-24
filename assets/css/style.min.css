@@ -1303,7 +1303,7 @@ iframe {
 }
 *::-webkit-scrollbar-button,
 *::-webkit-scrollbar-thumb {
-  background: rgba(var(--p1), 1);
+  background: #179C6D;
 }
 .cus-scrollbar {
   overflow-y: auto;
@@ -1376,35 +1376,35 @@ iframe {
 .input-pass .password-eye-icon.visible::after {
   content: "";
 }
-.scrollToTop {
+/* scroll to top css start */
+
+.scroll-top {
+  display: none;
+  width: 50px;
+  height: 50px;
+  font-size: large;
   position: fixed;
-  bottom: 0;
-  width: 40px;
-  height: 40px;
-  right: 30px;
-  background-color: rgba(var(--p1), 1);
-  padding: 0 12px;
-  color: rgba(var(--p2-fixed), 1);
-  line-height: 120%;
-  font-size: 12px;
-  text-align: center;
-  z-index: 9;
-  cursor: pointer;
-  transition: all 1s;
-  transform: translateY(100%);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
-    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
-    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
-}
-.scrollToTop.active {
   bottom: 30px;
-  transform: translateY(0%);
+  right: 50px;
+  z-index: 99;
+  color: #fff;
+  background: #179c6d !important;
+  text-align: center;
+  border-radius: 40px;
+  cursor: pointer !important;
+  transition: 1s ease;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) !important;
 }
-@media (max-width: 1499px) {
-  .scrollToTop.active {
-    bottom: 70px;
-  }
+
+.fa-chevron-up {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
 }
+
+/* scroll to top css end */
+
 .preloader {
   position: fixed;
   top: 0;
@@ -4062,34 +4062,6 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   }
 }
 /* Forex CSS */
-
-/* scroll to top css start */
-
-.scroll-top {
-  width: 50px;
-  height: 50px;
-  font-size: large;
-  position: fixed;
-  bottom: 30px;
-  right: 50px;
-  z-index: 99;
-  color: #fff;
-  background: #179c6d !important;
-  text-align: center;
-  border-radius: 40px;
-  cursor: pointer !important;
-  transition: 1s ease;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) !important;
-}
-
-.fa-chevron-up {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-}
-
-/* scroll to top css end */
 
 /* About Us Section CSS Start */
 
