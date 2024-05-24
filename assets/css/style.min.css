@@ -4478,19 +4478,50 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 .refer-friend-outer-wrapper .recommendations-section .how-to-section h4 {
   color: #333333;
 }
+.refer-friend-outer-wrapper .recommendations-section{
+  position: relative;
+}
+.refer-friend-outer-wrapper .recommendations-section .shape {
+  background-image: url(/assets/img/how-to-img.png);
+  position: absolute;
+  left: 30px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.refer-friend-outer-wrapper .recommendations-section .start-dot,
+.refer-friend-outer-wrapper .recommendations-section .end-dot{
+  position: relative;
+  left: 80px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #BDE2D5;
+  border: none;
+  margin: 0 auto;
+}
+.refer-friend-outer-wrapper .recommendations-section .start-dot{
+  margin-bottom: 93px;
+}
+.refer-friend-outer-wrapper .recommendations-section .end-dot{
+  margin-top: 93px;
+}
 .refer-friend-outer-wrapper .recommendations-section .step-card {
   display: flex;
   align-items: center;
   position: relative;
 }
-.refer-friend-outer-wrapper .recommendations-section .step-card:not(:last-child) {
-  margin-bottom: 150px;
+.refer-friend-outer-wrapper .recommendations-section .step-card p{
+  font-size: 16px;
 }
 .refer-friend-outer-wrapper .recommendations-section .step-card .step-number {
   max-width: 70px;
   width: 100%;
   height: 70px;
   color: #179c6d;
+  background-color: #FFFFFF;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -4498,7 +4529,6 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   font-size: 30px;
   line-height: 45px;
   font-weight: 600;
-  /* position: absolute; */
   border: 1px solid #96C3B366;
 }
 
@@ -4506,40 +4536,30 @@ box-shadow: 0px 17px 85px 0px #0000001C;
   border-radius: 10px;
   position: relative;
 }
-.refer-friend-outer-wrapper .recommendations-section .step-card:first-child,
-.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(3){
+/* .refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(odd){
     max-width: 580px;
-    left: 50px;
+    width: 100%;
+    margin-left: auto;
+    justify-content: flex-end;
 }
-.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(2),
-.refer-friend-outer-wrapper .recommendations-section .step-card:last-child{
+.refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(even){
     max-width: 643px;
-    right: 100px;
-}
-.refer-friend-outer-wrapper .recommendations-section .step-card:first-child .step-description,
-.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(3) .step-description {
-  margin-left: 190px;
-  max-width: 643px;
-}
-.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(2) .step-description,
-.refer-friend-outer-wrapper .recommendations-section .step-card:last-child .step-description {
-  margin-right: 190px;
-  max-width: 643px;
-}
-.refer-friend-outer-wrapper .recommendations-section .step-card:first-child .step-number,
-.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(3) .step-number{
-left: 0;
-}
-/* .refer-friend-outer-wrapper .recommendations-section .step-card:first-child .step-description:before,
-.refer-friend-outer-wrapper .recommendations-section .step-card:last-child .step-description:before {
-  border: none;
+    width: 100%;
+    justify-content: flex-start;
 } */
+.refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(odd) .step-description {
+  max-width: 360px;
+  width: 100%;
+}
+.refer-friend-outer-wrapper .recommendations-section .step-card:nth-child(even) .step-description {
+  max-width: 423px;
+  width: 100%;
+}
 .refer-friend-outer-wrapper .recommendations-section .how-to-section button{
   max-width: 240px;
   width: 100%;
   padding: 14px;
   background-color: #179C6D;
-  margin: 50px 0 100px;
 }
 .refer-friend-outer-wrapper .recommendations-section .how-to-section button p{
   color: #FFFFFF;
@@ -4559,7 +4579,38 @@ left: 0;
   font-weight: 600;
   font-size: 18px;
 }
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 1400px) {
+  .refer-friend-outer-wrapper .recommendations-section .step-card {
+    gap: 150px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .refer-friend-outer-wrapper .recommendations-section .step-card {
+    gap: 110px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(3),
+.refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(4){
+  margin-bottom: 148px;
+}
+.refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(5){
+  margin-bottom: 160px;
+}
+.refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(6){
+  margin-bottom: 148px;
+}
+}
+@media only screen and (max-width: 1199px) {
+  .refer-friend-outer-wrapper .recommendations-section .shape{
+    display: none;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:not(:last-child){
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 992px) {
   .refer-friend-outer-wrapper .recommendations-section .how-to-section h3 {
     font-size: 28px;
     line-height: 35px;
@@ -4570,8 +4621,44 @@ left: 0;
   .refer-friend-outer-wrapper .recommendations-section .note-section p span {
     font-size: 16px;
   }
+  .refer-friend-outer-wrapper .recommendations-section .step-card{
+    gap: 90px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:not(:last-child){
+    margin-bottom: 80px;
+  }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 768px) {
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(odd){
+    max-width: 580px;
+    width: 100%;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+.refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:nth-child(even){
+    max-width: 643px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.refer-friend-outer-wrapper .recommendations-section .how-to-section button {
+  margin: 50px auto 100px;
+}
+}
+@media only screen and (max-width: 767px) {
+  .refer-friend-outer-wrapper .recommendations-section .step-card {
+    gap: 60px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .step-card p{
+    font-size: 14px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section .step-card:not(:last-child){
+    margin-bottom: 60px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section button {
+    margin: 50px auto 80px;
+  }
+}
+@media only screen and (max-width: 575px) {
   .refer-friend-outer-wrapper .refer-friend-section h2 {
     font-size: 30px;
     line-height: 40px;
@@ -4584,10 +4671,27 @@ left: 0;
   .refer-friend-outer-wrapper .recommendations-section .note-section p span {
     font-size: 14px;
   }
+  .refer-friend-outer-wrapper .recommendations-section .step-card {
+    gap: 40px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section button {
+    margin: 40px auto 60px;
+  }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 424px) {
   .refer-friend-outer-wrapper .refer-friend-section h2 {
     font-size: 25px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .step-card {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .refer-friend-outer-wrapper .recommendations-section .step-card {
+    gap: 10px;
+  }
+  .refer-friend-outer-wrapper .recommendations-section .how-to-section button {
+    margin: 30px auto 50px;
   }
 }
 
