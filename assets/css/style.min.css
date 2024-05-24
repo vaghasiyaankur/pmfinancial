@@ -4696,3 +4696,227 @@ box-shadow: 0px 17px 85px 0px #0000001C;
 }
 
 /* Refer a Friend Section End */
+
+/* Open Live Account Section Start */
+.open-live-account-outer-wrapper .begin-steps-section .about-page-wrapper {
+  background-color: rgba(23, 156, 109, 0.1);
+}
+.open-live-account-outer-wrapper .begin-steps-section .section-heading {
+  margin-bottom: 50px;
+}
+
+
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .text-box {
+  padding: 20px;
+  position: relative;
+  display: block;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4.17px 0px #B2B2B209, 0px 2.75px 11.52px 0px #B2B2B20D, 0px 6.63px 27.74px 0px #B2B2B211, 0px 22px 92px 0px #B2B2B21A;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .text-box h5{
+  color: #333333;
+  font-weight: 500;
+  line-height: 25px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .text-box p{
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .decore {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #333333;
+  background: #FFFFFF;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .decore .inner-decore {
+width: 14px;
+height: 14px;
+border: none;
+background-color: #179C6D;
+border-radius: 50%;
+}
+
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number {
+  position: relative;
+  max-width: 130px;
+  margin: 0 auto;
+  background-color: #BDE2D5;
+  text-transform: uppercase;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number h6{
+  color: #333333;
+  font-weight: 500;
+  line-height: 22px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number:before {
+  position: absolute;
+  content: '';
+  background: #BDE2D5;
+  width: 18px;
+  height: 10px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section{
+  margin-top: 80px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .disclaimer-discr {
+  max-width: 600px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .disclaimer-discr p{
+  color: #333333;
+  font-weight: 400;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .disclaimer-discr p span{
+  color: #333333;
+  font-weight: 600;
+  display: contents;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements {
+  max-width: 527px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements .req-list{
+  padding-left: 20px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements .req-list li{
+  list-style: disc outside none !important;
+  margin-bottom: 12px;
+  color: #333333;
+  font-weight: 400;
+}
+.open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements button{
+  max-width: 240px;
+  padding: 14px;
+  background-color: #179C6D;
+}
+@media only screen and (min-width: 1400px){
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even){
+  margin: 45px 110px 0;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(odd) .inner-box .text-box{
+  margin-bottom: 45px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even) .inner-box .text-box{
+  margin-top: 45px;
+}
+
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(odd) .inner-box .decore{
+  margin-bottom: 15px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even) .inner-box .decore{
+  margin-top: 15px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1399px){
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box {
+    max-width: 250px;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even){
+    margin: 55px 65px 0;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(odd) .inner-box .text-box{
+    margin-bottom: 40px;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even) .inner-box .text-box{
+    margin-top: 40px;
+  }
+  
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(odd) .inner-box .decore{
+  margin-bottom: 15px;
+}
+.open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even) .inner-box .decore{
+  margin-top: 15px;
+}
+}
+@media only screen and (min-width: 1200px){
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .shape {
+    background-image: url(../img/steps-img.png);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 1199px){}
+@media only screen and (min-width: 992px){}
+@media only screen and (max-width: 991px){}
+@media only screen and (min-width: 768px){
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number {
+    padding: 10px 30px;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(odd) .inner-box .step-number:before {
+    top: -9px;
+    clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 0% 100%, 50% 0%);
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even) .inner-box .step-number:before {
+    bottom: -9px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 50% 100%, 0% 0%);
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number:before {
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements .req-list li{
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (max-width: 767px){
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box {
+    max-width: none;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number {
+    padding: 10px;
+    max-width: 65px;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(odd) .inner-box .step-number:before {
+    clip-path: polygon(50% 0, 0 50%, 50% 100%);
+    left: -9px;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block:nth-child(even) .inner-box .step-number:before {
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%);
+    right: -9px;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .steps-section .step-block .inner-box .step-number:before {
+    top: 50%;
+    translate: 0 -50%;
+  }
+  .open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements .req-list li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 576px){}
+@media only screen and (max-width: 575px){}
+@media only screen and (min-width: 426px){}
+@media only screen and (max-width: 425px){
+  .open-live-account-outer-wrapper .begin-steps-section .process-disclaimer-section .requirements .req-list li{
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media only screen and (min-width: 386px){}
+@media only screen and (max-width: 385px){}
+/* Open Live Account Section End */
